@@ -1,0 +1,5491 @@
+===== PAGE 1 =====
+1ST PRINTING—- DC
+
+bbb IIHHDIIHDHDRDIDIHDDDIRDHDDIDIDIDIIIF R
+
+3
+
+%
+
+B
+
+EGA
+
+%
+
+B
+
+&
+
+no @@W\g
+
+X
+
+B
+
+)&
+
+OWNER’S MANUAL
+
+5&
+
+7
+
+[N Y
+
+)/
+
+=
+
+i
+
+i
+
+w
+
+SEGA ENTERPRISES, LTD.
+
+%@S"“&?‘%S"%‘%@‘3@%’@9W%%W%%%%%%%@?@@%%WWW%%
+
+PR
+
+MANUAL NO. 420-5267
+
+===== PAGE 2 =====
+TABLE OF CONTENTS
+
+HANDLING PRECAUTIONS
+
+PREVENTION OF COUNTERFEITING AND
+
+CONVERSION
+
+L I I IR S AP
+
+PRECAUTIONS CONCERNING THE PLACE
+
+OF INSTALLATION
+
+sesesensnane
+
+NAME OF PARTS
+
+R I I R T e
+
+LAYOUT OF EPROM_ ROM
+
+D I I N T I S T A P S A
+
+ADJUSTMENT OF THE SERVICE SWITCH
+
+D I I I I S
+
+DIP SWITCH
+
+L IR I I T
+
+CAUTIONS FOR OPERATING THE GUN,
+
+AND MONITOR CLEANING
+
+sesseannnsnssan
+
+REMOVING THE UPPER PART OF THE GUN
+
+10
+
+REMOVING THE GUN
+
+B I R R N R e
+
+10
+
+11
+
+DISASSEMBLING THE SHOCK MECHANISM
+
+D I R I I AT
+
+11
+
+R I R I I T IR T TE T TR S R
+
+12
+
+SELF — TEST
+
+12~ 14
+
+13
+
+PARTS LISTS
+
+15
+
+31
+
+14
+
+SCHEMATIC DIAGRAL
+
+D R
+
+32
+
+SPECIFICATIONS
+
+INSTALLATION SPACE
+
+650 mm ( W) x 1000 mm ( D)
+
+HEIGHT
+
+1880 mm
+
+POWER
+
+145 W
+
+C.R. T
+
+20
+
+NOTE
+
+O0 Descriptions herein contained may be subject to improvement
+
+changes without notice.
+
+===== PAGE 3 =====
+I
+
+INTRODUCTION
+
+OF THE OWNER’S MANUAL
+
+SEGA ENTERPRISES, LTD., supported by its high electronic
+
+technology of LSIs, microprocessors, etc. and a wealth of
+
+experience, has for more than 30 years been supplying various
+
+innovative and popular game machines to the world market.
+
+This
+
+OWNER' S
+
+manual is intended to provide detailed comments
+
+together with all the necessary information covering the opera-
+
+tion in general of electronic assemblies, electromechanicals,
+
+servicing control, spare parts, etc. as regards the SHOOTING MASTER,
+
+a new SEGA product. The manual is intended for those who have
+
+knowledge of electricity and technical expertise especially in
+
+ICs,
+
+CRTs, microprocessors,
+
+etc.
+
+Carefully read so as to acguire
+
+sufficient knowledge before working on the machine.
+
+Should there
+
+be a malfunction,
+
+non-technical personnel should under no
+
+circumstance touch the interior system.
+
+HANDLING PRECAUTIONS
+
+When installing or inspecting,
+
+be very careful of the
+
+following points and pay attention to ensure that the player
+
+can enjoy the game safely.
+
+Be sure to turn the power off before working on the machine.
+
+To insert or pull out the plug quickly is dangerous.
+
+It is necessary to make sure that the power cord or the
+
+grounding wire is not exposed on the road, etc.
+
+in a manner
+
+so as to be dangerous.
+
+Make sure that grounding connections
+
+are made safely at the position where so specified.
+
+Do not use any fuse that does not meet the specified rating.
+
+Make complete connections for the IC board and other
+
+connecters.
+
+Insufficient insertion is very dangerous.
+
+Also,
+
+for the IC board circuit
+
+inspections, only the logic
+
+tone is allowed.
+
+The use of a
+
+tester is not permitted so be
+
+careful in this regard.
+
+After
+
+confirming that there are no
+
+irregularities, turn the power
+
+ON.
+
+—-1-
+
+===== PAGE 4 =====
+PREVENTION OF COUNTERFEITING AND CONVERSION
+
+LABELLING
+
+To prevent counterfeits and conversions,
+
+the following
+
+labels are put-on all the SEGA products.
+
+When handling such
+
+goods,
+
+be sure to confirm the labels.
+
+They are used to
+
+prevent 1llegal acts such as the unauthorized copying of the
+
+products and the printed circuit boards thereof or carrying
+
+on business by manufacturing similar merchandise or by
+
+cohverting, selling or using such products or printed
+
+circuit boards.
+
+ORIGINAL SEAL
+
+LICENCE SEAL
+
+The following seal 1s put on
+
+The following seal is put on the
+
+the machines manufactured by
+
+kits,
+
+such as the printed
+
+SEGA.
+
+circult boards,
+
+of
+
+SEGA
+
+products.
+
+R T =
+
+uahe e oto
+
+R
+
+SEGA
+
+$E
+
+orRA
+
+LICEN
+
+TH
+
+0puCT 1§
+
+4 THISPR
+
+UFAC T
+
+T 1S
+
+ED BY
+
+SIGNED
+
+MAN
+
+ac
+
+TURLO UNDER
+
+$EGA
+
+TERPAISES LTD
+
+SE
+
+™ EE:‘W[ ncl £
+
+OF
+
+S LTO
+
+ORIGINAL =
+
+CE =
+
+SHOOTING MASTER
+
+}
+
+§|NO
+
+ag@wmqmmmﬂ
+
+SEGA ENTERPRISES. LTD
+
+NO
+
+JAPAN
+
+sed
+
+YEAPRISES. LTO
+
+AN
+
+e gine o g o op s oo oy oy
+
+-~y -r-'lt- -iqp-
+
+P
+
+COPYRIGHT NOTICE
+
+This SEGA product has the copyright notice as follows:
+
+(© SEGA 1985
+
+This signifies that this work was disclosed in 1985 and is the
+
+property of SEGA ENTERPRISES, LTD.
+
+_2._
+
+B
+
+===== PAGE 5 =====
+PRECAUTIONS CONCERNING THE PLACE OF INSTALLATION
+
+The SHOOTING MASTER 1s an indoor game machine.
+
+Absolutely
+
+do not install it outside.
+
+Even indoors,
+
+avoid installing
+
+in places mentioned below so as to ensure proper usage:
+
+Places subject to rain or water leakage,
+
+or condensation due
+
+to humidity.
+
+In the proximity of an indoor swimming pool and/or shower.
+
+Plgces subject to direct sunlight.
+
+Places subject to heat sources from heating units, etc., or
+
+hot air.
+
+Vicinity of highly inflammable/volatile chemicals or
+
+hazardous matter.
+
+Sloped surfaces.
+
+Vicinity of anti-disaster facilities such us fire exits and
+
+fire extinguishers.
+
+Places subject to any type of violent impact.
+
+Dusty places.
+
+._3_
+
+===== PAGE 6 =====
+8.
+
+CAUTIONS FOR OPERATING THE GUN, AND MONITOR CLEANING
+
+o A lens and a photosensor are incorporated in the gun,
+
+so be
+
+careful that these parts'
+
+surfaces do not become dirty.
+
+LENS
+
+PHOTOSENSOR
+
+.
+
+A= Y
+
+\4\ O“
+
+-
+
+L.
+
+\
+
+SET SCREW
+
+M4 x4
+
+o0 When the monitor surface becomes dirty, carefully wipe it.
+
+el
+
+If the surface becomes very dirty, the gun's photosensor may
+
+not function properly.
+
+O When cleaning the lens, loosen set screw (M4x4) and remove
+
+it in the direction of "A".
+
+MONITOR
+
+™~
+
+/
+
+SERVICE DOOR~
+
+_8_
+
+===== PAGE 7 =====
+9.
+
+REMOVING THE UPPER PART OF THE GUN
+
+(2 MUZZLE
+
+Q)
+
+_~ (HM-2001-B)
+
+® SET SCREW
+
+(M5x12)
+
+@
+
+£S)
+
+27,
+
+OP PLATE OF GUN
+
+ASSY GUN
+
+N
+
+(HM -2016)
+
+(HM—2000)
+
+4
+
+N
+
+\Q
+
+W
+
+@) SET SCREW
+
+(1) MAIN FRAME
+
+(M5 x 12)
+
+(HM - 2001 — A)
+
+GRIP (HM-2015)
+
+\
+
+" SIDE PANEL RIGHT
+
+-
+
+J
+
+(HM
+
+2001 - D)
+
+SIDE PANEL LEFT
+
+(HM - 2001 -C)
+
+o The upper part
+
+(MUZZLE)
+
+and the lower part
+
+(MAIN FRAME)
+
+of
+
+the gun can be disassembled.
+
+o For disassembling, remove set screw ® and ® by using a
+
+hexagonal wrench.
+
+_9_.
+
+===== PAGE 8 =====
+10.
+
+REMOVING THE GOUN
+
+follow the
+
+o When removing the gun from the shock mechanism,
+
+procedure mentioned below:
+
+SET SCREW -
+
+EE
+
+SHAFT
+
+~ASSY GUN
+
+M4 x4
+
+(HMN-2000)
+
+5 (Hl}r’I'-:Z()lB)
+
+SHAFT (HM-2013) —---
+
+VD__
+
+S
+
+SHOCK MECHANISM ——
+
+(HM = 3000)
+
+N’
+
+<>
+
+i
+
+1
+
+yz
+
+L
+
+CABLE
+
+5
+
+gt
+
+70
+
+@ \\
+
+@ |
+
+©\
+
+<
+
+guditon
+
+—
+
+Y,
+
+)—
+
+)| 3
+
+S ()|
+
+—
+
+=
+
+\y/’
+
+AN
+
+CONNECTOR=+
+
+1Y
+
+~‘
+
+",
+
+Qe
+
+27
+
+_COVER
+
+Y83
+
+e
+
+~
+
+(HM—-0009)
+
+___ SCREW
+
+(M4 x 20)
+
+g
+
+PROCEDURE
+
+Loosen 2 set screws
+
+(M4x4).
+
+@
+
+)
+
+Remove 2 shafts
+
+(HM-2013).
+
+Take off 6 screws
+
+(M4x20)
+
+to remove the cover
+
+©)
+
+(HM-0009).
+
+@
+
+Remove 2 connectors.
+
+In the above procedure, the gun can be removed from the shock
+
+mechanism (HM-3000).
+
+when handling the cable,
+
+utmost care must
+
+be taken.
+
+===== PAGE 9 =====
+11.
+
+DI SASSEMBLING THE SHOCK MECHANISM
+
+When servicing the shock mechanism, first remove the gun as
+
+per 10
+
+REMOVING THE GUN and then disassemble 1t 1n
+
+accordance with the following procedure:
+
+A
+
+A
+
+TAMPERPROOF
+
+DK
+
+SCREW
+
+Fﬁﬁ// HOUSING (HM - 2014)
+
+M4 x 16
+
+PLATE COVER
+
+\
+
+“ N
+
+1/
+
+(HM-0002)
+
+TAMPERPROOF TOOL
+
+SPRING PIN
+
+(2) FRONT PANEL
+
+(M4)
+
+540-0009
+
+4x36
+
+(HM=0001)
+
+I N Ay
+
+SHOCK MECHANISM
+
+/ @
+
+l"\
+
+(HM—-3000)
+
+(1) SHAFT (HM-3003)
+
+ISas
+
+SSSSee
+
+SIDE PANEL
+
+{
+
+(HM-1019)
+
+-4
+
+o)
+
+M4ax16
+
+ol
+
+TAMPER-
+
+{r
+
+klt
+
+PROOF
+
+TAMPER-
+
+- =Dl
+
+SCREW
+
+PROOF
+
+kR =0
+
+—
+
+r.—‘
+
+~
+
+M
+
+SCREW
+
+[ Y
+
+ii\
+
+— )
+
+M4x 16
+
+B>
+
+N
+
+B
+
+'/
+
+SN
+
+\/
+
+)
+
+5 0 )
+
+)
+
+"
+
+SIDE PANEL
+
+D
+
+="Fr
+
+(HM-1020)
+
+y
+
+SCREW SCREW
+
+(3) BRACKET
+
+M5x16
+
+M4x16
+
+(HM-0008)
+
+PROCEDURE
+
+C)Take off the spring pin from the SHAFT (HM-3003) and
+
+in the direction of
+
+|IA"
+
+then remove HOUSING
+
+(HM-2014)
+
+(@) By using the TAMPERPROOF tool, take off 4 TAMPERPROOF
+
+SCREWS
+
+(M4x16)
+
+and then remove FRONT PANEL
+
+(HM-0001)
+
+()'Take of f 4 SCREWS (M4x16) and then remove BRACKET
+
+(HM-0008)
+
+(@) Take off 6 SCREWS (M5x16) and then remove SHOCK
+
+MECHANISM
+
+(HM-3000).
+
+Removing the shock mechanism in the above procedure allows for
+
+the servicing of the spring,
+
+solenoid
+
+etc.
+
+W
+
+===== PAGE 10 =====
+12.
+
+SELF-TEST
+
+o In this test, mainly check to make sure that the printed
+
+circuit board accurately functions, that sound and the
+
+on-monitor image colors are adjusted, and also that the
+
+defective portions are detected.
+
+Type of test
+
+(1)
+
+INPUT TEST:
+
+To check switches.
+
+(2)
+
+SOUND TEST: To test sound and the sound number display.
+
+(3)
+
+CRT TEST: To test the frame and color bar display.
+
+(4)
+
+SIGHT ADJUSTMENT: To adjust bullet mark deviation.
+
+TEST SW.
+
+2. Operating method
+
+[ GAME MODE |
+
+!
+
+TEST SW
+
+[INPUT TEST ]
+
+!
+
+TEST SW
+
+[ SOUND TEST |
+
+|
+
+TEST SW
+
+[CRT TEST ]
+
+|
+
+TEST SW
+
+SIGHT ADJUSTMENT |
+
+i
+
+W
+
+-
+
+l
+
+TEST SW
+
+e
+
+[GAME MODE |
+
+3
+
+Descriptions by test item
+
+N\
+
+COIN SW.1
+
+(1) INPUT ‘TEST
+
+INPUT TEST
+
+COIN
+
+3.
+
+SWITCH 1
+
+ON
+
+SWITCH 2
+
+START
+
+SW
+
+SERVICE Sw
+
+TEST
+
+SwW
+
+o When any of the switches shown in the left-hand side table are
+
+turned on, "ON" will be displayed on the right-hand side of the
+
+corresponding switch name.
+
+0 When pressing TEST Sw.,
+
+"ON" will be momentarily displayed and
+
+then TEST proceeds to the next item.
+
+===== PAGE 11 =====
+o Simultaneously when SOUND NUMBER
+
+(2) SOUND TEST
+
+is displayed on the screen, the
+
+corresponding sound is emitted
+
+(the sound numbers start from
+
+SOUND
+
+TEST
+
+81).
+
+O
+
+Pushing the START SW. changes the
+
+SOUND 81
+
+sound number and that particular
+
+sound is simultaneously emitted.
+
+Push TEST SW. to proceed to the
+
+next test.
+
+(3) CRT TEST
+
+FRAME
+
+o In this test,
+
+the 8 primary
+
+CRT
+
+TEST
+
+colors can be checked.
+
+o Push TEST SW. to proceed to the
+
+-0
+
+next test.
+
+COLOR BAR
+
+(a) Shoot at the + sighted target
+
+(4)
+
+SIGHT ADJUSTMENT
+
+on the screen 5 ~ 8 times.
+
+(b)
+
+Next, set your sight in a
+
+Y
+
+manner so as to meet the X Y
+
+numbers shown on the right-
+
+W
+
+-
+
+X
+
+hand side of CORRECT.
+
+x_{__{
+
+XY
+
+X Y values to
+
+CORECT
+
+9 —
+
+which SIGHT is
+
+SHOT
+
+8§ -
+
+——
+
+to be set.
+
+7
+
+NOW SW
+
+Rotary switch values
+
+-
+
+(standard
+
+X
+
+=
+
+8,
+
+Yy = 8)
+
+(c
+
+)y Set SIGHT to the X Y numbers
+
+Number of shots
+
+shown on the right-hand side of
+
+"NOW SW."
+
+The present rotary
+
+—
+
+switch values are X
+
+=
+
+8 and Y = 8
+
+=
+
+—
+
+7
+
+Y
+
+=
+
+p—
+
+9.
+
+(d)
+
+Set SIGHT to X
+
+et 5 to 8
+
+(e)
+
+Adjust
+
+SIGHT again and shoot at the sighted targ
+
+times.
+
+"CORRECT" values and
+
+(£)
+
+Simi
+
+larly repeat and make sure that the
+
+(repeat 2-3 times).
+
+"NOW SW." values become identical
+
+===== PAGE 12 =====
+NOTES
+
+Depending on the bullet mark deviation at the time of
+
+shooting, the X Y values sometimes slightly vary every time a
+
+shot 1is made.
+
+However, this poses no problem as long as the
+
+bullet mark shown on the screen approximately matches the
+
+sighted target.
+
+SW.
+
+1 corresponds with Y,
+
+and SW.
+
+2 with X.
+
+Before making adjustments,
+
+the sighted target position and
+
+the bullet mark position will not match.
+
+Decreasing the Y
+
+(SW.
+
+1)
+
+value will result in the bullet
+
+marks moving upward.
+
+(Sw.
+
+2)
+
+Decreasing the X
+
+value will result in the bullet
+
+marks moving to the left-hand side.
+
+SW.2
+
+IC board (834—5719)
+
+SW.o 1.
+
+1
+
+when the testing is finished, push the TEST button.
+
+The game mode will then return.
+
+===== PAGE 13 =====
+13. PARTS LIST
+
+(D—1/3)
+
+@
+
+TOP ASSY SEGA SHOOTING MASTER (HM—0000)
+
+)
+
+N -
+
+0
+
+S b
+
+g
+
+[
+
+12X
+
+‘OQ
+
+e
+
+g
+
+[~ gm«‘T R
+
+M~
+
+e
+
+i
+
+|
+
+=
+
+==
+
+e
+
+e
+
+—
+
+___.(Q\.‘{o
+
+k
+
+e i
+
+ol
+
+S
+
+q
+
+&N
+
+S~
+
+~NT
+
+b
+
+.
+
+A
+
+MR
+
+Ll
+
+¥
+
+'9:‘!0‘/03
+
+S
+
+e
+
+—4
+
+ik
+
+!
+
+e
+
+[
+
+S
+
+Pnml
+
+e ———————
+
+{ \Or’/
+
+T
+
+-
+
+/)
+
+(W )
+
+iy
+
+o)
+
+Reol
+
+S
+
+===== PAGE 14 =====
+®
+
+(D—2/3)
+
+TOP ASSY SEGA SHOOTING MASTER (HM—0000)
+
+ITEM NO.
+
+PART NO.
+
+DESCRIPTION
+
+HM-1000
+
+ASSY CABINET
+
+HM-2000
+
+ASSY GUN
+
+HM~3000
+
+ASSY SHOCK MECHANISM
+
+HM-4000
+
+ASSY POWER SUPPLY
+
+HM-0001
+
+FRONT PANELA
+
+HM-0002
+
+PLASTIC COVER
+
+HM-0003
+
+PLATE HOLDER
+
+HM-0004
+
+DESIGN PLATE
+
+HM-0005
+
+FRONT PANEL B
+
+10
+
+HM-0009
+
+LID
+
+11
+
+HM-0007
+
+SHOCKABSORBER
+
+12
+
+UC-1017
+
+FL BRACKET
+
+13
+
+83497
+
+STICKER ARROW
+
+14
+
+560—5085
+
+STEP DOWN TRANSFORMER
+
+882
+
+SEGA SHOOTING MASTER (90-240V 50/60 Hz)
+
+15
+
+83005
+
+STICKER MAIN SW PUSH ON PUSH OFF
+
+17
+
+80027XY
+
+NAME PLATE ELEC SPEC.
+
+18
+
+421-5185
+
+STICKER SAFETY INSTR
+
+19
+
+421-6103
+
+STICKER START
+
+20
+
+421-6173
+
+ADJUST INSTR SH SHOOTING MASTER
+
+21
+
+421-5800—22
+
+ORIGINAL SEAL SHOOTING MASTER
+
+22
+
+834-5719
+
+ASSY IC BOARD SHOOTING MASTER
+
+23
+
+80207X
+
+STICKER SEGA INFORMATIONS
+
+24
+
+83602
+
+STICKER SERIAL NO INFORMATIONS
+
+25
+
+80198X
+
+STICKER POSSESSION INFORMATIONS
+
+26
+
+83618
+
+STICKER BUSINESS INFORMATIONS
+
+27
+
+SGB-1035X
+
+KEY BAG
+
+28
+
+SGM—2675
+
+POLYETHYLENE BAG 240%x370
+
+29
+
+SGM—-3640
+
+POLYETHYLENE COVER HN UPRIGHT
+
+30
+
+420—-5267
+
+OWNER’S MANUAL SHOOTING MASTER
+
+31
+
+SGB-3634—11
+
+WIRE HARN START SW
+
+211-0087
+
+CONN PLUG AMP 4P BROWN
+
+32
+
+422—0070
+
+PLAY INSTR PLATE SHOOTING MASTER
+
+33
+
+HM-0008
+
+BRACKET
+
+34
+
+HM-2006
+
+SPRING
+
+421-6186—1
+
+DENOMINATION
+
+SHEET 2x25¢
+
+421-6186—2
+
+DENOMINATION
+
+SHEET 25¢
+
+421-6186—3
+
+DENOMINATION
+
+SHEET
+
+2x1DM 5DM
+
+421-6186—4
+
+DENOMINATION
+
+SHEET
+
+2x1Fr
+
+421-6186—5
+
+DENOMINATION
+
+SHEET
+
+S00L
+
+421-6186—6
+
+DENOMINATION
+
+SHEET
+
+SFr 10Fr
+
+421-6186-7
+
+DENOMINATION
+
+SHEET
+
+2x55H 10SH
+
+421-6186—8
+
+DENOMINATION
+
+SHEET
+
+3X1Kr
+
+421-6186—9
+
+DENOMINATION
+
+SHEET
+
+2x$1
+
+421-6186—11
+
+DENOMINATION
+
+SHEET
+
+100WON
+
+101
+
+601-0769
+
+STAPLE MAX #3
+
+102
+
+509-0161
+
+PUSH-BUTTON SWITCH IT YELLOW W/LAMP
+
+103
+
+309—-5099-01
+
+ASSY FL LIGHT 10W PALUCK
+
+104
+
+211-0041
+
+CONN PIN AMP
+
+540—-0006
+
+WRENCH FOR TAMP PRF SCR M4
+
+===== PAGE 15 =====
+(D-3/3)
+
+G MASTER (HM—0000)
+
+@
+
+TOP ASSY SEGA SHOOTIN
+
+PART NO.
+
+| DESCRIPTION
+
+ITEM NO.
+
+000-0414-S
+
+M SCR PH W/S M4x14
+
+201
+
+M SCR PH W/F & S M5% 16
+
+202
+
+000—0516—FS
+
+M SCR PH M5x30
+
+203
+
+000—0530
+
+204
+
+008—0416
+
+TMP PRF SCR TH Max 16
+
+045—0016
+
+SPR PIN 4x36
+
+205
+
+SCR NAIL THH STAINLESS 1.5%16
+
+206
+
+046—0001
+
+207
+
+060—0005
+
+FLT WSHR M5
+
+061—0005
+
+SPR WSHR M5
+
+208
+
+DOUBLE FACE TAPE 10mmx50m/
+
+ROLL
+
+209
+
+244—098
+
+210
+
+005-3113—-F
+
+W SCR RH W/F 3.1x13
+
+010—0406—F
+
+S—-TITE SCR 4x6
+
+211
+
+M SCR PH M4x16
+
+212
+
+000—0416
+
+213
+
+000—0420
+
+M SCR PH M4x20
+
+0000408
+
+TMP PRF SCR TH M4x8
+
+214
+
+===== PAGE 16 =====
+ASSY CABINET (HM-1000)
+
+(D—1/3)
+
+@
+
+“
+
+e~
+
+®
+
+S
+
+-/.K
+
+J
+
+@3
+
+i
+
+i)
+
+e
+
+M —
+
+SN
+
+1P
+
+=
+
+BB
+
+Bl
+
+r
+
+[l
+
+HE
+
+I
+
+= S
+
+L —
+
+AT
+
+L¥
+
+‘Hé
+
+==
+
+| -
+
+N
+
+|
+
+AN
+
+17
+
+(SN
+
+;‘;:#“
+
+e
+
+/4
+
+~
+
+(%)
+
+g
+
+%
+
+#
+
+i
+
+O /(]
+
+ol
+
+/A=
+
+¢-|Jo{==
+
+1
+
+S—
+
+[}
+
+@ |
+
+=5
+
+2 b
+
+li
+
+-
+
+&o
+
+B
+
+A
+
+AND.
+
+)
+
+¥
+
+&
+
+"/
+
+&
+
+g
+
+o
+
+~/
+
+2
+
+I
+
+(g)
+
+o
+
+g
+
+&
+
+)
+
+PR)
+
+qn
+
+===== PAGE 17 =====
+(D—2/3)
+
+ASSY CABINET (HM—1000)
+
+@
+
+PART NO.
+
+DESCRIPTION
+
+ITEM NO.
+
+ASSY SUB CABINET
+
+HM-1001
+
+HM-1022
+
+MASK
+
+HM-1023
+
+HOLDER
+
+WINDOW GLASS
+
+HM-1024
+
+HOLDER A
+
+HM-1025
+
+HM-1026
+
+HOLDER B
+
+ORNAMENT FRAME UPPER
+
+HM-1027
+
+MIRROR
+
+HM-1028
+
+HM-1029
+
+MIRROR HOLDER
+
+HM-1030
+
+CASH BOX
+
+10
+
+TV MASK 20
+
+11
+
+HM-1031
+
+BRACKET
+
+12
+
+HM-1032
+
+HM-1033
+
+DESIGN SHEET A
+
+13
+
+HM-1034
+
+DESIGN SHEET B
+
+14
+
+DESIGN SHEET C
+
+15
+
+HM-1035
+
+16
+
+HM-1036
+
+DESIGN SHEET D
+
+HM~1037
+
+LAMP COVER
+
+17
+
+SW UNIT
+
+18
+
+HM-1038
+
+DESIGN SHEET
+
+19
+
+HM-1040
+
+OOTING MASTER
+
+20
+
+423-0012
+
+DESIGN PLATE SH
+
+MO—-0006
+
+CONNECTOR BRACKET 36P
+
+21
+
+BRACKET TV
+
+22
+
+TY-1019
+
+BRACKET
+
+23
+
+FO-1013X
+
+105—0064
+
+BRACKET MAIN SW
+
+24
+
+280—5041
+
+SPACER TUBE 4
+
+25
+
+CABLE & PLUG A
+
+SSY 0.16x4
+
+1x3 L=3m (USA)
+
+26
+
+600—0110
+
+SSY W/EARTH (200~
+
+240V AREA)
+
+600—5007
+
+CABLE & PLUG A
+
+MO-1215Y
+
+COVER
+
+21
+
+WIRE HARN COIN METER 1
+
+SGB—3634—12
+
+211-0086
+
+CONN PLUG AMP 3P BROWN
+
+SGB—3634—1
+
+WIRE HARN AC100V
+
+CONN CAP AMP 4P RED
+
+2110121
+
+WIRE HARN EARTH
+
+31
+
+SGB—3634—2
+
+211-0167
+
+TERM LUG ROUND 1D 5
+
+SGB—-3634—4
+
+WIRE HARN MAIN
+
+32
+
+CONN 36P PCB
+
+209-5009
+
+211-0044
+
+CONN CAP AMP 2P WHITE
+
+211-0082
+
+CONN CAP AMP 4P BROWN
+
+CONN CAP AMP 3P WHITE
+
+211—-0060
+
+CONN CAP AMP 3P BROWN
+
+211-0081
+
+211-0120
+
+CONN CAP AMP 3P YELLOW
+
+211-0119
+
+CONN CAP AMP 3P ORANGE
+
+CONN CAP AMP 6P WHITE
+
+211-0046
+
+CONN CAP AMP 6P YELLOW
+
+211-0126
+
+211-0025
+
+CONN PLUG AMP 12P WHITE
+
+SGB—3634—5
+
+WIRE HARN FL & LAMP
+
+33
+
+CONN CAP AMP 2P RED
+
+211-0115
+
+211-0080
+
+CONN CAP AMP 2P BROWN
+
+211-0117
+
+CONN CAP AMP 2P YELLOW
+
+CONN CAP AMP 2P ORANGE
+
+211-0116
+
+CONN CAP AMP 3P RED
+
+211-0118
+
+2110089
+
+CONN PLUG AMP 9P BROWN
+
+SGB-3634-B
+
+WIRE HARN JUMP
+
+34
+
+CONN CAP AMP 2P ORANGE
+
+211-0116
+
+CONN FEM 2P (MOLEX)
+
+212—-5033
+
+===== PAGE 18 =====
+(D—3/3)
+
+@
+
+ASSY CABINET (HM—1000)
+
+DESCRIPTION
+
+ITEM NO.
+
+PART NO.
+
+35
+
+SGB—3634—9
+
+WIRE HARN EXT
+
+SGB-3042
+
+EXT BD 36P
+
+2090025
+
+CONN 44P PCB
+
+212—-5034
+
+CONN FEM 6P (MOLEX)
+
+212—-5076
+
+CONN FEM 4P (MOLEX)
+
+209-0023
+
+CLOSED END CONN S TYPE
+
+211-0041
+
+CONN PIN AMP
+
+211-0042
+
+CONN SOCKET AMP
+
+211-0005
+
+SOCKET ELEMENT (MOLEX 2578T)
+
+280—0474
+
+CONN CONTACT (AMP 170482-1)
+
+101
+
+200—5044
+
+ASSY CLR DISPL 20 TYPE (NANAO MC-2030-S)
+
+102
+
+221-5064
+
+MAG CNTR 6DIG DCsV
+
+103
+
+S—-93024
+
+MOTOR 100V 50—60Hz 2500-3000rpm (JAPAN SERVO P116-1)
+
+104
+
+S5—-94416
+
+FAN 747 (ROKUGO SEISAKUSYO #6075 74 CW 3.5/7)
+
+105
+
+280—0417
+
+TERMINAL BINDING POST BLACK (SATO T-65007AN TYPE12mm)
+
+106
+
+280—-0418
+
+BSHG STRAIN PLF 8.3
+
+280—-0419
+
+HARNESS LUG
+
+107
+
+108
+
+509—0039
+
+SW PUSH BTN TYPE
+
+109
+
+509—-0049
+
+SW STOPPER & 12
+
+110
+
+601—-0444
+
+C & R COMBINATION ELEMENT 0.1x4F & 1208
+
+113
+
+601-0769
+
+STAPLE MAX #3
+
+36
+
+SGB-3634—-17
+
+WIRE HARN M & L
+
+211-0085
+
+CONN PLUG AMP 2P BROWN
+
+201
+
+000—-0310
+
+M
+
+SCR
+
+PH M3x10
+
+202
+
+000—0335
+
+M
+
+SCR
+
+PH M3x35
+
+203
+
+000—0416
+
+M
+
+SCR
+
+PH M4x16
+
+204
+
+000—0420FS
+
+M
+
+SCR
+
+PH W/FS M4x20
+
+205
+
+000—0508
+
+M
+
+SCR
+
+PH M5x8
+
+206
+
+000—0510—FS
+
+M
+
+SCR
+
+PH W/FS Mb5x10
+
+207
+
+005—3110
+
+w
+
+SCR
+
+RH 3.1x10
+
+208
+
+005—3113—-F
+
+W
+
+SCR
+
+RH W/F 3.1x13
+
+209
+
+006—-3110
+
+W SCR
+
+FH 3.1x10
+
+210
+
+008-0410
+
+TMP PRF SCR TH M4x10
+
+211
+
+028—0003
+
+SET SCR PH M3x8
+
+212
+
+029-0047
+
+M SCR PH BLK M4x10
+
+213
+
+061—-0003
+
+SPR WSHR M3
+
+214
+
+061-0004
+
+SPR WSHR M4
+
+069—-0024
+
+215
+
+FLT WSHR BLK M4
+
+216
+
+031-0425
+
+CRG BLT M4x25
+
+217
+
+051—-0004
+
+FLG NUT M4
+
+===== PAGE 19 =====
+®
+
+ASSY SUB CABINET (HM—-1001)
+
+(D-1/3)
+
+(g]\
+
+2
+
+&
+
+%
+
+&
+
+~
+
+@)
+
+2)
+
+&
+
+®
+
+\
+
+\
+
+\ A\
+
+VA
+
+A
+
+\
+
+|
+
+|
+
+-
+
+.;.9_
+
+! B
+
+§
+
+B
+
+f /1
+
+AN
+
+b,
+
+[8
+
+nin
+
+G
+
+(
+
+U
+
+\5“
+
+Ei
+
+==
+
+}~
+
+ik
+
+| w——
+
+l((h
+
+=
+
+| -
+
+g
+
+:
+
+&
+
+it
+
+ol
+
+&
+
+&
+
+®
+
+b
+
+&N
+
+ki’\
+
+o0
+
+<)
+
+@
+
+]
+
+o
+
+[
+
+_
+
+[
+
+)
+
+o =
+
+==
+
+il
+
+I qu?
+
+l
+
+N
+
+&)
+
+{m
+
+:
+
+|
+
+===== PAGE 20 =====
+ASSY SUB CABINET (HM—1001)
+
+(D—-2/3)
+
+®
+
+ITEM NO.
+
+PART NO.
+
+DESCRIPTION
+
+1
+
+HM-1002
+
+WOODEN CABINET
+
+2
+
+HM-1003
+
+CASH BOX COVER
+
+3
+
+HM-1004
+
+SERVICE DOOR LOWER
+
+HM~-1005
+
+SERVICE DOOR UPPER
+
+HM-1006
+
+ORNAMENT FRAME
+
+HM-1007
+
+ORNAMENT CORNER
+
+HM~-1008
+
+ORNAMENT CORNER LEFT
+
+HM-1009
+
+ORNAMENT CORNER RIGHT
+
+15
+
+HM-1016
+
+ORNAMENT FRAME LOWER
+
+SIDE PANEL A RIGHT
+
+16
+
+HM-1017
+
+17
+
+HM-1018
+
+SIDE PANEL A LEFT
+
+18
+
+HM-1019
+
+SIDE PANEL B RIGHT
+
+19
+
+HM-1020
+
+SIDE PANEL B LEFT
+
+20
+
+HM-1021
+
+BRACKET
+
+21
+
+DP-1148X
+
+LOCKING TONGUE
+
+22
+
+DP-1167
+
+TNG LKG
+
+23
+
+HN-1050
+
+SPACER RING
+
+25
+
+TA-1065
+
+NUT PLATE
+
+26
+
+TI-1079
+
+LEG ADJUSTER BRKT
+
+27
+
+UC-1017
+
+FLL BRACKET
+
+28
+
+117-0062
+
+PLATE LOCK RETAINER
+
+29
+
+117-5098
+
+TONGE RETAINER PLATE
+
+30
+
+601—-0455
+
+LEG ADJUSTER
+
+220—5044-01
+
+MAGNETIC LOCK W/O KEY
+
+31
+
+32
+
+220—5045-01
+
+KEY MASTER FOR 220-5044-01
+
+33
+
+2205046
+
+MAGNETIC LOCK W/KEY
+
+GUARD PLATE
+
+34
+
+AN-1107
+
+35
+
+109—0045
+
+KEY HOLDER
+
+36
+
+HM-1041
+
+STICKER FRONT HM
+
+40
+
+SGB—-3634—14
+
+WIRE HARN
+
+COIN CHUTE DOOR
+
+211--0105
+
+CONN PLUG
+
+AMP 6P YELLOW
+
+41
+
+SGB—-3634—15
+
+WIRE HARN
+
+Sp
+
+211-0043
+
+CONN PLUG
+
+AMP 2P WHITE
+
+12
+
+SGB—3634—16
+
+WIRE HARN
+
+FL
+
+211-0095
+
+CONN PLUG
+
+AMP 2P ORANGE
+
+211-0041
+
+CONN PIN AMP
+
+280—0472
+
+FASTON RCPT 110
+
+280—-5015
+
+FASTON RCPT 187
+
+101
+
+130—5001
+
+SPKR 8 OHM 120 (TOKYO
+
+CONE PAPER)
+
+102
+
+220-5128-01
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+USA 25¢ TWIN
+
+220—-5128—-04
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+1DM 5DM
+
+220—-5128—-06
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+FRANCE 1Fr TWIN
+
+220-5128-07
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+FRANCE 5Fr 10Fr
+
+220—5128—-08
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+ITALY 500L
+
+220—-5128-09
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+AUSTRIA 5SH 10SH
+
+220—-5128-10
+
+ASSY COIN
+
+CHUTE 2 DOOR
+
+DENMARK 1Kr TWIN
+
+220-5128—-11
+
+ASSY COIN
+
+CHUTE
+
+2 DOOR
+
+HONG MONG $1 TWIN
+
+220—-5128-12
+
+ASSY COIN
+
+CHUTE
+
+2 DOOR
+
+SWISS 1Fr TWIN
+
+220—-5128-13
+
+ASSY COIN
+
+CHUTE
+
+2 DOOR
+
+KOREA 100 WON TWIN
+
+103
+
+390-5108—-01
+
+ASSY FL LIGHT 15W 50Hz PALUCK
+
+104
+
+601-0391
+
+CASTER (HAMMER BRAND NO.440-R D=65mm)
+
+===== PAGE 21 =====
+ASSY SUB CABINET (HM—1001)
+
+(D-3/3)
+
+®
+
+PART NO.
+
+DEéCRIPTION
+
+ITEM NO.
+
+000-0416—FS
+
+M SCR PH W/FS M4x16
+
+201
+
+M SCR PH M4x25
+
+202
+
+000—0425
+
+203
+
+000—0514
+
+M SCR PH M5x14
+
+204
+
+000—0520
+
+M SCR PH M5x20
+
+M SCR PH M6X25
+
+205
+
+0000525
+
+206
+
+001-0416
+
+M SCR FH M4x16
+
+207
+
+005-3113—-F
+
+W SCR RH W/F 3.1x13
+
+008—0416
+
+TMP PRF SCR TH M4x16
+
+208
+
+S—TITE SCR 4%6
+
+209
+
+010—-0406—F
+
+210
+
+030—0625
+
+HEX BLT M6X25
+
+031—-0425
+
+CRG BLT M4x25
+
+211
+
+FLG NUT M4
+
+213
+
+051-0004
+
+214
+
+060—0004
+
+FLT WSHR M4
+
+060—0005
+
+FLT WSHR M5
+
+215
+
+SPR WSHR M4
+
+216
+
+061—-0004
+
+217
+
+061—-0005
+
+SPR WSHR M5
+
+061—0006
+
+SPR WSHR M6
+
+218
+
+===== PAGE 22 =====
+SW UNIT (HM—-1038)
+
+(D-1/1)
+
+@
+
+(2)
+
+/
+
+/
+
+CEMAGNETIZING
+
+‘/"L"ME
+
+SERVICE
+
+/[ rest
+
+COolL Sw
+
+DNm
+
+o IA/
+
+Sw
+
+N
+
+12]-50G |
+
+\/
+
+|
+
+~.7
+
+7/
+
+o\
+
+——j—
+
+)
+
+(Y
+
+=
+
+Vi
+
+A
+
+N~
+
+S
+
+=
+
+¢/
+
+b e o ——— —
+
+(5
+
+[
+
+(@)
+
+ITEM NO
+
+PART NO
+
+DESCRIPTION
+
+HM-1039
+
+CONTROL BRKT
+
+421-5091
+
+STICKER CONT INST
+
+SGB—-3634-10
+
+WIRE HARN SW UNIT
+
+211-0094
+
+CONN PLUG AMP 2P RED
+
+211-0103
+
+CONN PLUG AMP 6P WHITE
+
+211-0041
+
+CONN PIN AMP (AMP 350687-1)
+
+101
+
+509-5028
+
+SWITCH PB IM
+
+102
+
+475-0049
+
+RHEOSTAT 100Q 10W
+
+103
+
+240-0125
+
+KONB METAL (SATO K-—29)
+
+104
+
+280—-0472
+
+FASTON RCPT 110
+
+{
+
+===== PAGE 23 =====
+(5) ASSY GUN (HM-2000)
+
+(D-1/2)
+
+R
+
+5
+
+3+
+
+.
+
+@
+
+e
+
+N\
+
+q_
+
+v »<§&4§ N
+
+~
+
+a7
+
+—
+
+4
+
+QH
+
+[N
+
+T ENEY
+
+(“Dé‘f\ ™~
+
+N
+
+Ry
+
+{ §\ é’m’@ "
+
+Q0
+
+~——
+
+—_—
+
+—
+
+O\\{a
+
+===== PAGE 24 =====
+(D-2/2)
+
+(6) ASSY GUN (HM—2000)
+
+ITEM NO
+
+PART NO.
+
+DESCRIPTION
+
+HM-2001
+
+SUB—-ASSY GUN
+
+HM-2004
+
+TRIGGER BRACKET
+
+HM-2005
+
+TRIGGER
+
+HM-2006
+
+SPRING
+
+5
+
+HM-2007
+
+SHAFT
+
+HM-2008
+
+SWITCH BRACKET
+
+HM~-2009
+
+BRACKET
+
+HM-2010
+
+RUBBER WASHER
+
+HM-2011
+
+LENS D=12 =90
+
+10
+
+HM-2012
+
+MUZZLE
+
+11
+
+HM-2013
+
+SHAFT
+
+12
+
+HM-2014
+
+HOUSING
+
+HM-2015
+
+ASSY GRIP
+
+13
+
+14
+
+HM-2016
+
+TOP PLATE OF GUN
+
+15
+
+834—5716
+
+ASSY TRIGGER BD
+
+16
+
+8345717
+
+ASSY PHOTO TRANSISTOR BD
+
+17
+
+SGB—3634—-17
+
+WIRE HARN GUN
+
+211-0095
+
+CONN PLUG AMP 2P ORANGE
+
+211-0099
+
+CONN PLUG AMP 3P YELLOW
+
+101
+
+509-5102
+
+SWITCH MICRO TYPE (MULON SL—-2NW?5)
+
+102
+
+211-0041
+
+CONN PIN AMP
+
+103
+
+211-0167
+
+TERM LUG ROWND ID. 5
+
+201
+
+000—0308-FS
+
+M SCR PH W/F & M3x8
+
+SET SCR HEX SKT CP POINT UNBR M4x4
+
+202
+
+028—-0014
+
+203
+
+0290004
+
+M SCR PH M2x10
+
+204
+
+065—0003
+
+ERING 3mm
+
+008-0408
+
+TMP PRF SCR TH M4x8
+
+205
+
+206
+
+001-0306
+
+M SCR FH M3x6
+
+207
+
+244044
+
+GLUE SCREW LOCK (HI-LOCK P.80 50CC TOHOKASEI)
+
+===== PAGE 25 =====
+SUB — ASSY GUN (HM-2001)
+
+(D-1/1)
+
+®
+
+LQ/
+
+AN
+
+AANNAAY
+
+>
+
+(7 O L7
+
+A\
+
+/
+
+y
+
+@
+
+~
+
+Wit
+
+(O
+
+(U
+
+L,
+
+/
+
+292 ¢ 3
+
+ITEM NO.
+
+PART NO.
+
+DESCRIPTION
+
+HM-2001-A
+
+MAIN FRAME
+
+HM-2001-B
+
+MUZZLE
+
+HM-2001-C
+
+SIDE PLATE LEFT
+
+HM-2001-D
+
+SIDE PLATE RIGHT
+
+HM-2002
+
+PLASTIC GRIP LEFT COLT MK 1V
+
+HM-2003
+
+PLASTIC GRIP RIGHT COLT MK 1V
+
+201
+
+028-0012
+
+SET SCR HEX SKT H CAP SCR UNBR M5x12
+
+TMP PRF SCR PH BLK M4x8
+
+202
+
+029-0026
+
+===== PAGE 26 =====
+@
+
+ASSY SHOCK MECHANISM (HM—3000)
+
+(D—1/2)
+
+N
+
+1T
+
+>
+
+i |
+
+N,
+
+S —
+
+T
+
+Dl
+
+AT
+
+A
+
+R
+
+/0))
+
+@
+
+7)
+
+5)
+
+)
+
+208\
+
+117N
+
+fw
+
+Gl
+
+s N
+
+| s
+
+i D
+
+aV
+
+== !fli
+
+_!......I
+
+i
+
+N/
+
+o
+
+]
+
+/% B
+
+Py e
+
+—
+
+/0
+
+(204
+
+)
+
+-
+
+D
+
+i
+
+===== PAGE 27 =====
+(D-2/2)
+
+(7)) ASSY SHO{CK MECHANISM (HM—3000)
+
+/
+
+ITEM NO.
+
+PART NO.
+
+DESCRIPTION
+
+HM-3001
+
+MECHANISM BASE
+
+HM-3002
+
+HOUSING
+
+HM-3003
+
+SHAFT
+
+HM-3004
+
+SHAFT
+
+HM-3005
+
+JOINT
+
+HM-3006
+
+SHAFT
+
+SHAFT
+
+HM-3007
+
+HM-3008
+
+HOLDER
+
+HM-3009
+
+EXTENSION SPRING
+
+10
+
+HM-3010
+
+EXTENSION SPRING
+
+11
+
+HM-3011
+
+PLASTIC COVER
+
+12
+
+SGB—-3634—6
+
+WIRE HARN SHOCK SOL
+
+211-0097
+
+CONN PLUG AMP 3P RED
+
+101
+
+124-5009
+
+SOLENOID AC100V 3Kg
+
+102
+
+211-0041
+
+CONN PIN AMP
+
+201
+
+010—0406—F
+
+S—-TITE SCR PH W/F M4x6
+
+202
+
+000—0514—-FS
+
+M SCR PH W/FS Mb5x14
+
+FLG NUT M5
+
+203
+
+051-0005
+
+204
+
+060—0006
+
+FLT WSHR M6
+
+205
+
+045—-0003
+
+COT PIN 1.6x12 (155-014)
+
+045-0004
+
+COT PIN 1.6x15 (155—004)
+
+206
+
+244-044
+
+GLUE SCREW DOCK‘(HI—LOCK P.80 50CC TOHOKASEI)
+
+_29_
+
+===== PAGE 28 =====
+®
+
+ASSY
+
+PWR SPLY (HM—4000)
+
+(D-1/2)
+
+20/
+
+l02
+
+e
+
+78]
+
+Va%
+
+=
+
+P
+
+Sl
+
+Lo2
+
+/I
+
+0z
+
+/( ’/
+
+6
+
+/08
+
+I
+
+/NS
+
+/0
+
+072 /’Z.‘:‘
+
+—
+
+S, e
+
+=
+
+A
+
+A
+
+@ L
+
+T
+
+—
+
+=
+
+i)
+
+—
+
+=)
+
+g
+
+S e
+
+! Wms)
+
+3
+
+R
+
+T /08
+
+R
+
+4
+
+02
+
+@
+
+=2
+
+=T
+
+R
+
+2
+
+_,-E\J
+
+Ch
+
+&
+
+—=
+
+=55
+
+;
+
+<
+
+L
+
+/
+
+107
+
+/ A\
+
+2
+
+~—
+
+04 109
+
+o
+
+<03
+
+202
+
+20 é\‘
+
+ziz
+
+)
+
+——’
+
+/
+
+NG
+
+===== PAGE 29 =====
+Assv PWR SPLY (HM—4000) (D-2/2)
+
+ITEM NO.
+
+PART NO.
+
+DESCRIPTION
+
+HM-4001
+
+BASE
+
+560—0106
+
+PWR XFMR U-90V U-100V
+
+834—5536
+
+ASSY SSR BOARD
+
+80424
+
+STICKER 2 AMPERE
+
+80426
+
+STICKER 5 AMPERE
+
+SGB—-3634-3
+
+WIRE HARN PWR SPLY
+
+211-0100
+
+CONN PLUG AMP 4P RED
+
+211-0084
+
+CONN CAP AMP 9P BROWN
+
+211-0047
+
+CONN CAP AMP 12P WHITE
+
+CONN PIN AMP (AMP 350687—1)
+
+211-0041
+
+211-0142
+
+CONN SOCKET AMP (AMP 350536—1)
+
+211-0174
+
+TERM 5P
+
+101
+
+102
+
+280—0472
+
+FASTON RCRT 110
+
+103
+
+280—5015
+
+FASTON RCRT 187
+
+104
+
+601—-0484
+
+OUTLET AC TYPE
+
+105
+
+601—-0891
+
+SW RGLTR AC 100V
+
+106
+
+601-0429
+
+NOISE FILTER 250V 4A
+
+107
+
+600—-5133
+
+CABLE & CONN 300L
+
+108
+
+280—-0149
+
+HARNESS LUG
+
+109
+
+211-0167
+
+TERM LUG ROWND ID. 5
+
+110
+
+514-0046
+
+FUSE HOLDER 2P 125V—10A (SAT OF-2)
+
+FUSE 2A #6.4X30mm
+
+111
+
+514—0032
+
+112
+
+514—0034
+
+FUSE 5A &6.4x30mm
+
+M SCR PH M4x16 W/F & S
+
+201
+
+000—0416—FS
+
+202
+
+005-3113—F
+
+W SCR 3.1x13 W/F
+
+203
+
+005—3120
+
+W SCR 3.1x20
+
+===== PAGE 30 =====
+carTH (SGB~3634-2)
+
+TERMINAL
+
+POWER TRANSFORMER
+
+-
+
+PARNENE 4
+
+DR SALY
+
+Hm-
+
+¢J%7
+
+COIN CHUTE DOGR
+
+|
+
+s01- 089/ yw’/TCHWuH:;U/_/«TO/? AC/OM
+
+¢
+
+t
+
+D
+
+NOISE RLTER
+
+—-
+
+L~ Jrer
+
+oL
+
+7 —
+
+X
+
+(568-3434-3)
+
+——
+
+?
+
+W /
+
+f=4
+
+o 1 o
+
+AN
+
+MA/N SW i3] - 7
+
+il
+
+POL]
+
+>
+
+3¢
+
+,Af
+
+SvsA
+
+1
+
+Y]
+
+R
+
+s
+
+52
+
+- T
+
+24.0
+
+AC
+
++ 5
+
+g
+
+21
+
+Bl
+
+P
+
+(S68-3634-1)
+
+|4
+
+=
+
++ Ty
+
+E|
+
+Y-
+
+el
+
+Séu J/C8
+
+v —
+
+2A
+
+J—
+
++H2VIAL
+
+MEXED
+
++/2V
+
+[ od
+
+=i
+
+—ea
+
+-
+
+SN o=l
+
+-5Vvo 1A
+
+k.
+
+-y
+
+-
+
+F31
+
+oV
+
+i
+
+GND
+
+v
+
+£
+
+pead
+
+nroy
+
+Ga e
+
+2l
+
+et
+
+M
+
+[
+
+U
+
+-
+
+LD S/, 00 = )
+
+7.
+
+7t
+
+L
+
+a i
+
+SERYICE
+
+[ —
+
+i
+
+——
+
+e
+
+i
+
+T
+
+B
+
+QUTLET
+
+90
+
+vl
+
+o A
+
+i
+
+A1)
+
+scov
+
+zoml
+
+g
+
+|
+
+Y
+
+s
+
+Pt
+
++-
+
+L
+
+\2 ~
+
+iy~
+
+5
+
+[l
+
+T
+
+SSRI-
+
+|
+
+Wiy
+
+\GA 3>n<jx
+
+-
+
+524 -
+
+>r.)/ !
+
+\0\05}0
+
+L
+
+IELEEQQE
+
+e
+
+}1/14\ -14- S1&]7
+
+7lglel v
+
+-
+
+i
+
+LA
+
+-
+
+ﬁr
+
+H ERR
+
+.
+
+e,
+
+e E
+
+{17
+
+o
+
+(SGR - 3634
+
+(S56-3434 - /4 )
+
+==
+
+—
+
+1]
+
+YE LLow
+
+i)
+
+e o
+
+~— /
+
+jg—
+
+1
+
+(SGB-3834-17)
+
+BRownN
+
+CoLoR DISFLAY
+
+'
+
+i
+
+cP
+
+DEMAGNETIZING
+
+20
+
+[
+
+ey
+
+2y
+
+!
+
+—t
+
+NE
+
+200 - 5044
+
+)
+
+A~
+
+PC
+
+HM -3006
+
+(R iy
+
+I
+
+|
+
+~
+
+Ofy
+
+[20d
+
+RED
+
+k‘LI
+
+STEP DOWN TRANSFORMER
+
+DL
+
+~
+
+-
+
+. _560-5075
+
+>
+
+NS
+
+a
+
+/3o0v
+
+oL ’
+
+|
+
+3
+
+2.\'%/20
+
+200~ 240V
+
+§A
+
+cP
+
+SHoOCK SOL:
+
+BEE
+
+&E
+
+ov
+
+(SGB-3634-6)
+
+m‘ﬁw
+
+&%
+
+W&
+
+-
+
+107
+
+]
+
+(>4
+
+130V
+
+MAIN
+
+200V
+
+/00y
+
+S|
+
+220V
+
+230V
+
+WE— ==~ - - — - —> EARTH
+
+(S6B-3634--4)
+
+-
+
+-
+
+I
+
+A
+
+<z
+
+0&2
+
+o
+
+£
+
+¥
+
+4
+
+i
+
+=<J
+
+SESEEE
+
+B
+
+B
+
+[/]2]3] 0
+
+LI T la
+
+[/12]3[4]5T¢
+
+w[712] 0
+
+H%HQF{QQ :u 3 2[3 74
+
+g
+
+HE
+
+B
+
+B
+
+g
+
+g
+
+eREls
+
+E
+
+ELML
+
+OO
+
+[
+
+Bl
+
+~In
+
+uj) >
+
+22
+
+W,
+
+“ih
+
+~Q
+
+(an
+
+oy
+
+<&
+
+U
+
+s
+
+NI
+
+o o
+
+§¥
+
+w°w*
+
+N
+
+«QE
+
+Y30 |
+
+C O
+
+*)
+
+~
+
+9’)
+
+T
+
+l
+
+BE
+
+SFEAKER 8Q
+
+/70041
+
+/ow
+
+|55
+
+NHM
+
+Sw UNIT MM-1038
+
+===== PAGE 31 =====
+__ASSY GUN A M- 2000
+
+YELLOW
+
+45‘
+
+(B3 gnam!
+
+5
+
++5v
+
+TR/IGEER SW
+
+5y
+
+‘:T"1
+
+Zis
+
+FND
+
+57
+
+s By
+
+L T
+
+75
+
+372V
+
+mGUN
+
+——
+
+- L
+
+{
+
+- ——
+
+3<
+
+T
+
+C’P
+
+—
+
+!
+
+5]
+
+ASSYy pPHoOTO
+
+7 0, Ay
+
+s
+
+~
+
+Lewp TRIGEER sl
+
+=
+
+i
+
+: mAMS/smP\r Mf}
+
+i
+
+[
+
+~
+
+BL
+
+S¥D
+
+Lot
+
+et 3
+
+2
+
+4
+
+"=
+
+SRC)
+
+| gx¢-37/7 /]“
+
+-
+
+- [L_’ £i4- 5715
+
+e -
+
+[P
+
+=
+
+Wy
+
+L
+
+]
+
+al
+
+i
+
+X
+
+(SG=- "53«--7)“
+
+—
+
+(TZ(Q
+
+1
+
+T
+
+(CEB-2424~7)
+
+||
+
+:
+
+ASSY CPU BD ‘:;34—:'720
+
+A7 2
+
+i
+
+MOLEX P MOLEX 4P
+
+i
+
+PIN _HEADER
+
+|
+
+734 ssl /234
+
+=
+
+=
+
+ey
+
+=1
+
+{
+
+00000
+
+B
+
+!
+
+i
+
+L] IR
+
+[t [l
+
+218
+
+5 e
+
+|
+
+{
+
+1
+
+|
+
+{
+
+>nIQia
+
+|
+
+i
+
+oA
+
+/'dP‘ 40
+
+P 28P
+
+RARESE
+
+1
+
+5_23;’;
+
+8P
+
+IC SOCKET
+
+r/2V
+
+=
+
+-5
+
+03 4y
+
+£
+
+O A
+
+e = e ed
+
+(+) SPEAKER
+
+124
+
+FIN ASSIGMENT
+
+(=) SPEAKER,
+
+?TL?;B
+
+15
+
+O w
+
+1P _START
+
+Dy ¢3
+
+=X
+
+44F P=396mm
+
+4P
+
+oD
+
+1417
+
+G
+
+GND
+
+iBl2
+
+ai D
+
++5V)
+
+494
+
+Cl1=
+
+vee
+
+(+5VA
+
++5v) vCC
+
+D4l vce
+
+(+5v)
+
+QE
+
+QINMETER 2 |EIS|CONMETER |
+
+08
+
+ASSY
+
+START LAMP IF16
+
++i2Y
+
+HI7,
+
+oOH
+
+Sv8B BD
+
+JI3
+
+N
+
+K9
+
+Ll
+
+START LAMP
+
+[fos]
+
+£34 - 572/
+
+MIl
+
+SSK (=)
+
+cs
+
+.2
+
+CON 1
+
+EH
+
+RO
+
+Py3l
+
+COIN 2
+
+/0
+
+255
+
+Q/5
+
+SERVICE
+
+755 ]
+
+Q16
+
+TEST
+
+Rl
+
+Q0/8
+
+(P _START _|SUS| co/n 1
+
+T
+
+/
+
+COIN M
+
+!
+
+Q17
+
+/2
+
+Kol
+
+05
+
+u TEST
+
+% COIN 2
+
+CON METER 2
+
+pe3]
+
+Al
+
+<
+
+VICE
+
+GREEN.
+
+13
+
+o5 |
+
+Q X
+
+() SPEAKER
+
+191(+) SPEAKER
+
+SYNC
+
+R3]
+
+Y
+
+GREEN.
+
+X
+
+RER
+
+RED
+
+fes]
+
+531
+
+SYMC
+
+Y/
+
+BLUE
+
+Q21
+
+Gub (SYNC )
+
+Z 122
+
+END
+
+GND (SYNC)
+
+551
+
+JX3
+
+&)
+
+(5251
+
+oX
+
+FaN
+
+GND
+
+[323]
+
+oS
+
+[&s]
+
+Q 7/
+
+GNR
+
+Ly
+
+/6
+
+[5x5]
+
+L cavPowent
+
+oT
+
+o2
+
+SIDE
+
+GND
+
+R0s1
+
+07
+
+[Sos]
+
+© 8
+
++EV
+
+[2S]
+
+QU
+
+3
+
+O+
+
++ £V
+
+G
+
+0/8
+
+¢ D
+
++5v
+
+oV
+
+05
+
+Q3
+
+0 C
+
+§2 | WHITE BLUE
+
+B
+
+51
+
+WHITE RED
+
+50 | WHITE
+
+o, 2[/]213]4]
+
+EXAMPLES
+
+[ {]a
+
+K [ KING WIRE (30 str.
+
+A ll
+
+L | LARGE WIRE
+
+J | JUMPER WIRE
+
+BEEE
+
+€ | LIGHT GREEN
+
+D | PURPLE
+
+C | BROWN
+
+8
+
+SKY BLUE
+
+A | PINK
+
+XJAQlaf
+
+GRAY
+
+N
+
+BLACK
+
+oyt
+
+ORANGE
+
+8 | MAROON
+
+43
+
+5 | WHITE
+
+[+ N
+
+4
+
+GREEN
+
+3 | YELLOW
+
+14. SCHEMATIC DIAGRAM
+
+B
+
+2
+
+BLUE
+
+1
+
+RED
+
+il
+
+WIRE COLOR CODE
+
+===== PAGE 32 =====
+@ o
+
+i
+
+i
+
+x>
+
+1w
+
+A
+
+jo
+
+=i
+
+(o
+
+N e
+
+(o
+
+— l
+
+B Aty
+
+I"\%‘]
+
+wu
+
+w
+
+w
+
+w
+
+w w
+
+wow
+
+wuwzz
+
+(e} e]
+
+o
+
+=}
+
+[<]
+
+s}
+
+[eNeReNeo]
+
+=z
+
+z
+
+LzZuwz
+
+o
+
+[}
+
+[s]
+
+[o]
+
+=]
+
+[eReoNele)
+
+Z
+
+z
+
+Zz
+
+z
+
+[o]
+
+[o]
+
+o
+
+o]
+
+o
+
+[e}e]
+
+o
+
+[eRe}
+
+(=]
+
+o
+
+o
+
+[=]
+
+[e]
+
+(=}
+
+'S
+
+w
+
+w
+
+w
+
+wzz
+
+(=]
+
+o
+
+[s]
+
+=]
+
+[eRe o)
+
+w
+
+z
+
+=z
+
+P4
+
+Zu 2z
+
+[=]
+
+o
+
+o
+
+(e}
+
+=]
+
+ooo
+
+z
+
+le]
+
+o]
+
+o
+
+o
+
+o
+
+(=}
+
+=]
+
+o
+
+o
+
+<]
+
+o
+
+o
+
+zzzZ
+
+w v o
+
+w W ow
+
+>S50
+
+GV I S S U U AOG S
+
+e == -
+
+FFEE
+
+ooa
+
+223
+
+%o
+
+w
+
+www
+
+(s}
+
+™ T w
+
+u
+
+w2
+
+o
+
+(SRS R&]
+
+™ < ©
+
+[Z]
+
+124
+
+w v v
+
+SSZSS2C2=SD 2
+
+z 2z
+
+====
+
+z2zzZzZ
+
+zZ
+
+000QO0C
+
+o
+
+jeRe e
+
+QOO
+
+(SRS RE]
+
+Q
+
+o
+
+(SRR RSRS)
+
+o
+
+Qoo
+
+o
+
+o
+
+- -
+
+<
+
+w
+
+-Nm W
+
+-
+
+~No <
+
+-
+
+o~
+
+===== PAGE 33 =====
+K
+
+SEGA ENTERPRISES, LTD.
+
+No. 2 —12 Haneda 1-Chome
+
+Ohta—Ku, Tokyo, Japan 144
+
+O Tel.
+
+(03) 743 — 7438
+
+(03) 743 — 5539
+
+o FAX :
+
+o TLX
+
+J22357 SEGASTAR
+
+© SEGA t1985
+
+Printed in Japan
+
+e
+

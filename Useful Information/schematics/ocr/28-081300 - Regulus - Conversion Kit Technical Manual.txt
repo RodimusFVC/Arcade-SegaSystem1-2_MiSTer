@@ -1,0 +1,5895 @@
+===== PAGE 1 =====
+TECHNICAL
+
+MANUAL
+
+wicao.
+
+17
+
+SEEA 17
+
+|l
+
+&1
+
+< S
+
+(
+
+A
+
+KE|=
+
+§!
+
+24 N
+
+A
+
+‘h.\uﬁn.n
+
+)
+
+CONVERSION KIT
+
+72-393500
+
+-
+
+PART NO. 28-081300
+
+[
+
+wWICO
+
+-THE-SOURCE.:
+
+WICO CORPORATION @ 6400 Gross Point Road @ Niles, IL 60648 @ Phone: (312) 647-7500
+
+===== PAGE 2 =====
+CONVERSION KIT PARTS LIST
+
+REGULUS CONVERSION KIT PARTS LIST
+
+72-393500
+
+QTY
+
+DESCRIPTION
+
+PART NO.
+
+P.C. Board
+
+23-521600
+
+P.C. Board R.F. Cage (top)
+
+55-169600
+
+P.C. Board R.F. Cage (bottom)
+
+55-169700
+
+Graphics Package Ass’t (marquee, control panel & cabinet sides)
+
+26-329800
+
+Power Grip Control
+
+98-001204
+
+Pushbuttons Long-(white)
+
+15-921001
+
+Pushbutton Holders & Switches
+
+15-098101
+
+PAL Nuts
+
+19-025400
+
+Cable Ass’t
+
+97-006400
+
+Installation Manual
+
+28-081300
+
+#6 x %" Round Head Phillips Sheet Metal Screws
+
+30-156900
+
+30-161300
+
+#6 x 1” Pan Head Phillips Sheet Metal Screws
+
+#6 x %" Oval Head Phillips Sheet Metal Screws
+
+30-158800
+
+#10-24 x V4" Carriage Bolt
+
+30-220200
+
+Washers, flat
+
+30-178600
+
+Hex Nut. 10-24
+
+30-123300
+
+Momentary Switch (self-test)
+
+23-135600
+
+NEVER replace any components with anything other than exact replacement parts.
+
+NEVER remove circuit board connections while power is on.
+
+DO NOT replace fuses with anything other than the proper value. A blown fuse indicates an overioad condition within the
+
+game. Replacing fuses with a higher value can cause severe damage to internal components if an overload occurs.
+
+ALWAYS consult this manual before attempting repair or replacement of components.
+
+USER INFORMATION
+
+WARNING
+
+F.C.C. REGULATION COMPLIANCE
+
+The P.C. Board Cage supplied with this Conversion Kit must be utilized and terminated to ground at the time of
+
+installation.
+
+This is to avoid radio frequency radiation and comply with the limits for a Class “A” computing device pursuant to
+
+Sub-Part “J” of Part 15 of F.C.C. Rules, which are designed to provide reasonable protection against such inter-
+
+ference when operated in a commercial environment.
+
+Operation of this equipment in a residential area is likely to cause interference — in which case the user, at his
+
+own expense, will be required to take whatever measures may be required to correct the interference.
+
+===== PAGE 3 =====
+INTRODUCTION
+
+This manual will provide you with adequate information to convert your old game as simply and as quickly as possible.
+
+For proper conversion the existing game monitor must be VERTICAL mounted; be RGB Raster Scan; have
+
+provisions for negative composite sync.
+
+This manual is intended for the use of SERVICE TECHNICIANS who possess a general working knowledge of
+
+solid-state circuitry and video monitor theory. Anyone NOT knowledgeable in these areas SHOULD NOT attempt
+
+to mount this conversion kit.
+
+To install this kit you will need the following tools:
+
+Channel-Lock Pliers
+
+Large Drill Bits
+
+Counterbore Bit
+
+X-Acto Knife
+
+Adjustable Hole Cutter
+
+Tape Measure
+
+Power Drill
+
+Diagonal Pliers
+
+Nut Drivers
+
+Soldering Iron, Soider, etc.
+
+Suggested order of game modification:
+
+1
+
+. Disconnect power from game.
+
+2
+
+Remove present game boards.
+
+Remove all cabling to control panel (check game schematic).
+
+Remove old logic cards. ‘
+
+Remove control panel, old pushbuttons and controls. Mount new pushbuttons, joystick and control
+
+panel cover.
+
+Mount new P.C. board cage and P.C. board .
+
+Wire coin door, monitor plug, power supply, control panel and speakers.
+
+CABINET PREPARATION HINTS:
+
+1
+
+Old stick-on graphics can be removed with the aid of a hair dryer. The heat will “rubberize” the adhesive so most of the
+
+material will peel off. A mild solvent may be used to remove any remaining adhesive. A local paint dealer can recommend
+
+one. (CAUTION: ALWAYS USE A PAINT SOLVENT IN A WELL VENTILATED AREA.)
+
+I the cabinet has screened on or stencil graphics, the sides may be sprayed with the basic cabinet color. A light sanding and
+
+washing with a mild detergent should prepare the surface for spraying. (CAUTION: YOU CAN SPRAY ENAMEL OVER A
+
+LACQUER FINISH, BUT YOU CANNOT SPRAY A LACQUER OVER ENAMEL, DO THE SPRAYING IN A WELL
+
+VENTILATED AREA.)
+
+The decals supplied with your kit will be easier to apply and bond better if you; spray the area where the decal is to applied
+
+with windex or other brand of liquid window cleaner. Remove the decal backing and place the decal in position. If enough
+
+window cleaner is used you can slide the decal slightly to position it properly. Use a damp soft sponge, begin at the center
+
+and work toward the edges to remove any bubbles behind the decal. If any small bubbles remain, pierce them with a needle
+
+and press down on the area with the sponge. Be sure to work out all the excess liquid from behind the decal. The decal
+
+should dry for 24 hours.
+
+===== PAGE 4 =====
+CONTROL PANEL LAYOUT
+
+JOYSTICK
+
+\
+
+WHITE
+
+BUTTON
+
+)
+
+WHITE
+
+BUTTON
+
+CONTROL PANEL SECURING
+
+» 30-220200
+
+#10-24 x 1%" LG Carriage Boit
+
+Z
+
+Q
+
+VLN
+
+7
+
+7,
+
+B
+
+Washer, Flat
+
+30-178800
+
+Et
+
+s
+
+!
+
+30-123300
+
+Use the four # 10 carriage bolts to secure
+
+18
+
+#10-24, Hex Nut
+
+CONTROL PANEL PLASTIC to cabinet.
+
+===== PAGE 5 =====
+POWER GRIP MOUNTING
+
+Drill present CONTROL PANEL as shown below
+
+/
+
+/
+
+5/8” DIA. x 1/16” DEEP
+
+POWER GRIP ASS’Y.
+
+id
+
+2- 9/1 6"
+
+°$
+
+|
+
+I
+
+kzw
+
+/
+
+EXISTING CONTROL PANEL
+
+Im
+
+CARRIAGE BOLTS
+
+|
+
+SHIELD WASHER —» &5
+
+LEADS
+
+Connect LEADS as follows
+
+GREEN to GROUND
+
+BLUE is TRIGGER to IP FIRE: Yellow/Red
+
+A
+
+YELLOW & ORANGE both go to IP BOMB: Yellow/Blue
+
+BASE ASS'Y.
+
+- | |ll [T l ‘ ] NUTS
+
+A
+
+[T I I
+
+—
+
+&I
+
+SHAFT WASHER
+
+-»
+
+LOCKNUT ————» P
+
+Make sure 5/8” Dia. counterbores are only 1/16” deep, so that SHIELD WASHER has room to move between
+
+bottom of CONTROL PANEL and top of BASE ASS'Y.
+
+Feed POWER GRIP LEADS thru BASE ASS'Y. & insert POWER GRIP into BASE ASS'Y.
+
+Slip SHAFT WASHER over end of SHAFT and screw on LOCK NUT
+
+===== PAGE 6 =====
+P.C. BOARD MOUNTING
+
+SHEET METAL SCREW
+
+30-161200
+
+—>9
+
+P.C. BOARD CASE
+
+(TOP)
+
+55-169600
+
+099
+
+029
+
+PHILLIPS HEAD —Y
+
+MACHINE SCREW
+
+PRINTED CIRCUIT
+
+BOARD
+
+<o
+
+jgc
+
+PLASTIC SPACER — m
+
+P.C. BOARD CASE
+
+(BOTTOM)
+
+55-169700
+
+PLASTIC —™
+
+MOUNTING FOOT
+
+© =)
+
+= e
+
+=
+
+P.C. BOARD FOOT MOUNTING
+
+BLACK LEADS OF CONNECTOR
+
+THIS END OF BOARD
+
+-,
+
+w._ WOOD SCREWS
+
+A,
+
+30-313600
+
+WOOD SCREWS /r‘
+
+30—313500
+
+“$— p.C.BOARD
+
+(<]
+
+23-521600
+
+@
+
+Mount P.C. Board Case (bottom)
+
+to cabinet using two #6 x 34" pan head Phillips wood screws 30-313500.
+
+Mount P.C. Board Set
+
+into P.C. Board Case (bottom) 55-169700 using four #6 x 1” pan head Phillips
+
+wood screws 30-313600.
+
+Slip bottom edge of P.C. Board Case (top) 55-169600 under bottom lip of P.C. Board Case (bottom) 55-169700 . use
+
+one #6 x 3" pan head Phillips sheet metal screw 30-161200, to secure.
+
+D. This unit may be mounted either vertically or horizontally, depending on the availability of space in your game cabinet.
+
+===== PAGE 7 =====
+EDGE-CONNECTOR “PIN-OUTS”
+
+COIN - CREDIT OPTION SWITCH
+
+DIP SWITCH A
+
+OPTION
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+1 COIN
+
+1 CREDIT
+
+OFF
+
+OFF
+
+OFF
+
+OFF
+
+OFF
+
+OFF
+
+OFF
+
+OFF
+
+1 COIN
+
+2 CREDITS
+
+ON
+
+OFF
+
+OFF
+
+OFF
+
+ON
+
+OFF
+
+OFF
+
+OFF
+
+COMPONENT SIDE
+
+SOLDER SIDE
+
+1COIN
+
+3 CREDITS
+
+OFF
+
+ON
+
+OFF
+
+OFF
+
+OFF
+
+ON
+
+OFF
+
+OFF
+
+1 COIN
+
+4 CREDITS
+
+ON
+
+ON
+
+OFF
+
+OFF
+
+ON
+
+ON
+
+OFF
+
+OFF
+
+MON. GND.
+
+1A
+
+1B
+
+GND.
+
+1 COIN
+
+5 CREDITS
+
+OFF
+
+OFF
+
+ON
+
+OFF
+
+OFF
+
+OFF
+
+ON
+
+OFF
+
+MON. BLUE
+
+2A
+
+28
+
+SYNC
+
+1 COIN
+
+6 CREDITS
+
+ON
+
+OFF
+
+ON
+
+OFF
+
+ON
+
+OFF
+
+ON
+
+OFF
+
+MON. RED
+
+3A
+
+3B
+
+MON. GRN.
+
+2 COINS
+
+1 CREDIT
+
+OFF
+
+ON
+
+ON
+
+OFF
+
+OFF
+
+ON
+
+ON
+
+OFF
+
+SPKR.
+
+4A
+
+48
+
+SPKR.
+
+3 COINS
+
+1 CREDIT
+
+ON
+
+ON
+
+ON
+
+OFF
+
+ON
+
+ON
+
+ON
+
+OFF
+
+SERV. SW.
+
+5A
+
+58
+
+4 COINS
+
+1 CREDIT
+
+OFF
+
+OFF
+
+OFF
+
+ON
+
+OFF
+
+OFF
+
+OFF
+
+ON
+
+TEST SW.
+
+6A
+
+6B
+
+2 COINS
+
+3 CREDITS
+
+ON
+
+OFF
+
+OFF
+
+ON
+
+ON
+
+OFF
+
+OFF
+
+ON
+
+COINSW. 2
+
+7A
+
+7B
+
+2P START
+
+COIN SW. 1
+
+8A
+
+8B
+
+1P START
+
+BONUS SWITCH SETTINGS
+
+1P LEFT
+
+9A
+
+9B
+
+2P LEFT
+
+2 COINS
+
+1 CREDIT
+
+1P RIGHT
+
+10A
+
+108
+
+2P RIGHT
+
+1P UP
+
+11A
+
+11B
+
+2P UP
+
+4 COINS
+
+2 CREDITS
+
+5 COINS
+
+3 CREDITS
+
+OFF
+
+ON
+
+OFF
+
+ON
+
+OFF
+
+ON
+
+OFF
+
+ON
+
+1P DOWN
+
+12A
+
+128
+
+2P DOWN
+
+138
+
+6 COINS
+
+4 CREDITS
+
+13A
+
+1P FIRE
+
+14A
+
+148
+
+2P FmE‘
+
+2 COINS
+
+1CREDIT
+
+ON
+
+ON
+
+OFF
+
+ON
+
+ON
+
+ON
+
+OFF
+
+ON
+
+1P BOMB
+
+15A
+
+158
+
+4 COINS
+
+3 CREDITS
+
+16A
+
+168
+
+2P BO‘MB’
+
+1 COIN
+
+1 CREDIT
+
++12Vv
+
+17A
+
+17B
+
+2COINS
+
+2 CREDITS
+
+COIN METER 1
+
+18A
+
+188
+
+COIN METER 2
+
+3 COINS
+
+3 CREDITS
+
+OFF
+
+OFF
+
+ON
+
+ON
+
+OFF
+
+OFF
+
+ON
+
+ON
+
++5V
+
+19A
+
+198
+
++5V
+
+4 COINS
+
+4 CREDITS
+
++5V
+
+20A
+
+208
+
++5V
+
+5 COINS
+
+6 CREDITS
+
+GND.
+
+21A
+
+21B
+
+GND.
+
+1 COIN
+
+1 CREDIT
+
+22A
+
+GND.
+
+22B
+
+GND.
+
+2 COINS
+
+2 CREDITS
+
+ON
+
+OFF
+
+ON
+
+ON
+
+ON
+
+OFF
+
+ON
+
+ON
+
+3 COINS
+
+3 CREDITS
+
+4 COINS
+
+5 CREDITS
+
+1 COIN
+
+1 CREDIT
+
+OFF
+
+ON
+
+ON
+
+ON
+
+OFF
+
+ON
+
+ON
+
+ON
+
+2 COINS
+
+3 CREDITS
+
+1 COIN
+
+2 CREDITS
+
+2 COINS
+
+4 CREDITS
+
+3 COINS
+
+6 CREDITS
+
+ON
+
+ON
+
+ON
+
+ON
+
+ON
+
+ON
+
+ON
+
+ON
+
+4 COINS
+
+8 CREDITS
+
+5 COINS
+
+11 CREDITS
+
+COIN SWITCH 1
+
+COIN SWITCH 2
+
+OPTION SWITCH SETTINGS
+
+DIP SWITCHB
+
+2
+
+8
+
+OPTION
+
+3
+
+4
+
+5
+
+6
+
+7
+
+)
+
+COCKTAIL
+
+OFF
+
+-~
+
+UPRIGHT
+
+ON
+
+.
+
+3
+
+OFF
+
+OFF
+
+4
+
+NOT | oy
+
+OFF
+
+NOT
+
+PLAYERS
+
+SHIPS
+
+5
+
+USED| OFF
+
+ON
+
+USED
+
+FREE
+
+ON
+
+ON
+
+GAME
+
+EASY
+
+OFF
+
+HARD
+
+DIFFICULTY
+
+ON
+
+GAME CONTINUE
+
+ON
+
+GAME END
+
+OFF
+
+S —
+
+6
+
+===== PAGE 8 =====
+GAME BOARD
+
+IC125
+
+X1
+
+H:
+
+1C1
+
+¥
+
+S o] Sice ] Sicer | Sics1] 5ic3s])
+
+<9
+
+IC107
+
+ic21
+
+DIP
+
+DIP
+
+N
+
+~
+
+SW A
+
+sw B
+
+Q
+
+-
+
+Sices | S ics2 ] §51C397
+
+i
+
+5ic7o0] $1cs3 ]S 1ca0 |5 ic22 |
+
+IC129
+
+2Ic71 | p icsa |» 1cat | o 1C23 |
+
+i HE
+
+s
+
+I
+
+[Ibmﬂbmhmubwj
+
+IC7
+
+B5icza] Sicse | Sica3]
+
+E IC25 I
+
+IC97
+
+gic7a] §icsT] picas]
+
+2 1c26 |
+
+e
+
+s IC111 I
+
+p Icas | p Ic27 |
+
+elcos | pices | pIc75 | o ics8 |
+
+E IC133
+
+s 1C112 I
+
+21C99 ] 2i1c89] 2IC76 | 2 IC59 | p IC46 | > IC28 |
+
+IC134
+
+2 1c113]
+
+pictoo] sice0 | 2 IC77 | p Ic60 | 2 IC47 |
+
+57ic29 ]
+
+2 Ic11 ]
+
+2 ics |
+
+>IC78 | pice1 ] picas] 2 c30 |
+
+57ic12 ]
+
+g_lce |
+
+E ¢ lcis | t ic101
+
+5c3t ]
+
+2 1c3]
+
+s 1C10 |
+
+Scre] STicez] $icas]
+
+IC102
+
+S IC116 I
+
+E 1IC80
+
+P IC63
+
+2 IC137 ) 21c121] pIC117] B IC103 |
+
+IC81
+
+E IC151 | =38 ] Sicizz] Sicite] S icios |
+
+? IC64
+
+plcis2] dic13s ] Sici23] Sicie] S icios | > Ic82
+
+L 1IC65
+
+glc1s3] plictdo] pict24] pici20] picios]
+
+===== PAGE 9 =====
+REGULUS
+
+REVISED GAME BOARD
+
+PARTS LIST
+
+IC1: Z80A
+
+IC106: PROM 5317
+
+IC2: TMM2009P-B
+
+IC107: 74LS138
+
+IC3: EPROM 5652
+
+1C108,109: 74LS245
+
+1C4,5: 76489
+
+IC110: PROM 315-5012
+
+IC6: 74LS138
+
+IC111: 74LS283
+
+IC7: LA4460
+
+IC112,113: 74LS 157
+
+1C8,9: 74LS174
+
+1C10: 74LS04
+
+1IC114,115: 74LS245
+
+IC116
+
+1 7418273
+
+IC11: 74LS132
+
+IC117
+
+1 74LS368
+
+1IC12: 74LS109
+
+IC118
+
+: 74LS155
+
+IC13: 74LS125
+
+IC119
+
+1 74LS100
+
+1C20: 74LS 107
+
+IC120
+
+: 74LS27
+
+1C21: 8255
+
+IC121
+
+: 74LS153
+
+1C22,23: 74LS244
+
+IC122
+
+1 74LS174
+
+1IC24: AM25LS2519PC
+
+IC123
+
+1 74LS153
+
+1C25,26,27,28,29: 74LS399
+
+IC124
+
+1 74LS157
+
+1C30: 74LS273
+
+IC125
+
+: ZBOA
+
+IC31: 74L.S155
+
+1C126
+
+1 74LS245
+
+IC38: 74LS257
+
+1C127,128: 74LS244
+
+IC39: 74LS 157
+
+IC129
+
+: EPROM 5950
+
+1C40,41,42: MBM2148L-55
+
+1C130
+
+: EPROM 5951
+
+1C43,44: 74LS157
+
+IC131
+
+: EPROM 5952
+
+1C45,46: CUSTOM PAL16R4
+
+IC132
+
+: EPROM 5953
+
+1C47,48: 74LS157
+
+IC133
+
+: EPROM 5954
+
+IC49: 74LS164
+
+IC134
+
+: EPROM 5955
+
+IC51: 74LS257
+
+IC135
+
+: TC5533P-B
+
+IC52: 74LS32
+
+IC137
+
+1 74LS153
+
+1C53,54,55: MBM2148L-55
+
+IC138
+
+1 74LS174
+
+IC56,57: 74LS157
+
+1C139,140: 74LS153
+
+IC141
+
+: 74LS161
+
+1C58,59: 74LS669
+
+1C60,61: 74LS 157
+
+iIC142
+
+1 74504
+
+1IC62
+
+745201
+
+IC143
+
+1 74LS145
+
+IC63
+
+EPROM 5646
+
+IC150
+
+: 74LS245
+
+iIC64
+
+EPROM 5648
+
+IC151
+
+: MB8128-10
+
+IC65
+
+EPROM 5650
+
+IC152
+
+1748145
+
+IC67
+
+748175
+
+IC153
+
+: 748175
+
+IC68
+
+74LS273
+
+IC154
+
+1 74LS32
+
+IC69
+
+74LS 157
+
+IC155
+
+: M54523
+
+IC70
+
+7425
+
+1C156,157,158: CUSTOM 315-5025
+
+IC71
+
+74LS174
+
+1C159,160,161,162: 2148L-55
+
+IC72
+
+74LS20
+
+1C73,74,75,76: 74LS669
+
+IC77
+
+74LS157
+
+IC78
+
+MBM2147E
+
+IC79
+
+74LS04
+
+IC80
+
+EPROM 5647
+
+IC81
+
+EPROM 5649
+
+1IC82
+
+EPROM 5651
+
+IC84
+
+74LS107
+
+IC85
+
+74LS139
+
+IC86
+
+EPROM 5638
+
+iC88
+
+74LS85
+
+1€89,90: 74LS 157
+
+IC92
+
+1 74LS123
+
+1C93
+
+: EPROM 5639
+
+IC95
+
+1 74LS04
+
+1C97
+
+: CUSTOM 315-5011
+
+IC98
+
+: 7405283
+
+1C99
+
+1 74LS157
+
+1C100: 74157
+
+1C101,102: MB8128-15
+
+1C103,104: 74LS273
+
+1C105: 74LS377
+
+REVISED PAGE 8
+
+===== PAGE 10 =====
+GAME BOARD
+
+IC76 —SN74LS669N
+
+1C144—5102 406J
+
+IC1
+
+—Z80A
+
+IC77 —74LS157N 8148
+
+IC145—5102 406J
+
+IC2
+
+—TMMZ009P-B
+
+IC78
+
+—MBM2147E
+
+IC146—5102 406J
+
+iC3
+
+—~MBM2764-30
+
+IC79
+
+—SN74LS04N
+
+IC147-5102 406J
+
+IC4
+
+—SN76489AN
+
+IC80
+
+IC148—5102 406J
+
+—M5L2764K
+
+IC149-—-5102 406J
+
+IC5
+
+—-SN76489AN
+
+IC81
+
+—MBM2764-30
+
+IC6
+
+~-SN74LS138J-K
+
+IC82
+
+—MBM2764-30
+
+IC150—MB74LS245
+
+IC7
+
+—LA4460
+
+iIC84
+
+—MB74LS107
+
+IC151—MB8128-10
+
+IC8
+
+—74LS174NA
+
+1C85
+
+—MB74LS139
+
+IC152—HD748175
+
+IC9
+
+-—74LS174NA
+
+IC86
+
+—HN4827128G-25
+
+IC153—HD74S175
+
+IC10
+
+—SN74LS04N
+
+iIC88
+
+—SN74LS85N
+
+IC154—SN74LS321N
+
+IC11
+
+—74LS132PC
+
+IC89
+
+—74LS157N 8148
+
+IC155—54523pP
+
+IC12
+
+—74LS109PC
+
+IC156—315-5025
+
+IC90
+
+—74LS157N 8148
+
+IC157—315-5025
+
+IC13
+
+—T74LS125AN K8404
+
+IC91
+
+—74LS86
+
+IC19
+
+—-SN74LS321N
+
+1IC92
+
+—M74LS123P
+
+IC158—315-5025
+
+1IC20
+
+--MB74LS107
+
+IC93
+
+—~—HN4827128G-25
+
+IC21
+
+—TMP8255AP-5
+
+IC95
+
+—SN74LS04N
+
+1IC22
+
+—MB74LS244 8401
+
+IC97
+
+—315-5011
+
+IC23
+
+—MB74LS244 8401
+
+IC98
+
+—MB74LS283
+
+IC24
+
+—AM25LS2519PC
+
+IC99
+
+—74LS157N 8148
+
+IC25
+
+—SN74LS399N
+
+IC100—74LS157N 8148
+
+IC26
+
+—SN74LS399N
+
+IC101—MB8128-15
+
+IC27
+
+—SN74LS399N
+
+IC102—MB8128-15
+
+IC28
+
+—SN74LS399N
+
+IC103—M74LS273P
+
+IC29
+
+—-SN74LS399N
+
+IC104—M74LS273P
+
+IC30
+
+-—-M74LS273P
+
+1C105—M74LS377P
+
+IC31
+
+—MB74LS155 8407
+
+IC106—PR-5317
+
+IC38
+
+—M74LS257AP
+
+IC107—SN74LS138J-K
+
+IC39
+
+—74LS157N 8150
+
+IC108—MB74LS245
+
+1C40
+
+—MBM2148L-55 8405
+
+IC109—MB74LS245
+
+IC41
+
+—~MBM2148L-55 8352
+
+IC110—8351P5
+
+1C42
+
+—MBM2148L-55 8405
+
+IC111—MB74LS283
+
+IC43
+
+—~74LS157N 8150
+
+IC112—74LS157N 8148
+
+ICA4
+
+—74LS157N 8150
+
+1IC45
+
+—DMPAL16R4JC
+
+IC113—74LS157N 8148
+
+IC114—MB74LS245
+
+IC46
+
+—DMPAL16R4JC
+
+IC115—-MB74LS245
+
+1IC47
+
+—T74LS157N 8150
+
+IC116-—-M74LS273P
+
+1IC48
+
+—74LS157N 8150
+
+IC117—M74LS368AP
+
+1C49
+
+—74LS164N 8149
+
+IC118—MB74LS155
+
+IC51
+
+--M74LS257AP
+
+IC119—74LS109PC
+
+IC51
+
+—--M74LS257AP
+
+IC120-—-M74LS27P
+
+1C52
+
+—74LS32PC
+
+IC121—SN74LS153N
+
+IC53
+
+~-MBM2148L-55 8351
+
+IC122---74LS174NA
+
+IC54
+
+—MBM2148L-55 8351
+
+IC123—SN74LS153N
+
+IC55
+
+—MBM2148L-55 8405
+
+IC124—74LS157N
+
+IC56
+
+—74LS157N 8150
+
+IC124-—-74LS 157N
+
+IC57
+
+—74LS157N 8150
+
+IC125—280A
+
+1C58
+
+—SN74LS669N
+
+IC126—-MB74LS245
+
+IC59
+
+—SN74LS669N
+
+IC127—MB74LS244
+
+IC60
+
+—74LS157N 8148
+
+IC128—MB74LS244
+
+1C61
+
+—74LS157N 8148
+
+IC129—M5L2764K
+
+1C62
+
+—SN74S201N
+
+1C130—M5L2764K
+
+1C63
+
+—MBM2764-30
+
+IC131—D2764D
+
+IC64
+
+—MBM2764-30
+
+IC132—-HN482764G
+
+1C65
+
+—MBM2764-30
+
+IC133—MBM2764-30
+
+1C67
+
+~-HD74S175
+
+IC134—-MBM2764-30
+
+IC68
+
+—M74LS273P
+
+IC135—TC5533P-B
+
+1C69
+
+—74LS157N 8150
+
+IC137—SN74LS153N
+
+IC70
+
+—M53225P
+
+IC138—74LS174NA
+
+IC71
+
+—74LS174NA
+
+IC139—-SN74LS153N
+
+IC72
+
+—MB74LS20
+
+IC140—SN74LS153N
+
+IC73
+
+—~-SN74LS669N
+
+IC141—M74LS161P
+
+IC74
+
+-—SN74LS669N
+
+IC142—-SN74S04N
+
+IC75
+
+—SN74LS669N
+
+IC143—-DM74145N
+
+===== PAGE 11 =====
+EPROM LOCATIONS
+
+EPROM
+
+EPROMS
+
+EPROMS
+
+CUSTOM PROM
+
+935-5023)
+
+EPROMS
+
+===== PAGE 12 =====
+CABLE HARNESS TERMINATIONS
+
+SPEAKERS
+
+BROWN/BLACK (-)
+
+YELLOW/BLACK (COIN SW.;-
+
+BLACK (GND)
+
+—
+
+= COINDOOR
+
+GRAY (SELF TEST SW.)
+
+— BLACK (GND)
+
+—
+
+ORANGE (+12V)
+
+POWER SUPPLY
+
+_§
+
+— BLACK (PWR SPLY GND)
+
+————— — BLACK/WHITE (MON.GND) |
+
+—— BLUE/WHITE (MON. BLUE)
+
+J
+
+RED/WHITE (MON. RED)
+
+- MONITOR
+
+GREEN/WHITE (MON. GREEN)
+
+WHITE (NEG. COMP. SYNC.) J
+
+BLACK (GND)
+
+————— WHITE/BLUE (1P LEFT)
+
+— W HITE/GREEN (1P RIGHT)
+
+—— WHITE/YELLOW (1P UP)
+
+—
+
+WHITE/RED (1P DOWN)
+
+CONTROL
+
+PANEL
+
+YELLOW/RED (1P FIRE)
+
+YELLOW/ORANGE (2P START)
+
+YELLOW/WHITE (1P START)
+
+-
+
+10
+
+===== PAGE 13 =====
+SELF—TEST
+
+You have an optional SELF-TEST feature by wiring the 23-135600 MOMENTARY SWITCH to PIN 17 of the P.C. BOARD EDGE
+
+CONNECTOR and to GROUND.
+
+To initiate the SELF-TEST, press the BUTTON. As you do, the games steps thru its SELF-TEST.
+
+1ST: RAM TEST
+
+2ND: ROM TEST
+
+3RD: INPUT TEST (push all CONTROL PANEL and POWER GRIP switches game will indicate if they are functioning). GAME
+
+will indicate DIP SWITCH settings.
+
+4TH: SOUND TEST (Push 1 or 2 PLAYER BUTTON, GAME will step thru all the GAME SOUNDS).
+
+5TH: MONITOR ADJUSTMENT (screen shows COLOR BARS, GREY BARS and WHITE FRAME, for CONVERGENCE
+
+ALIGNMENT and CENTERING OF PICTURE
+
+6TH: Returns to GAME ATTARCT MODE.
+
+11
+
+===== PAGE 14 =====
+REGULUS CONVERSION KIT
+
+SCHEMATIC SHEET 1
+
+SECTION ONE
+
+SECTION THREE
+
+SRLCK
+
+_Kedv/(al
+
+152719 x3
+
+1527) X3
+
+CUSTOMU(IZpin) X3
+
+(sS273 % 3
+
+e
+
+g Sl o
+
+/Ll
+
+/3 SBR@
+
+LA
+
+/@A
+
+J
+
+2
+
+6 B8
+
+280-A°
+
+1
+
+AL
+
+bl Y
+
+$0
+
+4
+
+N\
+
+& en
+
+{ 1
+
+©
+
+CE
+
+|
+
+&
+
+30
+
+II‘Aa
+
+S/
+
+sl
+
+nE/@H
+
+o SRLDS
+
+tp 2
+
+oy I— [
+
+=2
+
+4 &
+
+(d &1
+
+as
+
+E
+
+ 1C 156
+
+U SREEK
+
+33
+
+£
+
+51
+
+12_SRLL
+
+o e
+
+oyt =
+
+ol ) |
+
+=~ 4
+
+a0
+
+M
+
+Pl
+
+"
+
+~law
+
+&3'
+
+FIXST
+
+b4 Py 62
+
+”
+
+vor4
+
+“o/4
+
+SRLPS
+
+2
+
+mH
+
+P
+
+§ pl—d
+
+i7 64
+
+274%
+
+2744
+
+2744
+
+2744
+
+274¢
+
+ap
+
+Vee
+
+b o
+
+] - -1
+
+Py
+
+=i
+
+‘M}u‘.
+
+e
+
+¢ P
+
+5
+
+1129
+
+1C 130
+
+i3t
+
+‘CI132
+
+1133
+
+134
+
+L4
+
+(135
+
+136
+
+(o)
+
+] =i
+
+¥4
+
+id3
+
+2
+
+Ko7
+
+Wz
+
+Lol
+
+2.4
+
+ErR- 5642
+
+FR S0
+
+EFE- 545
+
+13/
+
+LS5 Rr2
+
+I\qz
+
+KT
+
+'é EPR- 5640 | EPR- 5641 |EPR- Sz
+
+ilo
+
+4
+
+il
+
+=
+
+-
+
+381
+
+A
+
+/8
+
+=
+
+&
+
+s F2GA
+
+<GA_S{; A
+
+€2
+
+m
+
+B =
+
+73
+
+1311
+
+I: L)
+
+-_—l
+
+-
+
+(]
+
+50
+
+/23
+
+3
+
+IPEE BN N
+
+. 24
+
+ey
+
+Ex]
+
+47
+
+A
+
+o~
+
+be /
+
+3e
+
+e
+
+1A
+
+4y [
+
+s8@
+
+ulaly
+
+4]
+
+afaT-4]
+
+5/ a®
+
+20
+
+V_ﬁé__
+
+1834
+
+bag v
+
+S8/
+
+|
+
+BYE
+
+129 pT )
+
+‘.‘04
+
+I E\Ub
+
+‘KB
+
+| 12157
+
+4
+
+AqL!
+
+582
+
+O s
+
+L=
+
+A SREL
+
+48
+
+E.hl
+
+)
+
+e,
+
+[
+
+w
+
+&,
+
+s SH
+
+;ﬂi&t
+
+2B
+
+37-9
+
+ciaz
+
+<3
+
+e
+
+b
+
+18
+
+SN
+
+1 -
+
+152885
+
+1
+
+S FiasT]
+
+=
+
+—7
+
+9 am
+
+BoRer?.
+
+“g
+
+& Do
+
+3:38
+
+L
+
+Yec
+
+1£LID
+
+/
+
+Bl
+
+-
+
+[ Lar
+
+3
+
+CONTROUER| -
+
+% L0
+
+0]
+
+L5707
+
+CHIp i,
+
+e
+
+Il!
+
+A 1C36
+
+Ry~ cﬁ—-'“-.-sz
+
+e 5
+
+il
+
+Y
+
+e
+
+, ~s:99
+
+o
+
+I3A
+
+rr
+
+i)
+
+3526
+
+E
+
+84
+
+;2ae
+
+6@ X6
+
+12A
+
+Iyl
+
+FB @
+
+l-ﬂ ABcoe
+
+st
+
+o L]
+
+AR
+
+t
+
+r,;—b
+
+%
+
+Z YN
+
+37
+
+FB/
+
+=
+
+')
+
+¥
+
+2
+
+1
+
+F82
+
+—
+
+il
+
+Q.
+
+1B
+
+’
+
+'
+
+N
+
+1c2s
+
+L33®
+
+L
+
+®
+
+A
+
+o sf2
+
+ey
+
+38
+
+Y |*
+
+ang
+
+A
+
+(Y]
+
+s ER2
+
+»
+
+(3
+
+e
+
+1
+
+2 4
+
+e
+
+sS/_ 1)
+
+, (4
+
+1B
+
+s
+
+1‘, L 1241
+
+'_'75_4—
+
+1]
+
+i
+
+Y
+
+5
+
+3.9
+
+S/
+
+/
+
+».-—’:Li@“
+
+3
+
+s
+
+la
+
+1158
+
+0
+
+T
+
+J
+
+L 76 RS
+
+PL 7Ry
+
+Us12 4586
+
+;‘J{s)mso ‘
+
+EKﬂ
+
+e
+
+He 1CEC
+
+it
+
+I
+
+PN
+
+L e
+
+<\
+
+a1 prs
+
+-
+
+1
+
+4l
+
+STV o
+
+b 4
+
+w7
+
+\J—as'
+
+)2
+
+/S FIAST
+
+2.6
+
+[re—
+
+‘,_..?;_/‘——*
+
+AL
+
+LAY d
+
+rana L)
+
+L wuew
+
+45
+
+cry
+
+4.2
+
+- @
+
+LS709
+
+Kee ”ﬁ_:l |
+
+— 4
+
+29/57
+
+Tis
+
+lCnIZO
+
+-
+
+sCroll LATTH
+
+[4l% 8
+
+12
+
+s
+
+g
+
+508 | 9
+
+FAST (Bc)
+
+%
+
+M"W
+
+Hayly
+
+iC58
+
+et 311
+
+59
+
+e
+
+Ghkd
+
+L 1) lk
+
+8-
+
+e
+
+is4d %
+
+L5469
+
+TP
+
+45447
+
+sz
+
+L5687
+
+o |7}
+
+ez
+
+12
+
+)
+
+3
+
+Eur
+
+> N8 -
+
+5,7
+
+L8
+
+8 »BlL
+
+5.
+
+—p 08I CK 7
+
+\cq)
+
+sy
+
+Q0
+
+Vee
+
+28 |
+
+13
+
+L1594 \CO
+
+2~ 01
+
+— 276¥x 6
+
+Lo ~p7
+
+LS/T4
+
+-1 U3
+
+DEN &
+
+ADP-A®//
+
+2-<\00
+
+:23 LoMNp
+
+!h’
+
+3a
+
+L5245x2
+
+| 1Y CWEN
+
+2
+
+LS/3%
+
+3.1LQ0
+
+'i4
+
+L4
+
+Y0 rly'e
+
+L5/5743
+
+3
+
+I$
+
+a2/,
+
+o/
+
+YEN
+
+Iy 6
+
+sa
+
+”J.._J
+
+P |
+
+)
+
+P ML MALE
+
+<474
+
+M
+
+"3
+
+wE
+
+2L
+
+YEe 7
+
+b-31 ALULE
+
+Ly /3
+
+e | s
+
+1
+
+/
+
+v 2
+
+I
+
+ONTRF ~
+
+L0M)
+
+up ¥
+
+VR
+
+F
+
+2,0 v
+
+P
+
+£
+
+s
+
+D_x—ifu; 7
+
+e
+
+T
+
+:\CHB
+
+\_tﬂ,.“
+
+Y
+
+o
+
+KAM
+
+‘Zf
+
+é
+
+163
+
+1CRO
+
+223
+
+fr A
+
+LS b6V x2
+
+e
+
+>~
+
+7
+
+3
+
+x =9
+
+$ 3
+
+7 ©pk-
+
+EDG -
+
+N
+
+"
+
+9z B
+
+L P
+
+27
+
+’l
+
+$ S6a6
+
+32_EKA®
+
+;.14,.“
+
+l—"
+
+™MMaviéal
+
+"L
+
+Cel't
+
+33
+
+/
+
+e
+
+™ z] Er
+
+kr
+
+”w
+
+Vee
+
+L1
+
+21
+
+1cq7
+
+L5208
+
+g3/ sf,
+
+Hps
+
+TRACT S ZwiS
+
+WS
+
+V_LA.
+
+7
+
+b i
+
+2
+
+(— 1
+
+ROy
+
+(72
+
+‘rn_m
+
+4 52
+
+4£
+
+L.
+
+=i
+
+[ERTARP X
+
+|- M
+
+i
+
+1102
+
+1IC10|
+
+e
+
+|
+
+| BT
+
+I 2
+
+¥4
+
+3 s{ w73 @y :A
+
+7/
+
+L
+
+- A
+
+o p=
+
+8/
+
+4,.~_w
+
+1
+
+& b
+
+¢ 2148-55§2148-5S J_I"r8~55 2148-55
+
+§ (I1kx4)
+
+3
+
+S .
+
+2-1C 48
+
+L
+
+Ve
+
+cusTen
+
+F14
+
+WL
+
+M’du
+
+3)“"(‘” L18/523
+
+g 2
+
+?
+
+¢ IC159
+
+1€ 160
+
+Ic 16l
+
+iclré62
+
+1328782
+
+3
+
+| 18
+
+48PIN
+
+o
+
+/8
+
+s
+
+5
+
+e
+
+1
+
+1
+
+o 24
+
+L.l
+
+P2/
+
+1€110
+
+2/
+
+L3
+
+| il 224 cusTON
+
+9
+
+S
+
+B
+
+P L
+
+7 A
+
+AP
+
+0 NN
+
+K12
+
+[_T‘
+
+»-“i—;-ul
+
+~A2
+
+297
+
+Py S s
+
+/2
+
+—
+
+;-5123
+
+| 2
+
+&
+
+Yol 2 3 &)
+
+123 4
+
+. 3 5 |
+
+™M 2
+
+I
+
+1z
+
+7!
+
+T
+
+"
+
+/5 15
+
+/3 _SWAP
+
+Hpd.
+
+b2l a
+
+'II'
+
++1
+
+i
+
+&1
+
+28
+
+3
+
+-
+
+’.Z_JJ
+
+2:—.—._./
+
+oy
+
+-
+
+octden 5
+
+h—m‘
+
+/5
+
+25
+
+r¥
+
+2-28
+
+» 2|
+
+20
+
+[ |z
+
+f, ST
+
+1)
+
+e}
+
+9y
+
+2
+
+= -3
+
+LS5s09
+
+[RNY-S
+
+s
+
+7. S
+
+1]
+
+715
+
+%
+
+A
+
+A1
+
+T
+
+298
+
+[y
+
+£AL
+
+K10
+
+| X4
+
+4
+
+v
+
+-#3
+
+80
+
+é
+
+Wea
+
+icgl
+
+Py Vs A
+
+17 oaJEme
+
+1T
+
+JL.&
+
+>~
+
+y
+
+[ W)
+
+(]
+
+» PT
+
+»av
+
+=35
+
+cseq |19
+
+|
+
+gla_
+
+\p‘3
+
+1 ﬁ] r.i‘”--ﬂ»ll
+
+/]
+
+v—qh'
+
+»
+
+7 Scloel
+
+L5/32
+
+1¢§S.
+
+»7
+
+> “’
+
+FXHMB
+
+T EPR-
+
+EPR -
+
+L]
+
+2r/
+
+Y12l o
+
+5649
+
+ sl4l o
+
+sS85
+
+x 643
+
+L58% .qS
+
+L5273
+
+2B
+
+VA/
+
+”z
+
+L5245 x2
+
+Ror
+
+$/75
+
+— - 82
+
+P 2
+
+517 Qb
+
+i
+
+BD =
+
+ll‘
+
+L5 Q5
+
+= -3
+
+-2
+
+o-1
+
+[28
+
+,lm.
+
+8
+
+SELIL
+
+) o
+
+JL”
+
+»
+
+LLs
+
+[ 2
+
+& i
+
+L4
+
+e gAT
+
+188
+
+A ver
+
+Ver
+
+e
+
+Is a%
+
+1 a4
+
+2
+
+o L1
+
+»/
+
+it _RO®
+
+1A®
+
+4
+
+,“’
+
+s +/
+
+|cb7~
+
+&
+
+HO |9l
+
+: 1.3
+
+»
+
+4
+
+[ ]
+
+2
+
+(¢
+
+V|
+
+AP
+
+VR
+
+"l
+
+WA O'Fy
+
+i
+
+3‘57
+
+=]
+
+2 £
+
+o)
+
+[ s
+
+7 B e PP
+
+/8
+
+o7
+
+50
+
+sQ
+
+’{1
+
+2im,,
+
+* |q°q
+
+piv. .
+
+s 3
+
+“ 9
+
+£ho
+
++Q
+
+iy
+
+LA
+
+s
+
+1q'74
+
+143
+
+5~
+
+Lo
+
+iy S
+
+E4ia
+
+97t
+
+qY) -
+
+4
+
+5 1Kes
+
+Ic 62-
+
+3
+
+i
+
+228
+
+228
+
+fa
+
+EPR- 5638
+
+EPR- 5639
+
+9 EPR
+
+EPR -
+
+29
+
+1
+
+A/
+
+8
+
+a3 _’_4
+
+sos|
+
+=T A n
+
+» 5650
+
+P23 4
+
+”
+
+.14
+
+”
+
+L3 ¥
+
+”
+
+,——.—ﬂ_
+
+re)
+
+’3
+
+T
+
+sHE & 4
+
+XA~ OCOp
+
+"
+
+5
+
+[} ¥/’
+
+29
+
+"T
+
+ale
+
+2]
+
+L_ML»:‘ 7
+
+o’
+
+SECTION FOUR
+
+SECTION TWO
+
+===== PAGE 15 =====
+REGULUS CONVERSION KIT
+
+LsIS7
+
+SCHEMATIC SHEET 2
+
+L
+
+4/A
+
+R
+
+18
+
+vt
+
+1= 10140
+
+SECTION SEVEN
+
+Yee
+
+2V
+
+SECTION FIVE
+
+2-¢ 9
+
+1-1¢T38
+
+1532 '¢52
+
+-8
+
+15728 213
+
+18/7%x2
+
+|- 83
+
+27!
+
+\ WRS
+
+LS/T¥x2 3 icq
+
+4-10123
+
+2-4C 122
+
+-4 182
+
+S
+
+13
+
+3/15x2
+
+| Hg
+
+.&LL_Q
+
+2 S AT
+
+Alm [ S vy
+
+A 4Y
+
+2 U
+
+? .l
+
+ey
+
+2l
+
+24
+
+I A
+
+Ll‘
+
+4 AT >—
+
+1CqS
+
+\_3 43
+
++xv
+
+£ 29
+
+L
+
+Em w7
+
+JFLP 8
+
+X0
+
+g all
+
+a
+
+» 29
+
+J AAA-
+
+daje~y  BRTe i oo Lols
+
+-1
+
+? 2y
+
+X e w=
+
+Xs
+
+MM
+
+-
+
+”
+
+v
+
+| v —-;:_‘75
+
+PO
+
+w4l ¢
+
+£l¢ 2Kx8
+
+3 4
+
+>
+
+AAA
+
+ka4
+
+Ais-xco
+
+eyt
+
+A sp
+
+sa
+
+i3
+
+$
+
+w
+
+A
+
+~OBN$
+
+oeno
+
+2 3
+
+N
+
+133, sp
+
+414
+
+o =
+
+4'
+
+4TK20
+
+EDAP~EDALEDAT
+
+ony
+
+4 3l e
+
+(14
+
+41|
+
+1®
+
+L7
+
+20761
+
+V-1
+
+o =
+
+ARA
+
+4‘HALF
+
+5-‘.
+
+el
+
+13
+
+e I
+
+£827
+
+521
+
+Py E— L
+
+220
+
+E{E——&R
+
+My
+
+25052519 124
+
+DOA®~ ODA%. CDAT
+
+ap—
+
+%
+
+/8
+
+VW
+
+AA
+
+- 4]
+
+OF~|
+
+| £8Fek b
+
+FXH
+
+Tace
+
+< 1CDwe
+
+AAA
+
+RA\S
+
+4 >
+
+~0C o
+
+D9 Yo
+
+1c12o
+
+A
+
+] OF
+
+W
+
+AA
+
+OC
+
+Tl
+
+D1
+
+4
+
+b
+
+apd
+
+1
+
+WA
+
+=
+
+Y2
+
+_OBN® ~ 06N
+
+3 JHXEe-2
+
+\C (5|
+
+EAR &
+
+(Scop ]
+
+‘L“
+
+A
+
+Njm) o
+
+L5279
+
+-/
+
+I AN
+
+j2
+
+Ls379 x3
+
+m‘,
+
+olkes
+
+II'L..,
+
+Wy
+
+QL
+
+slile
+
+]
+
+12
+
+I ¢£5244
+
+4| 2]
+
+1
+
+L
+
+/
+
+4244
+
+L-‘_‘.'.
+
+bl 2
+
+4y x/
+
+y}—
+
+Ah
+
+¥-125
+
+sl £ _J
+
+I sle st
+
+AA,
+
+[RA 3
+
+Bl
+
+“1¢ 2
+
+w2l
+
+Jr: 37 c22
+
+\ _.—'—_VMQ.B
+
+AL »
+
+1(,26
+
+-x [
+
+1c11
+
+/1535 |5D
+
+&
+
+w3
+
+=
+
+i
+
+et
+
+-2 |
+
+L5/32
+
+IRk l
+
+~In i)
+
+N
+
+TR
+
+=l
+
+1
+
+so
+
+- [LEITE
+
+kbl
+
+1
+
+}JB'
+
+bt
+
+1
+
+7K Z
+
+ANE
+
+‘Fl
+
+Z 4t
+
+¢!
+
+&8 H—
+
+(=L 2
+
+78
+
+ID_‘
+
+3%
+
+| ;s
+
+LSIST x2
+
+-i¢ 56
+
+I
+
+L
+
+1K
+
+] éc
+
+Tl 24
+
+£
+
+9" R
+
+V2
+
+RA|
+
+1A
+
+4
+
+‘42
+
+&2
+
+tls S
+
+Sy
+
+4¢87)
+
+P04
+
+!
+
+a3 lalpfn
+
+I3
+
+141}
+
+1
+
+<5
+
+/7Y ¥ S—
+
+L5/32
+
+4 L
+
+S}'NZ
+
+A,
+
+TR YRy
+
+77
+
+B (v BE
+
+[ lr,li
+
+28 H——
+
+3 $80~38d
+
+1C
+
+:y‘;cln ; yuu‘] !
+
+S
+
+L) V7 E——
+
+3#_1_4
+
+AS
+
+lagle
+
+Y
+
+144
+
+COE
+
+P8, |
+
+RAM
+
+1,
+
+48—
+
+o967
+
+}4
+
+terja——9
+
+IKTE
+
+4y
+
+¥ '
+
+)
+
+e2't
+
+“Ia
+
+Py - —
+
+It
+
+2/ $8- 55
+
+rl
+
+92!
+
+~on |2
+
+23Y)
+
+)
+
+Ka:
+
+(40
+
+T4
+
+H*r
+
+83 &
+
+152715
+
+Ls377
+
+&25137 18%
+
+a'l«———“‘
+
+/| 25767
+
+- P
+
+1CSS
+
+15y
+
+1csa
+
+2
+
+181 &
+
+A®
+
+o/
+
+4/
+
+ML
+
+AE==
+
+il,8
+
+2 _zls-lz &i’: :;:‘: a
+
+»
+
+:’i
+
+s/::" |
+
+WRI/
+
+[ S 5
+
+K - 'f
+
+4
+
+-~
+
+als?t
+
+2y
+
+0=
+
+®
+
+: §
+
+W
+
+X1
+
+®
+
+[}
+
+L
+
+/0
+
+e
+
+/‘l
+
+°®
+
+re
+
+2
+
+d
+
+Hr e
+
+SRLDS
+
+»
+
+L
+
+-
+
+Z. @
+
+~Hr7
+
+P
+
+Ap—rtc
+
+&
+
+N
+
+L
+
+24
+
+]
+
+5 e 5248
+
+iy A
+
+' ¥icge
+
+2 L o
+
+7.4
+
+=
+
+'{M
+
+23-521600
+
+1s373 (a0
+
+LsiS7x2 L\::? 745281
+
+2l < To gl
+
+B
+
+1'_;* 7]
+
+19
+
+£28
+
+].IY
+
+»
+
+10 f—o
+
+=4
+
+2Y]
+
+Al
+
+1-4C 50
+
+ConECToR o
+
+14
+
+&
+
+2
+
+)
+
+1A=
+
+$255-%
+
+1%125x2 2-1C § |
+
+ruul-uuy‘_!m:‘
+
+Yee
+
+X
+
+M4
+
+R
+
+&
+
+4
+
+BT
+
+A3
+
+24 SWA
+
+—_—
+
+P
+
+34
+
+2
+
+Y
+
+Yia,
+
+me—
+
+Spe
+
+we
+
+ra
+
+A
+
+o
+
+se
+
+T
+
+L3IsS
+
+\C3)
+
+0/
+
+_|I
+
+/1A
+
+t-rlY’
+
+—
+
+D 3]
+
+——T
+
+7425 a3
+
+P 4
+
+z &2-4A
+
+-ty
+
+n_z
+
+—~£€
+
+X 7
+
+| >— & 545
+
+2Ys
+
+po<e
+
+303
+
+L 2l aa
+
+e
+
+wl
+
+21
+
+T" L ap
+
+5
+
+?71 €62
+
+NP, —=
+
+w%r&:
+
+oy joe
+
+-1, 5V
+
+[ J
+
+X 8
+
+p- A
+
+1,
+
+3Y
+
+S/
+
+2Y2 gosZ
+
+sia
+
+yt W4 T
+
+b e &5 1 W
+
+28
+
+ni s
+
+$2
+
+AL 138
+
+MH
+
+r3p
+
+caa
+
+oz
+
+T ———— S ger
+
+¢ WL
+
+JBé
+
+>y
+
+g 4
+
+A
+
+&<
+
+h
+
+J07
+
+=3A A1
+
+27
+
+93
+
+’
+
+|,
+
+e | jaeup
+
+PSRN
+
+'—K__"qﬁ
+
+3y
+
+- 10
+
+[=5
+
+Lsm7
+
+WR &
+
+WR 7
+
+4
+
+1y EL
+
+/25
+
+143
+
+—qr
+
+HE o
+
+~K
+
+sw3
+
+1<
+
+2
+
+T &
+
+2
+
+| T2P—EE2
+
+P} 7 S NN
+
+~9
+
+(5
+
+2/C
+
+Lew.
+
+/ AAA
+
+vV
+
+2
+
+&
+
+B
+
+) 4
+
+T,
+
+[£]
+
+Pyt
+
+b4
+
+£ 11
+
+K
+
+CdJ!lé 5
+
+,.34;':‘
+
+Tiae
+
+[ 2 ST Y
+
+razsx 2 3
+
+#5
+
+|*
+
+Xz
+
+Ll 2
+
+==
+
+Q 1enqg
+
+ol
+
+Av/
+
+Al
+
+‘//
+
+o
+
+p/psw B
+
+2 3@
+
+w
+
+v
+
+i
+
+——
+
+WR1
+
+e
+
+Dé
+
+Lnr‘u"z
+
+3
+
+|
+
+PbP~AD//
+
+1€ 24
+
+Pls o4 3
+
+2 A
+
+2 7/
+
+o1
+
+4
+
+WUTE "
+
+W o
+
+-~
+
+Las
+
+RAID
+
+X 4
+
+F—'—’_
+
+|10 asem - 1099
+
+(.
+
+sw/
+
+AAA
+
+YW~
+
+T
+
+—..X 1"
+
+RLOL
+
+Fa
+
+(= 4
+
+] ]
+
+,| L8157 %3
+
+coLl13
+
+11-'*‘-5,_“
+
+£ 5
+
+AA
+
+W
+
+izl
+
+v
+
+-
+
+- K4
+
+-3
+
+3
+
+Dt
+
+L8379 x2
+
+W28
+
+_AB2 2],
+
+[
+
+2-VCED
+
+(Y i |
+
+ay
+
+/7
+
+AAA
+
+X7
+
+2R
+
+ﬁ'l
+
+3-cTl 4
+
+2/8 7
+
+| t»
+
+w§
+
+P2
+
+2
+
+wsS
+
+2
+
+3
+
+"ﬁ‘
+
+BouT|
+
+L
+
+¢ B
+
+Ve 3
+
+i} K.
+
+Epe~ &
+
+L
+
+227
+
+¢
+
+#3
+
+10
+
+Al
+
+a
+
+Har
+
+gl
+
+L mip 1,2
+
+K6
+
+XL
+
+B/
+
+S
+
+Al
+
+150% T
+
+AAA
+
+cl
+
+b
+
+31} Wy
+
+9-97
+
+Lad
+
+¥ ]
+
+o1
+
+B m
+
+Al
+
+ma
+
+23
+
+AY
+
+;.LLB,
+
+LA
+
+A
+
+m_m,\,
+
+ol T
+
+i
+
+(B
+
+Pé
+
+| =
+
+a1
+
+LA
+
+l—ﬁ.p,
+
+74 /85
+
+VLN 2003
+
+AAA
+
+X £
+
+DO~ Bpps
+
+L_TB"_AM
+
+471
+
+s v
+
+£
+
+2 ad
+
+rilAl
+
+5]
+
+‘/r‘*
+
+good /11 0
+
+COIN METEK /
+
+V8T
+
+™ R
+
+2 4
+
+A2, g
+
+| +éc
+
+v 337
+
+cs
+
+4 b
+
+EPGE
+
+sW2
+
+RAL\
+
+AAA
+
+1[4
+
+2 prT
+
+(O/N METEK 2
+
+COMNECTOK
+
+V-
+
+) Lo 15
+
+Ap2 —3 4
+
+8
+
+AAA
+
+& 5
+
+ok
+
+AP
+
+NO BE
+
+v
+
+[
+
+T b I
+
+fec
+
+m—ﬂi:\ass «|
+
+74
+
+AA
+
+A
+
+laple—15)s
+
+)
+
+Ay —L2C
+
+g WA
+
+#2
+
+vV
+
+24
+
+ar
+
+’ufx
+
+X /7
+
+M8
+
+Lsszx
+
+a
+
+L5723
+
+COMMIGCTOR &
+
+AAA
+
+VW
+
+131
+
+4
+
+"
+
+2]
+
+Xe
+
+A
+
+O8N @ ~oBN4
+
+a\s;
+
+I
+
+>4
+
+B S
+
+LA
+
+AA
+
+|28
+
+& ¥
+
+[ 24
+
+X v
+
+«
+
+RS
+
+1
+
+SECTION SIX
+
+SECTION EIGHT
+
+===== PAGE 16 =====
+{5738
+
+—
+
+SECTION NINE
+
+mw’ =
+
+FLT
+
+$P—/
+
+HREQ :u‘—’——cl&m
+
+764 BIAN
+
+o—'bKBT-‘b’n\—Q
+
+XS | 28
+
+[4
+
+“L ]
+
+1 - 4qTE
+
+"o
+
+L3l
+
+Ya
+
+we
+
+£ SAIS
+
+3
+
+e
+
+b
+
+es
+
+il
+
+8
+
+Fe
+
+.
+
+Z-80Rax¢  san  zlgich
+
+b
+
+Ron¥
+
+-~
+
+2% niloe
+
+L L
+
+R&B
+
+271
+
+A3
+
+13
+
+IAVY
+
+I
+
+Yool
+
+ﬁﬂLgLos
+
+2A /2
+
+h]
+
+5 oy
+
+OTHER 222
+
+AT
+
+Az
+
+L
+
+19]
+
+wj——i,r
+
+~ RESET
+
+AESET
+
+AL
+
+SA
+
+! e
+
+LBQ
+
+o
+
+i |(S
+
+13
+
+A/A&Q___JﬁUL_Jl_N,
+
+SAe 2\
+
+10
+
+100w
+
+22K
+
+Yeo
+
+3A? 2947
+
+an /9 leux
+
+7.
+
+Ls107
+
+RA 1
+
+Ar 2 SAY 22,
+
+For
+
+R7
+
+[foXy
+
+Ré
+
+Y
+
+48|38 SAB 23 |as
+
+SAR 2ilas
+
+‘K-wn-—m:‘m
+
+A7
+
+3
+
+2763
+
+IEL_ﬁ
+
+a2 ~0h
+
+> xad
+
+aAL7 ST 1
+
+M?
+
+Ay
+
+76489 AN
+
+Film
+
+-2
+
+Lig 7
+
+A‘IE_SM_L
+
+(AS
+
+Saé ¢las
+
+X TAL
+
+2016
+
+Tacx £300ws
+
+3 <
+
+w2
+
+Az sas  tla
+
+Tax$250as
+
+_sat Slas
+
+M
+
+T\B
+
+g TR
+
+MLLLuAB
+
+| Sax £ lag
+
+| 4
+
+§ =& %’5(2
+
+/5
+
+A:LS_.:A}_ Al
+
+3AY
+
+Z
+
+N P ERLIF N
+
+ex
+
+A2 5A2 @ ¢ Az
+
+saz 8
+
+2
+
+3 o8
+
+L5321 pa4m
+
+5
+
+\C 2
+
+13
+
+3 /L1py
+
+b4
+
+Ic19
+
+A2
+
+/
+
+APY
+
+SA! Tia
+
+Py
+
+b
+
+SAI
+
+AR
+
+EPR - 5662
+
+/
+
+/S
+
+NH1
+
+Zip} |C4’
+
+O L
+
+£y
+
+L. S50uH
+
+WA
+
+wd)
+
+& _Hax
+
+'ad
+
+1 18 §|m B3
+
+.- AYMI
+
+—ols VEI
+
+I
+
+| Fut XK
+
+)T\VC(
+
+L JV IV
+
+o A 5P/ |
+
+a8
+
+ar g SR 4
+
+>—&:
+
+p3(E 33y
+
+8-
+
+>—Sad )
+
+Ooul2 36/
+
+>aat "
+
+Yee
+
+1
+
+é
+
+ocl?  aor
+
+12v
+
+>3RSy
+
+Db (1o S 4
+
+10
+
+Lsi07
+
+220u
+
+8
+
+Ly
+
+)—Iﬂ‘_‘<—w
+
+87 |t 74
+
+-—Ju
+
+Q
+
+Jx
+
+lewv C\6&
+
+-3~ 420
+
+)
+
+-
+
+10!
+
+J
+
+(] ¢
+
+a
+
+19.%;
+
+9
+
+2
+
+ng—
+
+003y
+
+<ip
+
+LA4460
+
+Fum
+
+I
+
+WITH
+
+470
+
+MIE
+
+6w HEATSINK
+
+.
+
+w w
+
+1C 7
+
+[yt
+
+REGULUS CONVERSION KIT
+
+«
+
+Tm
+
+0033
+
+ci| €
+
+a3 cu
+
+[ {1]
+
+474
+
+SCHEMATIC SHEET 3
+
+!
+
+L5K
+
+L T
+
+kB
+
+45
+
+===== PAGE 17 =====
+— _
+
+NOTES
+
+===== PAGE 18 =====
+“WI1CO0
+
+-THE -SOURCE.
+
+6400 W. GROSS POINT ROAD e NILES, ILLINOIS 60648
+
+For Replacement Parts
+
+ELECTROHOME DISPLAY MONITORS
+
+oy
+
+GO7 SERIES 13" & 19" R.G.B. COLOR
+
+e
+
+——
+
+e mE
+
+/3
+
+%
+
+The GO7 Series of Color Display Monitors is available with precision
+
+in-line 13-inch and 19-inch CRT formats. Each is designed to meet the
+
+high reliability and performance standards common to the video
+
+O\
+
+1
+
+games industry.
+
+N\
+
+A
+
+I
+
+HORIZONTAL MOUNTING ONLY
+
+Ref. No.
+
+Description
+
+Wico No.
+
+\
+
+—
+
+—
+
+e
+
+38-GO7-902-00
+
+13" R.G.B. Color
+
+36-0123
+
+38-G0O7-904-00
+
+19" R.G.B. Color
+
+38-0124
+
+1 GO7-902
+
+Wico No. 36-0123
+
+e
+
+Q\U& \
+
+“
+
+19" GO7-904
+
+Wico No. 36-0124
+
+ISOLATION TRANSFORMER
+
+ISOLATION THANSFOﬁIEﬂ
+
+Isolates monitor from AC line to reduce shock hazard.
+
+Protects equipment.
+
+Input Volts: 115VAC
+
+Output Volts: 115VAC
+
+150 VA Rated.
+
+KX
+
+2 Primary & 2 Secondary wire leads, 62" long.
+
+Mounting Centers: 3-1/8" x 2-3/4”
+
+Four Mounting Slots: 7/32" x 3/8”
+
+7,
+
+Wico No. 22-1022
+
+3-OUTPUT SWITCHING D.C. POWER SUPPLY
+
+3-Output Switch-Mode D.C. Power Supply Designed for Video Game/Microprocessor Use
+
++5V/5A (Max. 7A), —-5V/1A, +12V/1A. Input A.C. Voitage 90-130VAC
+
+r e
+
+e U.L. Listed
+
+L34
+
+[144
+
+rd
+
+* Steps down AC volitage from 110V to operate within specified range.
+
+(s
+
+o®
+
+N
+
+P13
+
+o?
+
+e High Efficiency/Low Cost
+
+<
+
+oo’
+
+””
+
+o Latest PWM IC regulated design.
+
+red
+
+a4
+
+e’
+
+1T
+
+¢ Fully enclosed packaging — All aluminum cover.
+
+Py
+
+>
+
+e Soft-start.
+
+H]
+
+o
+
+¢ Foldback current limit on 5V main output.
+
+N\
+
+=
+
+e Auxiliary output short-circuit protection.
+
+rd
+
+red
+
+® 4 hours burn-in.
+
+N\
+
+Wico No. 27-6110
+
+e Compact & lightweight: Mounting centers 72, approx. size 4%"H
+
+x 7%"W x 1-13/16"D (plus Mounting Bracket). Wt. 1ib. 6 oz.
+
+===== PAGE 19 =====
+-W
+
+- .
+
+uRCE
+
+THE
+
+sO
+
+~ R
+
+"B
+
+NS
+
+AM
+
+USEMEN
+
+112
+
+gneeaaes
+
+j |
+
+\\%
+
+ey 7
+
+l’l—/ull-‘ l‘l‘l')
+
+VENDING |
+
+| g
+
+N
+
+D!
+
+AL
+
+%
+
+o G
+
+A T
+
+WICO’S GOT IT ALL!
+
+(All the parts you need, anytime you need them.)
+
+wilcCo
+
+-THE - SOURCE:
+

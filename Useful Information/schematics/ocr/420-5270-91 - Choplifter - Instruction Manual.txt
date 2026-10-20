@@ -1,0 +1,2507 @@
+===== PAGE 1 =====
+2ND PRINTING— NV
+
+%é&é&z&s&&&o&&&%&&%&&&&&&&&&M&&&&&&&&%
+
+&
+
+SEGA -
+
+\
+
+[\
+
+im)
+
+=i
+
+\‘
+
+EHAE:
+
+\
+
+INSTRUCTION MANUAL
+
+FOR HORIZONTALLY
+
+MOUNTED MONITOR
+
+S E G A ENTERPRISES, INC
+
+2149 PARAGON DR. SAN JOSE, CA 95131
+
+(408) 435-0201
+
+BPPPEPPPPPPPPPPPPPPPPPPFPPPPPPFFPFPPIE
+
+MANUAL NO. 420-5270—91
+
+===== PAGE 2 =====
+CCNTENTS
+
+RECOMMENDED WIRING DIAGRAM
+
+WIRING ROUTING
+
+(MAIN HARNESS)
+
+WIRING ROUTING (CONTROL PANEL HARNESS)
+
+OPTION SWITCHES / DC POWER REQUIREMENTS
+
+KIT CONTENTS
+
+._.1_
+
+===== PAGE 3 =====
+CONVERSION KIT CONTENTS
+
+PC Board
+
+Generic Main Wiring Harness
+
+Control Panel Wiring Harness
+
+8 Way Joystick Assembly
+
+Screws and Nuts for Joystick (4)
+
+Push Button Assemblies (6)
+
+Control Panel Overlay
+
+Monitor Card
+
+Side Decals (2)
+
+Plastic Marquee
+
+Instruction Manual
+
+License Seal
+
+—-2—
+
+===== PAGE 4 =====
+PREVENTION OF COUNTERFEITING AND CONVERSION
+
+LABELING
+
+To prevent counterfeits and conversions, the following
+
+When handling
+
+labels are put on all the SEGA products.
+
+They are
+
+such goods, be sure to confirm the labels.
+
+used to prevent illegal acts such as the unauthorized
+
+copying of the products and the printed circuit boards
+
+thereof or carrying on business by manufacturing similar
+
+merchandise or by converting, selling or using such
+
+products or printed circuit boards.
+
+ORIGINAL SEAL
+
+LICENSE SEAL
+
+The following seal is put on
+
+The following seal is put on
+
+the kits,
+
+such as the printed
+
+the machines manufactured by
+
+circuit boards,
+
+of SEGA
+
+SEGA.
+
+products.
+
+o of0: a0 ofer ot 0o ofen:
+
+st s o o o Ayl
+
+SE
+
+Sa
+
+f
+
+=
+
+ORIG
+
+U
+
+A
+
+&
+
+LICE
+
+=2
+
+4 THis PR
+
+o9 DES
+
+THL:
+
+T IS
+
+b
+
+AND
+
+SEG,
+
+TO
+
+MAN
+
+UNRER
+
+S L¥D.
+
+bty
+
+Ll
+
+CWBPLIF TER
+
+TER
+
+SE¥A ﬁvenmnszs, LTo.
+
+§ JAl
+
+S(Gﬁ ;ERPRISES,LYD.
+
+JAPAN
+
+COPYRIGHT NOTICE
+
+This SEGA product has the copyright notice as follows:
+
+© SEGA 1985
+
+This signifies that this work was disclosed in 1985 and is
+
+the property of SEGA ENTERPRISES, LTD.
+
+-3
+
+===== PAGE 5 =====
+NOTICE WARNING
+
+After installation of this kit , the 5 volt power supply
+
+must be checked and adjusted to make certain exactly
+
+5 volts are present at pins 1 & 3 (1 is negative and
+
+3 is positive ) of the 44 pin edge connector. The voltage
+
+check and adjustment must be done while the PCB is
+
+plugged in to the 44 pin connector to supply the proper
+
+load. This PCB will not operate properly on voltages
+
+below 5 volts as measured at the board.
+
+__4__
+
+===== PAGE 6 =====
+NP2 (TdOH
+
+Ayewog 5/ LSSt ~ SbLS— EE
+
+L« 1
+
+T
+
+d
+
+wen
+
+o« 8-
+
+~NaY
+
+nUsQH ANy
+
+RXRNYR
+
+Ly
+
+Ly
+
+~ Nw
+
+'
+
+ok
+
+~ N
+
+T2
+
+L
+
+405
+
+sud
+
+T oH
+
+~iN
+
+3
+
+uy
+
+Y- el
+
+Je
+
+L
+
+3
+
+23
+
+]
+
+saiQl QI N
+
+2|
+
+=Y
+
+q§+%
+
+19
+
+KEE
+
+3
+
+33
+
+SR EER
+
+g
+
+gv
+
+y
+
+N N
+
+¥y
+
+~Juta
+
+il
+
+Bd
+
+€~
+
+NN NN
+
+o€ 27IVAS
+
+Qlqral Qf
+
+A Soe
+
+3
+
+N
+
+~ N
+
+p—y
+
+q v
+
+o &
+
+01 Y
+
+UK
+
+:
+
+i
+
+§3f
+
+AV AV LAV AY LYY
+
+)~
+
+wils
+
+bu\av
+
+Ay
+
+O~ 1M
+
+) N4 A
+
+A 4
+
+WAV LS
+
+w SR (1
+
+v Yy
+
+N
+
+N
+
+N
+
+NO
+
+N
+
+gN
+
+1) o 0ot my
+
+.
+
+wéi/”
+
+Fils
+
+P8 () |
+
+MWK MOILIING (7D
+
+Fowrio MoLLIZYIG (F) !
+
+|“_—-o—-'
+
+s—1
+
+L9z
+
+o ——0—{ |-o——
+
+J
+
+-
+
+]
+
+W—o—
+
+r~NMmoq
+
+<u
+
+0 O
+
+-] -
+
+-nN
+
+Jweds
+
+A&
+
+|¥
+
+o) 04———o0—} -o—
+
+laws 41
+
+> >
+
+QND
+
+LR\
+
++
+
+Q
+
+03
+
+ms I52s
+
+vz
+
+1
+
+Ms
+
+aoD
+
+-~
+
+i
+
+—g
+
+©
+
+1 P pirD
+
+and
+
+w¥T
+
+ot
+
+m{;
+
+____IIﬁ,_A
+
+b
+
+e
+
+AS+
+
+_5_
+
+===== PAGE 7 =====
+44PIN
+
+WIRE
+
+10 #
+
+SIGNAL NAME
+
+DISTINATION
+
+‘EDGE CONNECTOR
+
+WIRE COLO
+
+GND
+
+GND
+
+GRN
+
+POWER SUPPLY
+
+GND
+
+GND/RETURN
+
+GRN
+
+GND
+
+GRN
+
+GND
+
+GRN
+
++ 6V
+
+RED
+
++ 5V
+
+RED
+
+POWéR SUPPLY
+
++ 5V
+
+RED
+
++ 5V
+
++5V
+
+RED
+
+COIN METER 1
+
+COIN METER 1
+
+GRY
+
+COIN METER 2
+
+GRY/YEL
+
+COIN METER 2
+
+10
+
++ 12V
+
+ORG
+
+1
+
+NOT USED
+
+12
+
+WHT/GRN
+
+WHT/ORG
+
+1P DIRECTION CHANGE
+
+WHT/YEL
+
+JOYSTIC RIGHT SWITCH
+
+WHT/GRY
+
+JOYSTIC LEFT SWITCH
+
+WHT/RED
+
+1P STRAFING OR BOMBING
+
+WHT/BRN
+
+JOYSTIC UP SWITCH
+
+WHT/BLK
+
+JOYSTIC DOWN SWITCH
+
+“STRAFING OR BOMBING”
+
+WHT/BRN
+
+10
+
+PUSH BUTTON
+
+WHT/YEL
+
+“DIRECTION CHANGE~
+
+1P DOWN
+
+PUSH BUTTON
+
+1
+
+WHT/BLK
+
+YEL
+
+1P UP
+
+12
+
+WHT/RED
+
+1P START BUTTON
+
+WHT/YEL
+
+2P START BUTTON
+
+10
+
+11
+
+1P RIGHT
+
+13
+
+WHT/ORG
+
+12
+
+GRN
+
+1P LEFT
+
+14
+
+WHT/GRY
+
+COIN Sw 1
+
+15
+
+BLU
+
+COIN MECH 1
+
+13
+
+1P START
+
+YEL
+
+COIN swW 2
+
+16
+
+WHT/BLU
+
+COIN MECH 2
+
+14
+
+2P START
+
+WHT/YEL
+
+TEST SW
+
+15
+
+17
+
+WHT/PUR
+
+TEST MODE
+
+SWITCH
+
+18
+
+SPEAKER
+
+19
+
+BRN
+
+16
+
+SPEAKER
+
+SPEAKER
+
+BRN
+
+17
+
+RED
+
+18
+
+GRY/RED
+
+RED
+
+GREEN
+
+GREEN
+
+19
+
+GRY/GRN
+
+BLUE
+
+GRY/BLU
+
+COLOR
+
+BLUE
+
+20
+
+21
+
+COMP, SYNC
+
+GRY/WHT
+
+MONITOR
+
+COMP, SYNC
+
+21
+
+GND (SYNC)
+
+GRY/BLK
+
+GND (SYNC)
+
+22
+
+GND
+
+BLK
+
+GND
+
+23
+
+CHOPLIFTER WIRE ROUTING
+
+—6—
+
+===== PAGE 8 =====
+[I0] YELLOW
+
+SREEN
+
+=
+
+> | P START
+
+——
+
+NG
+
+-
+
+>2P START
+
+WHITE
+
+(e
+
+== STRAFING OR
+
+SREEN)
+
+GoMBING
+
+=
+
+(LEFT)
+
+wHITE
+
+[
+
+/YELLOW,‘___E
+
+DIRECTION CHANGE
+
+GREEN)
+
+)
+
+=
+
+( LEFT)
+
+WHLTE
+
+(o
+
+/ORANéEJ‘___g
+
+SREEN
+
+—
+
+> RigHT
+
+wHITE
+
+(=
+
+/BLA«{E
+
+GREEN)
+
+> Down
+
+wHITE
+
+[g]
+
+/ GRAY =
+
+GREEN
+
+wHiTE
+
+-
+
+/ RED
+
+N
+
+) e
+
+wHITE
+
+|
+
+/YELOW
+
+=
+
+DIRECTION  chaN&E
+
+. GREEN
+
+—————————
+
+=/ (RIGHT)
+
+whRiTE
+
+>
+
+/ BROWN f__g
+
+STRAFNG AR
+
+SorENG
+
+N
+
+get—.ew = (RlGHT)
+
+CONTRoL PANEL HARNESS
+
+_7_
+
+===== PAGE 9 =====
+Q
+
+=
+
+©o
+
+jo =]
+
+ZE
+
+[
+
+aa
+
+HHE e
+
+Z =
+
+w w
+
+0w
+
+==
+
+Z X
+
+joR=
+
+oo
+
+[
+
+[a - PO
+
+= &0
+
+D Ae
+
+&= B
+
+w
+
+z
+
+ZS % a
+
+0 O g,
+
+A O
+
+j=Re]
+
+[ASROR]
+
+ZZa
+
+~
+
+«~
+
+z
+
+zZ
+
+~—
+
+\l
+
+ZAXM
+
+AL
+
+s d
+
+d
+
+dNW1
+
+R
+
+fHa3addy
+
+£ 422
+
+-
+
+= = =
+
+SVveEze
+
+2212026181 L1 9T ST pLEL ST ITOI
+
+8L9
+
+(S
+
+FA
+
+‘O,
+
+&)
+
+Z
+
+B4
+
+z
+
+[
+
+as
+
+&
+
+20
+
+w
+
+F4
+
+Z 2
+
+« o,
+
+O B
+
++
+
+om
+
+7]
+
+(SR8
+
+=1
+
+-
+
+-
+
+-4
+
++
+
+o]
+
+E—
+
+—
+
+[T VO R T M T T R TRy T
+
+wu i
+
+[TETIR TR T4
+
+0000000000
+
+[
+
+w
+
+4
+
+2
+
+[TRN RN TR TS
+
+w
+
+[T Y
+
+0000
+
+8883855
+
+W
+
+wu
+
+o0
+
+0000000000
+
+tzz&u.zz
+
+bzlbzizuzhz
+
+000QCO0O000
+
+[TRR TUR TR R
+
+wiw)2iZ
+
+wuzz
+
+Olo|ojo
+
+6568658
+
+0000
+
+w
+
+u
+
+ww
+
+w
+
+w|Z iz
+
+uwuw
+
+e
+
+2ZZu W
+
+o|ojojo
+
+o0O0Q
+
+g
+
+ocooQ0
+
+w
+
+wuwz2
+
+«
+
+bzzuu
+
+0000000000
+
+wiz
+
+&ZILZ&Z&.Z&Z
+
+ojo
+
+O0000C0000O0
+
+288
+
+LR
+
+(27
+
+(X%
+
+Wwn v
+
+A
+
+-k
+
+e
+
+e
+
+0000000000
+
+AU S M S S S S S Y
+
+oaQ
+
+(2]
+
+o0
+
+0ooco
+
+Wil W W W Wi W ww
+
+u w
+
+ww
+
+w w
+
+w ww
+
+CEOCCEEeErET
+
+a4
+
+@ o
+
+@o
+
+oo
+
+[SRS)
+
+[SRSRTRTRSRINSRTRSRS]
+
+33
+
+[SR%)
+
+Qo
+
+(SRS
+
+- YD DO
+
+LR
+
+o~
+
+- ©
+
+~ ™
+
+(2%
+
+w v
+
+w®
+
+v
+
+w v
+
+&z
+
+ZZZZZZ%%%%
+
+Zz2Z
+
+zz
+
+ZzZ
+
+wz
+
+xa
+
+wo
+
+> =
+
+08 ¢«
+
+===
+
+QO
+
+[o g =]
+
+(o8 =]
+
+[s X =Rl
+
+2D
+
+<
+
+W W
+
+€ = >
+
+w =
+
+Q000000000
+
+0B0d
+
+[SRSRIRS]
+
+(SRS
+
+(SRS
+
+0o
+
+3
+
+(SRS RS
+
+[SN3)
+
+ao
+
+Sw
+
+o0«
+
+QUULOOUOVOLOO
+
+™o
+
+o~
+
+~ o™
+
+< i
+
+—Nm
+
+-~
+
+-
+
+D
+
+6 I
+
+oQaJ
+
+q =
+
+[ e i A
+
+D Ca
+
+0o
+
+—8—
+
+===== PAGE 10 =====
+i
+
+U/ C-4000
+
+8
+
+Sa3 -363) ~!
+
+0/~ 077
+
+3A 200 ~2a0V
+
+5A 100 ~ 20V
+
+NOISE
+
+AN SR e
+
+A
+
+~
+
+Ee))
+
+50 L
+
+T
+
+180 Ly
+
+H
+
+b0 L
+
+70
+
+0l o ac)) oV
+
+P4
+
+% 1] _,.\),
+
+2D
+
+To
+
+DooR Tus
+
+Fo i
+
+2o L
+
+20 L}
+
+<0 L
+
+31
+
+5z 4
+
+i
+
+$40 - 5069
+
+BOLL Saci240v
+
+2RALN
+
+i
+
+oy
+
+2oL
+
+l&B8-3831 ~-/4
+
+| B, %
+
+'
+
+|
+
+L EO
+
+Terrg AL
+
+COMTROL PAREL
+
+toav 1A 2T
+
+< COIN CMUT™S DOOR
+
+TRANS FOR MER.
+
+Pov
+
+108 v
+
+e v
+
+Sen
+
+%21-4
+
+2631- %
+
+oV
+
+PC
+
+AT
+
+/
+
+ALl
+
+At
+
+=
+
+=
+
+EY
+
+=
+
+ML
+
+]
+
+—_—
+
+-
+
+L,
+
+2L
+
+T2
+
+7
+
+ORENGE
+
+omGE
+
+1oV
+
+riov
+
+CEMACETIZING SW
+
+BIO
+
+AL
+
+1
+
+A
+
+P
+
+L
+
+Borl,
+
+Zov
+
+[ .
+
+S&eB—-3431
+
+= 20 L
+
+ReD
+
+|
+
+_-__'——
+
+’QL
+
+B L
+
+(A L]
+
+% B~ 3631 -2
+
+ 2F
+
+YELLow
+
+I
+
+P C
+
+E——.:&ﬁY ll
+
+COLOR YSPLAY
+
+wHITE
+
+POWER TRANSFORMER WIRING
+
+20 TYPE
+
+w©r
+
+~ov
+
+100
+
+rtoe
+
+v
+
+rov
+
+T30V
+
+Freov
+
+CEMAGNETITING CDIL
+
+i0 S
+
+o S
+
+e
+
+40 S|
+
+LE
+
+2 z
+
+M AR
+
+o0
+
+* 9
+
+. @
+
+0
+
+o
+
+* %0
+
+.o
+
+- am
+
+LR
+
+. m3
+
+r,__f{fb’\.—__—
+
+W)
+
+810
+
+2,0C
+
+end
+
+00
+
+"o
+
+oo
+
+*410/
+
+"e
+
+40
+
+w0
+
+WHITE
+
+920
+
+#4123
+
+LXz -l
+
+8yrol
+
+e
+
+‘0
+
+L.
+
+a4
+
+.90
+
+*©
+
+LK 4
+
+s
+
+X ]
+
+om
+
+*200
+
+ax0
+
+o0
+
+/001
+
+20
+
+¢ ou
+
+LIz
+
+.0
+
+o'
+
+el10
+
+o0
+
+r10
+
+~ee
+
+sre
+
+.2
+
+@20
+
+o
+
+0
+
+/20
+
+~zo
+
+e
+
+e
+
+-
+
+Lu. n
+
+At falle
+
+LI.AW
+
+E
+
+&
+
+S
+
+1n«
+
+.NIINL *“b'h
+
+n_s}L
+
+Sl
+
+LE,L@
+
+u-wm13
+
+N =l
+
+L e
+
+J [—[lewmivil‘l*’ o~ | QI\[J'“"[J 2
+
+a-
+
+g I
+
+il
+
+-NM[%
+
+s TTTT 111
+
+M
+
+Q
+
+hd
+
+Wl
+
+i
+
+ERSE
+
+ke
+
+ta
+
+ke
+
+et fos)
+
+A
+
+S8k
+
+Bt
+
+2
+
+S33
+
+1
+
+“y
+
+Hufa 3
+
+e
+
+E
+
+ar
+
+Pl oRYy o
+
+3 Y
+
+i
+
+acf Uy v
+
+il By
+
+alay
+
+i M4
+
+4~~~
+
+171
+
+of
+
+Wi
+
+=X
+
+N o
+
+Y
+
+229
+
+siiii
+
+“ree
+
+228
+
+¥§¥3§¥§
+
+‘ii 4
+
+K
+
+g
+
+&
+
+3
+
+===== PAGE 11 =====
+BT
+
+CONTROL
+
+PANEL
+
+S
+
+fv. 64
+
+Sy
+
+35<
+
+DMEC 1108/
+
+bEC OV
+
+4‘311;21
+
+CHANGE
+
+365
+
+3
+
+9_33
+
+1
+
+=
+
+q—»
+
+T <l
+
+m Rl
+
+STNRNQ
+
+12V
+
+5)
+
+aoovauq
+
+pv. 24
+
+[T
+
+75
+
+2V
+
+77 2
+
+3
+
+-V
+
+=2
+
+T
+
+. 14 &
+
+HPIN P=iSSam
+
+b 054 &
+
+~{2V
+
+T3 o
+
+COMPONENT SIDE
+
+NC
+
+aND
+
+503
+
+€ | SOLDER SIDE
+
+£0 S
+
+GND
+
+~
+
+GND
+
+i
+
+——
+
+nue
+
+]
+
+-
+
+CMP ¥YNC
+
+D5
+
+RED
+
+—_—
+
+P~
+
+GREXN
+
+O
+
+S
+
+T
+
+SPZAKER
+
+,
+
+*
+
+- AWFARER
+
+S5 S
+
+S
+
+SIRVIE SW.
+
+-
+
+=~ - NOT USFD
+
+&ND BT
+
+S0S
+
+TEST SW
+
+=} — NOT USED
+
+G
+
+cone SW 2
+
+wn
+
+- p—
+
+— — P STAN™
+
+1P START
+
+WHITE
+
+cone sw 1
+
+P LEFT
+
+=
+
+-
+
+$50
+
+S&B-343) /A‘
+
+1P RICKT
+
+wur
+
+@) SP
+
+1P DOWN
+
+[ ) SP
+
+70 S
+
+P08 i/7
+
+STRAKI MG OF BOHBING
+
+[P START
+
+B <]
+
+< 2
+
+-7AY
+
+S
+
+OIPECTION CHMISE
+
+NOT USED
+
+[ 27 rerT
+
+BT
+
+833
+
+NOT USED
+
+v
+
+NOT USED
+
+NOT USED
+
+ZOIN 2
+
+d
+
+=)
+
+345
+
+T
+
+COIN METER 1
+
+—_—
+
+COIN METER 2
+
+2l
+
+23
+
+15
+
+e -
+
+Peosv
+
+LO0IN 2
+
+s—:x
+
+bc
+
+x4
+
+{—/— 2
+
+L) RIGHT
+
+LS
+
+3
+
+GND
+
+——
+
+=
+
+Jusu
+
+-
+
+L LEFT
+
+ZS
+
+25S
+
+et —
+
+()
+
+/P
+
+35351
+
+JOD
+
+Q14
+
+1Z
+
+(L) DowN
+
+&3
+
+"
+
+[23)
+
+B8S5
+
+E—
+
+(L IOMEL
+
+%S
+
+755
+
+¢
+
+08
+
+IMU) a5 5]
+
+(R) RGHT
+
+a5 s
+
+H
+
+DOOR LAMP
+
+—0—
+
+,)LF F‘S bg
+
+B53.
+
+H
+
+|
+
+ye
+
+23 T
+
+—~
+
+—_—
+
+[
+
+(R‘ Dows <
+
+37
+
+e =
+
+&
+
+0 S
+
+——
+
+50 3
+
+S
+
+2 9
+
+DS
+
+SE3~7631-(3
+
+£,
+
+£53
+
+10
+
+LR
+
+QAP
+
+=2
+
+H
+
+/2
+
+3
+
+ER—3621 — 3
+
+iy
+
+SERVICE
+
+7/
+
+a1s.
+
+&
+
+25
+
+"
+
+(RESETIOES
+
+MET=R] Z>5
+
+s
+
+bos
+
+METER2 P5 T
+
+RED
+
+40 <
+
+v
+
+oS
+
+20
+
+~
+
+=
+
+<
+
+$0%
+
+205
+
+BLUE
+
+75 <]
+
+21
+
+SYNC
+
+z>s;‘?w
+
+2£S
+
+END(SINC ) B2 S
+
+£33
+
+GARCEW)Y BTS
+
+SIS
+
+021
+
+GAD {rom XN
+
+Y
+
+Ey 33
+
+GAD (Sw) B33
+
+$35
+
+s
+
+=) IS‘DS
+
+sos
+
+SAD
+
+—-ozs
+
+SMND
+
+‘SDS
+
+Sox
+
+4+
+
+Sos
+
+SND 452‘
+
+-tv S
+
+-2y 1DS
+
++2Y
+
+/2 S
+
++v [F
+
+26
+
+2- 2N
+
+54
+
+27
+
+305
+
++&V (56T
+
+205
+
++&v 355]
+
+F05
+
+5V
+
+1203
+
+3065
+
+S A
+
+Ee:
+
+290V
+
+220v [ 230y
+
+24QY
+
+120V
+
+V[~ o
+
+V] \mfﬂQ
+
+[ YOLTAGE
+
+J1QY
+
+L. 4
+
+X
+
+X
+
+ol 1]
+
+45(
+
+~-8Y
+
+w
+
+wf
+
+A4
+
+]
+
+/128
+
+-
+
+MA X I MM
+
+POWER
+
+| wuTE moug
+
+GRCLE ¢ THE SWITCM
+
+I“LL
+
+ALTERATION
+
+| WWITE_RED
+
+SYMBOLE BOKCATES =
+
+QPERATION
+
+gl
+
+1YE.
+
+@
+
+8Y A MOTOR
+
+EXAMPLES
+
+vi/izla
+
+T
+
+MASE AND BREAK
+
+LARGE WIRE —‘7
+
+SATCM
+
+LNPER_ WIRE
+
+LIQHT ORCEN
+
+NOMPALLT QLOGED
+
+Yz
+
+PURPLE
+
+STOL OPER
+
+W
+
++
+
+Y MUE
+
+mam
+
+Lo L. S
+
+NORMALLY OPEN
+
+PN
+
+mi
+
+Y
+
+L
+
+SWITCH G OSED
+
+PACK
+
+T
+
+WHEN ENERGIZED
+
+{
+
+ORAN!
+
+<
+
+MAROON___
+
+WHITE
+
+SWiTCH sgaag_ag‘;_
+
+4
+
+3
+
+BREEN
+
+A_55Y
+
+G
+
+voﬂ; -
+
+Nd
+
+w
+
+X
+
+L
+
+SW, | swiTcH
+
+.
+
+T
+
+Y
+
+|-—COIL_LOCATIONS
+
+RELAY LOCATIONS |
+
+AR — SGB 3831
+
+AC 100 ~ 2400
+
+| LW.C. CHART NO, |
+
+SEGA CHOP L/(FTER
+
+EX PORT (
+
+Lo/bo Ha
+
+)
+
+§¥84 -3
+
+QESCRIPTION
+
+t
+
+T
+
+8
+
+A
+
+e
+

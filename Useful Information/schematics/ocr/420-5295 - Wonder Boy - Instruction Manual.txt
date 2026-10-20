@@ -1,0 +1,1872 @@
+===== PAGE 1 =====
+1ST PRINTING— AR
+
+RIHbDHIbHoIbHoIDRRDDRDDRDDRIDRDIIDDIIDDIID IS
+
+SEGA
+
+DIER
+
+“EOT-
+
+INSTRUCTION MANUAL
+
+FOR HORIZONTALLY
+
+MOUNTED MONITOR
+
+SE G A ENTERPRISES, INC.
+
+2149 PARAGON DR. SAN JOSE, CA 95131
+
+(408 ) 435—0201
+
+o N LY
+
+%‘3@“&9‘3@‘%@‘3@%@‘3@‘%@‘3@9@%%%%%%9@‘3@%‘3@%@9@%@%%9@@9%’&
+
+MANUAL NO. 420-5295
+
+===== PAGE 2 =====
+CONTENTS
+
+CONVERSION KIT CONTENTS
+
+PREVENTION OF COUNTERFEITING AND CONVERSION
+
+NOTICE WARNING
+
+WIRING DIAGRAM
+
+WIRING ROUTING (MAIN HARNESS)
+
+WIRING ROUTING (CONTROL PANEL HARNESS)
+
+OPTION
+
+SWITCHES / DC POWER REQUIREMENTS
+
+WARNING
+
+This equipment generates, uses, and can radiate radio frequency
+
+energy and if not installed and used in accordance with the
+
+instructions manual, may cause interference to radio
+
+communications.
+
+It has been tested and found to comply with the
+
+limits for a Class A computing device pursuant to Subpart J of
+
+part 15 of F.C.C. Rules, which are designed to provide
+
+reasonable protection against such interference when operated in
+
+a commercial environment.
+
+Operation of this equipment in a
+
+residential area is likely to cause interference in which case
+
+the user at his own expense will be required to take whatever
+
+measures may be required to correct this interference.
+
+__1_
+
+===== PAGE 3 =====
+CONVERSION KIT CONTENTS
+
+PART NO.
+
+Q/U
+
+DESCRIPTION
+
+834—5984—-10
+
+IC BD WONDER BOY
+
+834—5984-16
+
+IC BD WONDER BOY
+
+) ONE OF THESE
+
+610—0001
+
+ASSY 8 WAY JOYSTICK U/R
+
+SW PUSH BUTTON 1M WHITE
+
+509-5123-01
+
+SW PUSH BUTTON 1M RED
+
+509—5123-02
+
+509-5123-03
+
+SW PUSH BUTTON 1M YELLOW
+
+421-6122
+
+TV MASK SHEET
+
+421-6327
+
+STICKER CABINET SIDE WONDER BOY
+
+DESIGN PLATE WONDER BOY
+
+423-0025
+
+PLAY INSTR SH WONDER BOY
+
+422-0122-91
+
+421-6187-91
+
+CONTROL PANEL SHEET
+
+SGB—-3645X
+
+WIRE HARN CONT PANEL
+
+SGB-3620—3Y
+
+WIRE HARN EXT USA
+
+FLANGE NUT M5
+
+051-0005
+
+CRG BLT-BLK M5x20
+
+031-0520-B
+
+421-6307
+
+ADJ & 1I/0 INSTR SH WONDER BOY
+
+421-5801-29
+
+LICENSE SEAL WONDER BOY
+
+117-5127-06
+
+BUTTON INSTR PLATE JUMP
+
+BUTTON INSTR PLATE SPEED/ATTACK
+
+117-5127-07
+
+WIRING DIAGRAM WONDER BOY
+
+916—3
+
+601-5214
+
+L-LOCK
+
+000-0310-F
+
+M SCR PH W/F M3x10
+
+420—5295
+
+INSTRUCTION MANUAL ENG WONDER BOY
+
+SHIELD BASE
+
+UC-0003
+
+SHIELD COVER
+
+UC-0004
+
+601—-5525—100
+
+BUSH 1.2 t
+
+SGB-3722
+
+WIRE HARN SHIELD EARTH
+
+211-0167
+
+TERM LUG RND ID 5
+
+W SCR RH W/F 3.5x16
+
+005—3516—F
+
+010-0408-F
+
+17
+
+S-TITE SCR PH W/F M4x8
+
+010-0310-F
+
+4
+
+S-TITE SCR PH W/F M3x10
+
+\\)
+
+A\
+
+£
+
+QY
+
+Q3
+
+YA
+
+DY
+
+%
+
+'
+
+A
+
+is
+
+kY
+
+"~ s P
+
+7
+
+PR
+
+[}
+
+Y
+
+2’4
+
+_2_
+
+U —
+
+===== PAGE 4 =====
+PREVENTION OF COUNTERFEITING AND CONVERSION
+
+LABELING
+
+To prevent counterfeits and conversions, the following
+
+labels are put on all the SEGA products.
+
+When handling
+
+such goods,
+
+be sure to confirm the labels.
+
+They are
+
+used to prevent illegal acts such as the unauthorized
+
+copying of the products and the printed circuit boards
+
+thereof or carrying on business by manufacturing similar
+
+merchandise or by converting,
+
+selling or using such
+
+products or printed circuit boards.
+
+ORIGINAL SEAL
+
+LICENSE SEAL
+
+The following seal is put on
+
+The following seal is put on
+
+the machines manufactured by
+
+the kits,
+
+such as the printed
+
+SEGA.
+
+circuit boards,
+
+of SEGA
+
+products.
+
+ofo oo ot ofe ol ot ofe Memly ofe ol
+
+o oo
+
+.o e
+
+g
+
+b
+
+o )
+
+SETA
+
+it
+
+>
+
+(hay
+
+THIFPRODULT 1S PESIGNED
+
+TS
+
+ucT
+
+BEGA BNTERPRISES LTD
+
+AND WIANUFACFURED BY
+
+¢
+
+HE
+
+JEENS
+
+ES LYD
+
+ﬁngw
+
+1
+
+$
+
+LICEN
+
+L4
+
+#
+
+¢
+
+;Qﬁ
+
+BOY
+
+i
+
+¢
+
+¢
+
+NO
+
+SEfA ENTERPRISES LTD
+
+JAPAN
+
+}
+
+SEG. NTERPRISES.LTD
+
+JAPAN
+
+g oy ope agn ope o opn 240 g g
+
+.
+
+b Rl e
+
+COPYRIGHT NOTICE
+
+This SEGA product has the copyright notice as follows:
+
+©’ SEGA 1986
+
+This signifies that this work was disclosed in 1986 and is
+
+the property of SEGA ENTERPRISES, LTD.
+
+_3_
+
+===== PAGE 5 =====
+NOTICE
+
+WARNING
+
+After installation of this kit , the 5 volt power supply
+
+must be checked and adjusted to make certain exactly
+
+and
+
+5 volts are present at pins 1 & 3 (1
+
+is negative
+
+3 1s positive ) of the 44 pin edge connector. The voltage
+
+check and adjustment must be done while the PCB is
+
+plugged in to the 44 pin connector to supply the proper
+
+load. This PCB will not operate properly on voltages
+
+below 5 volts as measured at the board.
+
+—4—-
+
+b .
+
+===== PAGE 6 =====
+WIRING DIAGRAM
+
+e
+
+—
+
+-
+
+AOQ J3IANOM  qavog D/
+
+9 - b8bS - bEY
+
+t?WFMQﬂVN
+
+d bp—
+
+1=DEbs - 1ER
+
+S
+
+|
+
+YW
+
+S
+
+2L wn
+
+Bxa)
+
+~Ng©o
+
+MO
+
+m
+
+f
+
+!
+
+[
+
+m
+
+|
+
+fd%l,;
+
+I
+
+S
+
+[m 5
+
+i
+
+[1]
+
+SANDOOOIRUUILNTOHROYQITSNZOAYXWOOFE 20 >T
+
+=
+
+28 XN¥~MN0~.DK,’0£UE(D8M—
+
+MR
+
+i
+
+M
+
+14U
+
+sy
+
+K
+
+it
+
+i
+
+K
+
+i
+
+%
+
+33
+
+R
+
+-
+
+a9
+
+I
+
+Zia
+
+35
+
+32
+
+EF B d@ﬂ
+
+)
+
+FHE
+
+i
+
+ajo
+
+ﬂu
+
+af .
+
+0.8:
+
+]
+
+\)VN
+
+;_
+
+Al
+
+¢ v
+
+pe
+
+S sl
+
+o
+
+A
+
+%
+
+,
+
+BEGEEE
+
+<[
+
+A
+
+{3
+
+3|S|q Ui
+
+3
+
+H 4|+
+
+Filil
+
+//‘1295
+
+13%3@e5$5 i
+
+asy
+
+(
+
+(b-1€9€-855) g
+
+A3y
+
+>f >
+
+>[>
+
+JJO
+
+B
+
+Bog
+
+4+
+
+d
+
+it 22} 77
+
+d
+
+G U
+
+e
+
+T
+
+3
+
+3t
+
+1
+
+{v
+
+#
+
+O4INGD Smion
+
+L
+
+0y
+
+SN S0
+
+=1KT
+
+o
+
+WU;‘»t
+
+* .‘
+
+Tb
+
+(P-1E9E-89%)
+
+o
+
+it
+
+R
+
+o8
+
+.
+
+D>
+
+el
+
+T
+
+U
+
+N ILU" IS_EE é“%a%“—”é
+
+(9-1€9€-893)
+
+(o114}
+
+3
+
+F&
+
+FMHO
+
+- S
+
+aND T Bl
+
+B
+
+_
+
+—moy
+
+1 NMOD
+
+2d
+
+(8-1€9c "gos) (509
+
+b g
+
+f
+
+FNY O
+
+k
+
+) BRI
+
+(E/-1E9E-855)
+
+g
+
+o}
+
+NG+
+
+=1
+
+od
+
+9]
+
+) N"—ju- KH
+
+oY §00G@
+
+Q.
+
+Q
+
+NAO
+
+[TAY:
+
+3
+
+3 &<
+
+[t
+
+) - NI
+
+'—mraz—‘HE
+
+(or-1€9e-gos) (L8
+
+Rigron ot
+
+N'voeﬂ
+
+3
+
+S
+
+al
+
+i
+
+Y
+
+L&d
+
+HO—<
+
+4#0
+
+B 15
+
+wgi—i
+
+N
+
+sd
+
+(25
+
+E
+
+-
+
+>3 07
+
+&8
+
+1550
+
+334
+
+R
+
+m
+
+g
+
+| lseu )
+
+1y
+
+BITHES
+
+oo
+
+— e}
+
+s
+
+|55
+
+Bl — d
+
+Tolele
+
+e ne
+
+o
+
+R8
+
+<3y o I
+
+=19
+
+dN
+
+|
+
+1N |
+
+A3
+
+lefa
+
+K
+
+gHUH cggf
+
+od
+
+[53:) IHBIE T,
+
+) (Lg1s)
+
+V[~
+
+Y
+
+g
+
+%W Hy
+
+(b-1e9€-go5
+
+)
+
+(V=
+
+™!
+
+;-
+
+oy U
+
+%’8—7 ooj
+
+m g
+
+Né__
+
+BTN
+
+“NJ
+
+E
+
+£
+
+7?5—5-
+
+JA B
+
+a)
+
+E
+
+&%
+
+\’ﬁl
+
+lﬁ
+
+59
+
+> SF8E o3z
+
+éih_ivj GG
+
+aml¢
+
+NN) 2 H3L 3w MOD
+
+ga
+
+m
+
+w
+
+E YL
+
+N
+
+L]
+
+m
+
+ofe:7)
+
+Loz i
+
+¢!
+
+DOET
+
+[R-ETE T2 e )
+
+L
+
+=
+
+i
+
+i
+
+O3
+
+&
+
+§
+
+7528 7328
+
+RSF BRI
+
+5 TR
+
+(L-1E9€-g05)
+
+B
+
+L3
+
+iy
+
+BT
+
+—
+
+3
+
+e
+
+§>j§j§;§
+
+||
+
+S
+
+e
+
+===== PAGE 7 =====
+WIRING ROUTING (MAIN HARNESS)
+
+44 PIN
+
+WIRE
+
+1D #
+
+DESTINATION
+
+SIGNAL NAME
+
+EDGE CONNECTOR
+
+WIRE COLOR
+
+GND
+
+GND
+
+POWER SUPPLY
+
+GRN
+
+GND/RETURN
+
+GND
+
+GRN
+
+GND
+
+GRN
+
+GND
+
+GRN
+
++ 5V
+
+RED
+
++ 5V
+
+POWER SUPPLY
+
+RED
+
++ 5V
+
++ 5V
+
+RED
+
++ 5V
+
+RED
+
+COIN METER
+
+COIN METER
+
+1
+
+GRY
+
+COIN METER 2
+
+10
+
+COIN METER 2
+
+GRY/YEL
+
+"
+
++ 12V
+
+6
+
+0OnG
+
+WHT/0ORG
+
+1P
+
+SPEED * ATTACK
+
+JOYSTICK RIGHT SWITCH
+
+WHT/YEL
+
+WHT/GRY
+
+JOYSTICK LEFT SWITCH
+
+WHT/RED
+
+1P
+
+JUMP
+
+JOYSTICK UP SWITCH
+
+WHT/BRN
+
+WHT/BLK
+
+JOYSTICK DOWN SWITCH
+
+JUMP
+
+WHT/BRN
+
+PUSH BUTTON
+
+10
+
+WHT/YEL
+
+SPEED « ATTACK
+
+PUSH BUTTON
+
+1P
+
+DOWN
+
+1
+
+WHT/BLK
+
+1P START BUTTON
+
+YEL
+
+1P
+
+up
+
+12
+
+WHT/RED
+
+2P START BUTTON
+
+10
+
+WHT/YEL
+
+1"
+
+1P
+
+RIGHT
+
+13
+
+WHT/ORG
+
+GRN
+
+12
+
+1P
+
+LEFT
+
+L
+
+WHT/GRY
+
+COIN sw
+
+1
+
+COIN MECH 1
+
+13
+
+15
+
+BLU
+
+1P START
+
+YEL
+
+COIN sSw 2
+
+COIN MECH 2
+
+14
+
+16
+
+WHT/BLU
+
+2P START
+
+WHT/YEL
+
+TEST SwW
+
+TEST MODE SWITCH
+
+15
+
+17
+
+WHT/PUR
+
+SERVICE SWITCH
+
+12
+
+SERVICE
+
+18
+
+WHT/GRN
+
+16
+
+SPEAKER (+)
+
+SPEAKER
+
+19
+
+BRN
+
+3
+
+17
+
+SPEAKER (—)
+
+BRN
+
+RED
+
+18
+
+RED
+
+GRY/RED
+
+GREEN
+
+19
+
+GREEN
+
+GRY/GRN
+
+BLUE
+
+COLOR
+
+BLUE
+
+20
+
+21
+
+GRY/BLU
+
+MONITOR
+
+COMP, SYNC
+
+21
+
+COMP, SYNC
+
+GRY/WHT
+
+GND (SYNC)
+
+22
+
+GND (SYNC)
+
+GRY/BLK
+
+GND
+
+GND
+
+23
+
+BLK
+
+_6_
+
+===== PAGE 8 =====
+WIRING ROUTING (CONTROL PANEL HARNESS)
+
+[ ]
+
+YELLOW
+
+==
+
+GREEN
+
+L~c§§
+
+-
+
+WHITE/YELLOW
+
+!’""'_-‘
+
+GREEN
+
+N
+
+JUMP
+
+o
+
+GREEN
+
+(LEFT)
+
+—=
+
+N
+
+GREEN
+
+SPEED » ATTACK
+
+—
+
+)
+
+(LEFT)
+
+RIGHT
+
+o
+
+GREEN
+
+=)
+
+GREEN
+
+l_] WHITE/GRAY
+
+GREEN
+
+LEFT
+
+N\
+
+=)
+
+N
+
+GREEN
+
+up
+
+=)
+
+, ] WHITE/YELLOW
+
+SPEED * ATTACK
+
+(RIGHT)
+
+>
+
+7
+
+WHITE/BROWN
+
+GREEN
+
+Jump
+
+\
+
+=)
+
+(RIGHT)
+
+-7-
+
+===== PAGE 9 =====
+OPTION SWITCHES/DC POWER REQUIREMENTS
+
+i®]
+
+~
+
+o
+
+a2
+
+£
+
+(&7
+
+Z
+
+5]
+
+o
+
+=
+
+=
+
+5
+
+~
+
+2]
+
+2}
+
+=
+
+5]
+
+2
+
+2]
+
+ol
+
+%z
+
+o
+
+]
+
+=
+
+-
+
+=1
+
+o
+
+o
+
+:
+
+wi
+
+=
+
+&3
+
+P
+
+2}
+
+w
+
+wn
+
+Z
+
+w
+
+r4
+
+=
+
+I
+
+<o
+
+7
+
+=
+
+1<
+
+2z
+
+z.
+
+z
+
+~
+
+~
+
+&
+
+o~
+
+~
+
+z
+
+B
+
+Z
+
+—_—
+
+P
+
+o3
+
+Q
+
+]
+
+=
+
+T
+
+el
+
+[}
+
+]
+
+LA AN A QL9 g
+
+ZAX
+
+M
+
+A
+
+a
+
+S
+
+d
+
+Y
+
+1
+
+r
+
+H
+
+a
+
+8 v
+
+98]
+
+[
+
+i
+
+o
+
+<l
+
+—
+
+I
+
+Z &
+
+61
+
+80
+
+Al
+
+9l
+
+Sl
+
+¥l
+
+£l
+
+a
+
+i
+
+ol
+
+8
+
+9
+
+Z
+
+€3]
+
+€3]
+
+&)
+
+]
+
+wn
+
+e
+
+[t
+
+O
+
+&}
+
+™
+
+=
+
+=2
+
+I
+
+7]
+
+=]
+
+12}
+
+12}
+
+=
+
+=
+
+=3
+
+wn
+
+=
+
+£
+
+Z
+
+m
+
+~
+
+a5ag
+
+a
+
+o
+
+w
+
+O
+
+Camw
+
+Z Q&g
+
+&
+
+=
+
+&}
+
+Z
+
+Z
+
+j&]
+
+o~
+
+|
+
+-
+
+B
+
+S
+
+E—
+
+wouw
+
+[sNe]
+
+wi <
+
+=}
+
+o|0
+
+]
+
+w Z
+
+Bl Sl
+
+0,0
+
+.5
+
+S -
+
+—
+
+—
+
+z
+
+wiw
+
+ooogo
+
+z
+
+z
+
+s}
+
+[=]
+
+Gz
+
+—
+
+lelielle)
+
+o
+
+o
+
+z
+
+w!'Z
+
+oo
+
+W
+
+w
+
+lelie]
+
+lo o
+
+|
+
+n w
+
+w @
+
+(R
+
+el
+
+<0
+
+RN a SR S AN S S ARG g L I I IS M SN
+
+oo
+
+oooo
+
+2
+
+wow
+
+Wl ww
+
+wow
+
+[=]
+
+O <
+
+o o
+
+@xoxoao
+
+2T
+
+0o
+
+COCO
+
+(SRS}
+
+™ < W
+
+& o
+
+< ©
+
+-~
+
+(28]
+
+R R
+
+zz
+
+zzzz2z
+
+W
+
+o
+
+Ox
+
+Sl =il bl 3 Bl Pl i
+
+o0
+
+o0
+
+QO
+
+o000
+
+oo
+
+- =
+
+w2
+
+- W
+
+8]
+
+0o
+
+0O
+
+(SRS
+
+COOo0
+
+(Sas]
+
+sole
+
+>>5
+
+Dw
+
+= >
+
+< o
+
+0o
+
+-
+
+Q<
+
+< o~
+
+~ o
+
+< ©
+
+-
+
+= D
+
+<o
+
+20
+
+o
+
+o O
+
+o
+
+[N
+
+< o
+
+_8_
+
+===== PAGE 10 =====
+SEGA ENTERPRISES, LTD.
+
+No. 2—12, Haneda 1- chome
+
+Ohta-ku, Tokyo 144, Japan
+
+OTel. : (03) 743 — 7438
+
+oFAX: (03) 743 — 5539
+
+o TLX : J22357 SEGASTAR
+
+© SEGA 1986
+
+Printed in Japan
+
