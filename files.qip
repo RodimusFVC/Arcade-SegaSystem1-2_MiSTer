@@ -9,7 +9,9 @@ set_global_assignment -name SYSTEMVERILOG_FILE rtl/boards/sys1/sys1_video.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/boards/sys1/sys1_sound.sv
 
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/cpu/z80pio/z80pio.sv
-set_global_assignment -name VERILOG_FILE rtl/cpu/i8255/jt8255.v
+# REVERT-2026-10-20: jt8255 replaced by the own MAME port; swap the two lines back to restore
+# set_global_assignment -name VERILOG_FILE rtl/cpu/i8255/jt8255.v
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/cpu/i8255/i8255.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/cpu/segacrypt/sega_decrypt.sv
 set_global_assignment -name VERILOG_FILE rtl/cpu/mc8123/jtmc8123.v
 

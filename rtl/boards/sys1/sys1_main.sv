@@ -289,15 +289,27 @@ module sys1_main
     wire [7:0] ppi_dout, ppi_pa, ppi_pb;
     reg  [7:0] ppi_pb_d = 8'h00;
 
-    // jotego jt8255 (MIT). Port A in mode 2 (Wonder Boy Deluxe et al., control word C0): PC7 = /OBF falls on a command
-    // write and rises with the sound board's latch read (/ACK on PC6). Undriven inputs float high.
-    jt8255 ppi
+    // REVERT-2026-10-20: jotego jt8255 below, uncomment to restore (and swap files.qip / verilator Makefile back)
+    // // jotego jt8255 (MIT). Port A in mode 2 (Wonder Boy Deluxe et al., control word C0): PC7 = /OBF falls on a command
+    // // write and rises with the sound board's latch read (/ACK on PC6). Undriven inputs float high.
+    // jt8255 ppi
+    // (
+    //     .rst(reset), .clk(clk),
+    //     .addr(a[1:0]), .din(dout), .dout(ppi_dout),
+    //     .rdn(~io_rd), .wrn(~io_wp), .csn(~(!cfg_pio && s_ppi)),
+    //     .porta_din(8'hFF), .portb_din(8'hFF), .portc_din({1'b1, snd_astb_n, 6'h3F}),
+    //     .porta_dout(ppi_pa), .portb_dout(ppi_pb), .portc_dout(ppi_pc)
+    // );
+    // Own 8255 (rtl/cpu/i8255/i8255.sv, ported from MAME i8255.cpp). Port A in mode 2 (Wonder Boy Deluxe et al.,
+    // control word C0): PC7 = /OBF falls on a command write and rises with the sound board's latch read (/ACK on PC6).
+    // Floating inputs as MAME sys1ppi: PA 00, PB 40, PC 80.
+    i8255 #(.TRI_PA(8'h00), .TRI_PB(8'h40), .TRI_PC(8'h80)) ppi
     (
-        .rst(reset), .clk(clk),
-        .addr(a[1:0]), .din(dout), .dout(ppi_dout),
-        .rdn(~io_rd), .wrn(~io_wp), .csn(~(!cfg_pio && s_ppi)),
-        .porta_din(8'hFF), .portb_din(8'hFF), .portc_din({1'b1, snd_astb_n, 6'h3F}),
-        .porta_dout(ppi_pa), .portb_dout(ppi_pb), .portc_dout(ppi_pc)
+        .clk(clk), .reset(reset),
+        .cs(!cfg_pio && s_ppi), .rd(io_rd), .wr(io_wp), .a(a[1:0]), .din(dout), .dout(ppi_dout),
+        .pa_in(8'hFF), .pb_in(8'hFF), .pc_in({1'b1, snd_astb_n, 6'h3F}),
+        .stb_a_n(1'b1), .ack_a_n(snd_astb_n), .pc2_n(1'b1),
+        .pa_out(ppi_pa), .pb_out(ppi_pb), .pc_out(ppi_pc)
     );
 
     assign snd_latch = cfg_pio ? pio_pa : ppi_pa;

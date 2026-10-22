@@ -310,9 +310,19 @@ module segasys1_board
     wire        cfg_nob = cfg_io[4];
     wire  [7:0] nob_p0_i, nob_p0_o, nob_p2_o;
     wire        nob_int0n;
-    assign      z80_0_busrq_n = ~(cfg_mcu && !cfg_nob && !mcu_rst && mcu_p1[6]);
-    // a MOVX started before the Z80 has let go of its bus waits for BUSAK
-    wire        mcu_cen = ce_8m && !pause && !(mcu_acc && mcu_p1[6] && z80_0_busak_n);
+    // REVERT-2026-10-20: original below, uncomment to restore and delete the block after it
+    // assign      z80_0_busrq_n = ~(cfg_mcu && !cfg_nob && !mcu_rst && mcu_p1[6]);
+    // // a MOVX started before the Z80 has let go of its bus waits for BUSAK
+    // wire        mcu_cen = ce_8m && !pause && !(mcu_acc && mcu_p1[6] && z80_0_busak_n);
+    // A MOVX to the Z80 side (modes 0-2) requests the bus itself: Choplifter's game code runs with P1 = 00 / 01 (P1.6
+    // clear) and still writes work RAM, the row scroll and the bg page selects E740-E746 (MAME performs every access).
+    // Without the bus those writes were lost and the bg layer showed the text page (doubled title text, HW 2026-10-20).
+    // The MCU waits until BUSAK has been held 8 clocks, so a read sees settled data through the RAM / ROM registers.
+    reg   [3:0] bus_age = 4'd0;
+    always @(posedge clk) bus_age <= z80_0_busak_n ? 4'd0 : bus_age[3] ? bus_age : bus_age + 4'd1;
+    wire        mcu_xreq = cfg_mcu && !cfg_nob && mcu_acc && (mcu_p1[4:3] != 2'd3);
+    assign      z80_0_busrq_n = ~(cfg_mcu && !cfg_nob && !mcu_rst && (mcu_p1[6] || mcu_xreq));
+    wire        mcu_cen = ce_8m && !pause && !(mcu_xreq && !bus_age[3]);
 
     // T0: the acknowledge (~2 Z80 T-states) is far shorter than the core's machine cycle; stretch it to 3 us
     reg   [7:0] t0_cnt = 8'd0;
@@ -326,7 +336,12 @@ module segasys1_board
     (
         .rst(mcu_rst), .clk(clk), .cen(mcu_cen), .t0(mcu_t0),
         .int0n(cfg_nob ? nob_int0n : ~video_vblank), .int1n(cfg_nob ? 1'b1 : video_mode[6]),
-        .p0_i(cfg_nob ? nob_p0_i : 8'hFF), .p1_i(8'hFF), .p2_i(8'hFF),
+        // REVERT-2026-10-20: original below, uncomment to restore and delete the line after it
+        // .p0_i(cfg_nob ? nob_p0_i : 8'hFF), .p1_i(8'hFF), .p2_i(8'hFF),
+        // P1 / P2 are outputs only: their pins read back the latch. The Oregano core reads the pins for PUSH and byte
+        // RMW (a real 8751 reads the latch), so with FF here Choplifter's push p1 / pop p1 left P1 = FF (BUSREQ, MOVX
+        // mode 3) and its page-select writes were lost; nob's status read FF / 7F instead of MAME's 80 / 00
+        .p0_i(cfg_nob ? nob_p0_i : 8'hFF), .p1_i(mcu_p1), .p2_i(nob_p2_o),
         .p3_i({3'b111, mcu_t0, video_mode[6], ~video_vblank, 2'b11}),
         .p0_o(nob_p0_o), .p1_o(mcu_p1), .p2_o(nob_p2_o), .p3_o(),
         .x_din(mcu_xi), .x_dout(mcu_xo), .x_addr(mcu_addr), .x_wr(mcu_wr), .x_acc(mcu_acc),
