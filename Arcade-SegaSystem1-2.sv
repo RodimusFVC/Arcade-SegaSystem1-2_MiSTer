@@ -255,60 +255,113 @@ wire reset = RESET | status[0] | buttons[1] | ioctl_download | ~locked | cal_hol
 
 ///////////////////         Keyboard           //////////////////
 
-reg kb_up = 0, kb_down = 0, kb_left = 0, kb_right = 0;
-reg kb_b1 = 0, kb_b2 = 0;
-reg kb_coin1 = 0, kb_coin2 = 0, kb_start1 = 0, kb_start2 = 0, kb_pause = 0, kb_service = 0, kb_tilt = 0, kb_service1 = 0;
+// CTL-2026-10-24: original keyboard block commented out below (now controllers.sv ctl_keyboard; keys act on press)
+// reg kb_up = 0, kb_down = 0, kb_left = 0, kb_right = 0;
+// reg kb_b1 = 0, kb_b2 = 0;
+// reg kb_coin1 = 0, kb_coin2 = 0, kb_start1 = 0, kb_start2 = 0, kb_pause = 0, kb_service = 0, kb_tilt = 0, kb_service1 = 0;
+//
+// wire       pressed = ~ps2_key[9];
+// wire [7:0] code    = ps2_key[7:0];
+//
+// always @(posedge CLK_SYS) begin
+// 	reg old_state;
+// 	old_state <= ps2_key[10];
+// 	if (old_state != ps2_key[10]) begin
+// 		case (code)
+// 			'h16: kb_start1   <= pressed; // 1
+// 			'h1E: kb_start2   <= pressed; // 2
+// 			'h2E: kb_coin1    <= pressed; // 5
+// 			'h36: kb_coin2    <= pressed; // 6
+// 			'h46: kb_service  <= pressed; // 9 (test switch)
+// 			'h06: kb_service  <= pressed; // F2
+// 			'h3E: kb_service1 <= pressed; // 8 (service credit)
+// 			'h2C: kb_tilt     <= pressed; // T
+// 			'h4D: kb_pause    <= pressed; // P
+//
+// 			'h75: kb_up       <= pressed; // up
+// 			'h72: kb_down     <= pressed; // down
+// 			'h6B: kb_left     <= pressed; // left
+// 			'h74: kb_right    <= pressed; // right
+// 			'h14: kb_b1       <= pressed; // ctrl
+// 			'h11: kb_b2       <= pressed; // alt
+// 		endcase
+// 	end
+// end
 
-wire       pressed = ~ps2_key[9];
-wire [7:0] code    = ps2_key[7:0];
-
-always @(posedge CLK_SYS) begin
-	reg old_state;
-	old_state <= ps2_key[10];
-	if (old_state != ps2_key[10]) begin
-		case (code)
-			'h16: kb_start1   <= pressed; // 1
-			'h1E: kb_start2   <= pressed; // 2
-			'h2E: kb_coin1    <= pressed; // 5
-			'h36: kb_coin2    <= pressed; // 6
-			'h46: kb_service  <= pressed; // 9 (test switch)
-			'h06: kb_service  <= pressed; // F2
-			'h3E: kb_service1 <= pressed; // 8 (service credit)
-			'h2C: kb_tilt     <= pressed; // T
-			'h4D: kb_pause    <= pressed; // P
-
-			'h75: kb_up       <= pressed; // up
-			'h72: kb_down     <= pressed; // down
-			'h6B: kb_left     <= pressed; // left
-			'h74: kb_right    <= pressed; // right
-			'h14: kb_b1       <= pressed; // ctrl
-			'h11: kb_b2       <= pressed; // alt
-		endcase
-	end
-end
+// CTL2-2026-10-25: v1 keyboard, test / service keys and mahjong panel commented out below (now ctl_keyboard's
+// extra-key table)
+// // MAME default keys (controllers.sv): kb [0] up [1] down [2] left [3] right [4] ctrl [5] alt [6] 1 [7] 2 [8] 5 [9] 6
+// // [10] 9 [11] T [12] P. Kept here: 9 / F2 test switch (one register, as before), 8 service credit, and the mahjong
+// // panel below. ps2_key[9] = 1 while the key is down.
+// /* verilator lint_off UNUSED */
+// wire [12:0] kb;                                    // [10] (9) unused: the test switch is kb_service below
+// /* verilator lint_on UNUSED */
+// ctl_keyboard u_kb(.clk(CLK_SYS), .ps2_key(ps2_key), .kb(kb));
+//
+// wire       pressed = ps2_key[9];                   // mahjong panel below
+// wire [7:0] code    = ps2_key[7:0];
+// reg kb_service = 0, kb_service1 = 0;
+// always @(posedge CLK_SYS) begin
+// 	reg old_state;
+// 	old_state <= ps2_key[10];
+// 	if (old_state != ps2_key[10]) begin
+// 		case (code)
+// 			'h46: kb_service  <= pressed; // 9 (test switch)
+// 			'h06: kb_service  <= pressed; // F2
+// 			'h3E: kb_service1 <= pressed; // 8 (service credit)
+// 		endcase
+// 	end
+// end
+// wire kb_pause = kb[12];
+//
+// // Mahjong panel (DakkoChan House), MAME's default keys: A-N letters, Kan LCtrl, Pon LAlt, Chi Space, Reach LShift,
+// // Ron Z, Flip Flop Y, Bet 3, Last Chance RAlt, Start 1
+// reg [13:0] mj_ltr = 14'd0;              // A-N
+// reg mj_kan = 0, mj_pon = 0, mj_chi = 0, mj_reach = 0, mj_ron = 0, mj_flip = 0, mj_bet = 0, mj_last = 0;
+// always @(posedge CLK_SYS) begin
+// 	reg old_state;
+// 	old_state <= ps2_key[10];
+// 	if (old_state != ps2_key[10]) begin
+// 		if (ps2_key[8]) begin
+// 			if (code == 'h11) mj_last <= pressed;     // RAlt
+// 		end
+// 		else case (code)
+// 			'h1C: mj_ltr[0]  <= pressed; 'h32: mj_ltr[1]  <= pressed; 'h21: mj_ltr[2]  <= pressed; 'h23: mj_ltr[3]  <= pressed;
+// 			'h24: mj_ltr[4]  <= pressed; 'h2B: mj_ltr[5]  <= pressed; 'h34: mj_ltr[6]  <= pressed; 'h33: mj_ltr[7]  <= pressed;
+// 			'h43: mj_ltr[8]  <= pressed; 'h3B: mj_ltr[9]  <= pressed; 'h42: mj_ltr[10] <= pressed; 'h4B: mj_ltr[11] <= pressed;
+// 			'h3A: mj_ltr[12] <= pressed; 'h31: mj_ltr[13] <= pressed;
+// 			'h14: mj_kan   <= pressed;  'h11: mj_pon  <= pressed;  'h29: mj_chi  <= pressed;  'h12: mj_reach <= pressed;
+// 			'h1A: mj_ron   <= pressed;  'h35: mj_flip <= pressed;  'h26: mj_bet  <= pressed;
+// 		endcase
+// 	end
+// end
+// MAME default keys + extra keys (controllers.sv ctl_keyboard): kb [0] up [1] down [2] left [3] right [4] ctrl [5] alt
+// [6] 1 [7] 2 [8] 5 [9] 6 [10] 9 [11] T [12] P; kbx [0] 9 / F2 test switch (last key event wins), [1] 8 service credit,
+// [15:2] mahjong letters A-N, [16] Kan LCtrl, [17] Pon LAlt, [18] Chi Space, [19] Reach LShift, [20] Ron Z, [21] Flip
+// Flop Y, [22] Bet 3 (mahjong keys: non-extended codes only), [23] Last Chance RAlt (extended only). ps2_key[9] = 1 down.
+/* verilator lint_off UNUSED */
+wire [12:0] kb;                                    // [10] (9) unused: the test switch is kbx[0]
+/* verilator lint_on UNUSED */
+wire [23:0] kbx;
+ctl_keyboard #(.NX(25), .NXO(24), .XKEYS({
+		24'h12_11_17, 24'h11_26_16, 24'h11_35_15, 24'h11_1A_14, 24'h11_12_13, 24'h11_29_12, 24'h11_11_11, 24'h11_14_10,
+		24'h11_31_0F, 24'h11_3A_0E, 24'h11_4B_0D, 24'h11_42_0C, 24'h11_3B_0B, 24'h11_43_0A, 24'h11_33_09, 24'h11_34_08,
+		24'h11_2B_07, 24'h11_24_06, 24'h11_23_05, 24'h11_21_04, 24'h11_32_03, 24'h11_1C_02,
+		24'h10_3E_01, 24'h10_06_00, 24'h10_46_00})) u_kb
+(
+	.clk(CLK_SYS), .ps2_key(ps2_key), .pause(pause_cpu), .kb(kb), .kbx(kbx)
+);
+wire kb_service1 = kbx[1];                         // 8 service credit (id 47)
+wire kb_pause = kb[12];
 
 // Mahjong panel (DakkoChan House), MAME's default keys: A-N letters, Kan LCtrl, Pon LAlt, Chi Space, Reach LShift,
 // Ron Z, Flip Flop Y, Bet 3, Last Chance RAlt, Start 1
-reg [13:0] mj_ltr = 14'd0;              // A-N
-reg mj_kan = 0, mj_pon = 0, mj_chi = 0, mj_reach = 0, mj_ron = 0, mj_flip = 0, mj_bet = 0, mj_last = 0;
-always @(posedge CLK_SYS) begin
-	reg old_state;
-	old_state <= ps2_key[10];
-	if (old_state != ps2_key[10]) begin
-		if (ps2_key[8]) begin
-			if (code == 'h11) mj_last <= pressed;     // RAlt
-		end
-		else case (code)
-			'h1C: mj_ltr[0]  <= pressed; 'h32: mj_ltr[1]  <= pressed; 'h21: mj_ltr[2]  <= pressed; 'h23: mj_ltr[3]  <= pressed;
-			'h24: mj_ltr[4]  <= pressed; 'h2B: mj_ltr[5]  <= pressed; 'h34: mj_ltr[6]  <= pressed; 'h33: mj_ltr[7]  <= pressed;
-			'h43: mj_ltr[8]  <= pressed; 'h3B: mj_ltr[9]  <= pressed; 'h42: mj_ltr[10] <= pressed; 'h4B: mj_ltr[11] <= pressed;
-			'h3A: mj_ltr[12] <= pressed; 'h31: mj_ltr[13] <= pressed;
-			'h14: mj_kan   <= pressed;  'h11: mj_pon  <= pressed;  'h29: mj_chi  <= pressed;  'h12: mj_reach <= pressed;
-			'h1A: mj_ron   <= pressed;  'h35: mj_flip <= pressed;  'h26: mj_bet  <= pressed;
-		endcase
-	end
-end
-wire mj_start = joystick_0[9] | kb_start1;
+wire [13:0] mj_ltr = kbx[15:2];                   // A-N
+wire mj_kan = kbx[16], mj_pon = kbx[17], mj_chi = kbx[18], mj_reach = kbx[19], mj_ron = kbx[20], mj_flip = kbx[21],
+     mj_bet = kbx[22], mj_last = kbx[23];
+// CTL-2026-10-24: original below
+// wire mj_start = joystick_0[9] | kb_start1;
+wire mj_start = joystick_0[9] | kb[6];
 // MAME KEY0-KEY6 rows, active low
 wire [55:0] mj_rows = ~{8'h00,
                         {5'd0, mj_ron, mj_reach, mj_kan},
@@ -321,37 +374,65 @@ wire [55:0] mj_rows = ~{8'h00,
 //////////////////  Arcade Buttons/Interfaces   ///////////////////////////
 
 // Joystick bits: 0 R, 1 L, 2 D, 3 U, 4-7 Btn 1-4, 8 Coin, 9 Start 1P, 10 Start 2P, 11 Pause, 12-13 Btn 5-6
-wire [3:0] dir1_raw = {joystick_0[3] | kb_up, joystick_0[2] | kb_down, joystick_0[1] | kb_left, joystick_0[0] | kb_right};
+// CTL-2026-10-24: original directions / 4-way / control ids commented out below (now controllers.sv)
+// wire [3:0] dir1_raw = {joystick_0[3] | kb_up, joystick_0[2] | kb_down, joystick_0[1] | kb_left, joystick_0[0] | kb_right};
+// wire [3:0] dir2_raw = joystick_1[3:0];
+// wire [3:0] dir1, dir2;   // {U, D, L, R}
+//
+// joy4way joy4way_1(.clk(CLK_SYS), .en(game_flags[0]), .in(dir1_raw), .out(dir1));
+// joy4way joy4way_2(.clk(CLK_SYS), .en(game_flags[0]), .in(dir2_raw), .out(dir2));
+//
+// wire m_pause = joystick_0[11] | kb_pause;
+//
+// // control ids used by the MRA input map (tools/mra_cfg.py; Gottlieb / MCR numbering)
+// wire [63:0] ctl =
+// {
+// 	16'd0,                                          // 63-48 reserved
+// 	kb_service1,                                    // 47 service credit
+// 	11'd0,                                          // 46-36 reserved
+// 	joystick_1[13:12],                              // 35-34 P2 Btn 6-5
+// 	joystick_0[13:12],                              // 33-32 P1 Btn 6-5
+// 	4'd0,                                           // 31-28 P2 right stick (later)
+// 	4'd0,                                           // 27-24 P1 right stick (later)
+// 	1'b0,                                           // 23 coin 3
+// 	kb_service,                                     // 22 service (test switch)
+// 	kb_tilt,                                        // 21 tilt
+// 	joystick_0[10] | joystick_1[10] | joystick_1[9] | kb_start2,   // 20 start 2 (pad 2's Start is Start 2P)
+// 	joystick_0[9]  | kb_start1,                     // 19 start 1
+// 	joystick_1[8]  | kb_coin2,                      // 18 coin 2
+// 	joystick_0[8]  | kb_coin1,                      // 17 coin 1
+// 	joystick_1[7:4],                                // 16-13 P2 Btn 4-1
+// 	dir2[0], dir2[1], dir2[2], dir2[3],             // 12 R, 11 L, 10 D, 9 U
+// 	joystick_0[7:6], joystick_0[5] | kb_b2, joystick_0[4] | kb_b1,   // 8-5 P1 Btn 4-1
+// 	dir1[0], dir1[1], dir1[2], dir1[3],             // 4 R, 3 L, 2 D, 1 U
+// 	1'b0                                            // 0 none
+// };
+
+wire [3:0] dir1_raw = {joystick_0[3] | kb[0], joystick_0[2] | kb[1], joystick_0[1] | kb[2], joystick_0[0] | kb[3]};
 wire [3:0] dir2_raw = joystick_1[3:0];
 wire [3:0] dir1, dir2;   // {U, D, L, R}
 
-joy4way joy4way_1(.clk(CLK_SYS), .en(game_flags[0]), .in(dir1_raw), .out(dir1));
-joy4way joy4way_2(.clk(CLK_SYS), .en(game_flags[0]), .in(dir2_raw), .out(dir2));
+ctl_joy4way u_j4w1(.clk(CLK_SYS), .en(game_flags[0]), .in(dir1_raw), .out(dir1));
+ctl_joy4way u_j4w2(.clk(CLK_SYS), .en(game_flags[0]), .in(dir2_raw), .out(dir2));
 
 wire m_pause = joystick_0[11] | kb_pause;
 
-// control ids used by the MRA input map (tools/mra_cfg.py; Gottlieb / MCR numbering)
+// control ids used by the MRA input map (tools/mra_cfg.py): 0-35 shared (controllers.sv ctl_ids; 24-31 = 0 = right
+// sticks later), 47 service credit
+wire [35:0] ids;
+ctl_ids u_ids
+(
+	// CTL2-2026-10-25: original below
+// 	.joy0(joystick_0), .joy1(joystick_1), .kb({kb[12:11], kb_service, kb[9:0]}), .dir1(dir1), .dir2(dir2),
+	.joy0(joystick_0), .joy1(joystick_1), .kb({kb[12:11], kbx[0], kb[9:0]}), .dir1(dir1), .dir2(dir2),
+	.coin1(joystick_0[8] | kb[8]), .coin2(joystick_1[8] | kb[9]), .coin3(1'b0), .ctl(ids)
+);
 wire [63:0] ctl =
 {
 	16'd0,                                          // 63-48 reserved
 	kb_service1,                                    // 47 service credit
 	11'd0,                                          // 46-36 reserved
-	joystick_1[13:12],                              // 35-34 P2 Btn 6-5
-	joystick_0[13:12],                              // 33-32 P1 Btn 6-5
-	4'd0,                                           // 31-28 P2 right stick (later)
-	4'd0,                                           // 27-24 P1 right stick (later)
-	1'b0,                                           // 23 coin 3
-	kb_service,                                     // 22 service (test switch)
-	kb_tilt,                                        // 21 tilt
-	joystick_0[10] | joystick_1[10] | joystick_1[9] | kb_start2,   // 20 start 2 (pad 2's Start is Start 2P)
-	joystick_0[9]  | kb_start1,                     // 19 start 1
-	joystick_1[8]  | kb_coin2,                      // 18 coin 2
-	joystick_0[8]  | kb_coin1,                      // 17 coin 1
-	joystick_1[7:4],                                // 16-13 P2 Btn 4-1
-	dir2[0], dir2[1], dir2[2], dir2[3],             // 12 R, 11 L, 10 D, 9 U
-	joystick_0[7:6], joystick_0[5] | kb_b2, joystick_0[4] | kb_b1,   // 8-5 P1 Btn 4-1
-	dir1[0], dir1[1], dir1[2], dir1[3],             // 4 R, 3 L, 2 D, 1 U
-	1'b0                                            // 0 none
+	ids                                             // 35-0 shared ids (pad 2's Start is Start 2P)
 };
 
 // DIP switches arrive from the OSD via ioctl index 254
@@ -367,63 +448,158 @@ end
 // One mouse count = half a position count.
 wire [24:0] ps2_mouse;               // [24] toggles per packet, [23:16] dy (up +), [15:8] dx, [5] / [4] dy / dx sign
 wire [15:0] joy_a0, joy_a1;          // left analog sticks: Y high byte, X low byte (signed, up / left negative)
-wire signed [7:0] ax = joy_a0[7:0], bx1 = joy_a1[7:0];
-wire       a_on  = (ax  > 8'sd24) || (ax  < -8'sd24);
-wire       a1_on = (bx1 > 8'sd24) || (bx1 < -8'sd24);
-wire signed [15:0] mdx = {{7{ps2_mouse[4]}}, ps2_mouse[15:8], 1'b0} <<< 6;
-function signed [15:0] step(input on, input signed [7:0] v, input neg, input pos);   // stick, else D-pad
-	step = on ? {{8{v[7]}}, v} : neg ? -16'sd64 : pos ? 16'sd64 : 16'sd0;
-endfunction
-reg [15:0] tb_x0 = 0, tb_x1 = 0;
-reg [13:0] tb_div = 0;
-reg        mouse_t = 0;
-always @(posedge CLK_SYS) begin
-	mouse_t <= ps2_mouse[24];
-	tb_div  <= tb_div + 1'd1;
-	if (mouse_t != ps2_mouse[24]) tb_x0 <= tb_x0 + mdx;
-	else if (!tb_div) begin
-		tb_x0 <= tb_x0 + step(a_on,  ax,  dir1[1], dir1[0]);
-		tb_x1 <= tb_x1 + step(a1_on, bx1, dir2[1], dir2[0]);
-	end
-end
+// CTL-2026-10-24: original dial counters commented out below (now controllers.sv ctl_trackball)
+// wire signed [7:0] ax = joy_a0[7:0], bx1 = joy_a1[7:0];
+// wire       a_on  = (ax  > 8'sd24) || (ax  < -8'sd24);
+// wire       a1_on = (bx1 > 8'sd24) || (bx1 < -8'sd24);
+// wire signed [15:0] mdx = {{7{ps2_mouse[4]}}, ps2_mouse[15:8], 1'b0} <<< 6;
+// function signed [15:0] step(input on, input signed [7:0] v, input neg, input pos);   // stick, else D-pad
+// 	step = on ? {{8{v[7]}}, v} : neg ? -16'sd64 : pos ? 16'sd64 : 16'sd0;
+// endfunction
+// reg [15:0] tb_x0 = 0, tb_x1 = 0;
+// reg [13:0] tb_div = 0;
+// reg        mouse_t = 0;
+// always @(posedge CLK_SYS) begin
+// 	mouse_t <= ps2_mouse[24];
+// 	tb_div  <= tb_div + 1'd1;
+// 	if (mouse_t != ps2_mouse[24]) tb_x0 <= tb_x0 + mdx;
+// 	else if (!tb_div) begin
+// 		tb_x0 <= tb_x0 + step(a_on,  ax,  dir1[1], dir1[0]);
+// 		tb_x1 <= tb_x1 + step(a1_on, bx1, dir2[1], dir2[0]);
+// 	end
+// end
+
+// controllers.sv ctl_trackball (X only, per-axis +-24 dead zone, D-pad +-64 at clk / 16384); every source on one clock
+// is summed
+wire       ms_ev;
+wire [9:0] ms_dx, ms_dy;
+/* verilator lint_off UNUSED */
+wire [2:0] ms_btn;                                 // [0] left = gun trigger
+wire [7:0] dial_y0, dial_y1;
+wire [1:0] dial_dir0, dial_dir1;
+/* verilator lint_on UNUSED */
+wire [7:0] dial_x0, dial_x1;
+wire       dial_tick;
+ctl_mouse u_ms(.clk(CLK_SYS), .ps2_mouse(ps2_mouse), .ev(ms_ev), .dx(ms_dx), .dy(ms_dy), .btn(ms_btn));
+// CTL2-2026-10-25: original below (dial tick and dials now stop while paused)
+// ctl_tick #(.MODE(1), .DW(14)) u_dlt(.clk(CLK_SYS), .pause(1'b0), .vblank(1'b0), .period(14'd16383), .tick(dial_tick));
+// ctl_trackball #(.CW(16), .OUT_W(8), .MOUSE_SH(7), .STICK_RSH(0), .DPAD_STEP(64), .DZ(24)) u_dial0
+// (
+// 	.clk(CLK_SYS), .reset(1'b0), .pause(1'b0), .rev(2'b00), .unit_sh(2'd0), .base_sh(4'd8), .speed(2'd0),
+ctl_tick #(.MODE(1), .DW(14)) u_dlt(.clk(CLK_SYS), .pause(pause_cpu), .vblank(1'b0), .period(14'd16383), .tick(dial_tick));
+ctl_trackball #(.CW(16), .OUT_W(8), .MOUSE_SH(7), .STICK_RSH(0), .DPAD_STEP(64), .DZ(24)) u_dial0
+(
+	.clk(CLK_SYS), .reset(1'b0), .pause(pause_cpu), .rev(2'b00), .unit_sh(2'd0), .base_sh(4'd8), .speed(2'd0),
+	.mouse_ev(ms_ev), .mouse_dx(ms_dx), .mouse_dy(10'd0), .spinner(9'd0), .quad_ce(2'b00), .quad_dir(2'b00),
+	.tick(dial_tick), .stick_en(1'b1), .stick({8'd0, joy_a0[7:0]}), .dpad({2'b00, dir1[1:0]}),
+	.x(dial_x0), .y(dial_y0), .dir(dial_dir0)
+);
+// CTL2-2026-10-25: original below
+// ctl_trackball #(.CW(16), .OUT_W(8), .MOUSE_SH(7), .STICK_RSH(0), .DPAD_STEP(64), .DZ(24)) u_dial1
+// (
+// 	.clk(CLK_SYS), .reset(1'b0), .pause(1'b0), .rev(2'b00), .unit_sh(2'd0), .base_sh(4'd8), .speed(2'd0),
+ctl_trackball #(.CW(16), .OUT_W(8), .MOUSE_SH(7), .STICK_RSH(0), .DPAD_STEP(64), .DZ(24)) u_dial1
+(
+	.clk(CLK_SYS), .reset(1'b0), .pause(pause_cpu), .rev(2'b00), .unit_sh(2'd0), .base_sh(4'd8), .speed(2'd0),
+	.mouse_ev(1'b0), .mouse_dx(10'd0), .mouse_dy(10'd0), .spinner(9'd0), .quad_ce(2'b00), .quad_dir(2'b00),
+	.tick(dial_tick), .stick_en(1'b1), .stick({8'd0, joy_a1[7:0]}), .dpad({2'b00, dir2[1:0]}),
+	.x(dial_x1), .y(dial_y1), .dir(dial_dir1)
+);
 wire       io_dial = cfg[6][0];
-wire [7:0] dial_p1 = 8'd0 - tb_x0[15:8];     // PORT_REVERSE: right counts down
-wire [7:0] dial_p2 = 8'd0 - tb_x1[15:8];
+// CTL-2026-10-24: original below
+// wire [7:0] dial_p1 = 8'd0 - tb_x0[15:8];     // PORT_REVERSE: right counts down
+// wire [7:0] dial_p2 = 8'd0 - tb_x1[15:8];
+wire [7:0] dial_p1 = 8'd0 - dial_x0;     // PORT_REVERSE: right counts down
+wire [7:0] dial_p2 = 8'd0 - dial_x1;
 
 // Light gun (Shooting Master), from the Space Invaders core: crosshair moved by the mouse, the left stick or the D-pad;
 // the left mouse button, Btn 1 or Ctrl pulls the trigger. Content x / 2 (0-255) and row (0-223); CRT Flip turns the
 // controls with the picture.
-reg  [7:0] gun_x = 8'd128, gun_y = 8'd112;
-reg        gmouse_tog = 1'b0, gun_vbl = 1'b0;
-wire signed [9:0] gmouse_dx = {ps2_mouse[4], ps2_mouse[4], ps2_mouse[15:8]};
-wire signed [9:0] gmouse_dy = -{ps2_mouse[5], ps2_mouse[5], ps2_mouse[23:16]};       // PS/2 Y is positive upward
-wire signed [7:0] gana_x = joy_a0[7:0], gana_y = joy_a0[15:8];
-wire signed [9:0] gstick_dx = (gana_x > 8'sd12 || gana_x < -8'sd12) ? (10'(gana_x) >>> 4) :
-                              dir1[0] ? 10'sd3 : dir1[1] ? -10'sd3 : 10'sd0;
-wire signed [9:0] gstick_dy = (gana_y > 8'sd12 || gana_y < -8'sd12) ? (10'(gana_y) >>> 4) :
-                              dir1[2] ? 10'sd3 : dir1[3] ? -10'sd3 : 10'sd0;
-wire signed [9:0] gun_dx = status[22] ? -(gmouse_tog != ps2_mouse[24] ? gmouse_dx : gstick_dx) :
-                                         (gmouse_tog != ps2_mouse[24] ? gmouse_dx : gstick_dx);
-wire signed [9:0] gun_dy = status[22] ? -(gmouse_tog != ps2_mouse[24] ? gmouse_dy : gstick_dy) :
-                                         (gmouse_tog != ps2_mouse[24] ? gmouse_dy : gstick_dy);
-wire signed [10:0] gun_nx = $signed({3'b000, gun_x}) + gun_dx;
-wire signed [10:0] gun_ny = $signed({3'b000, gun_y}) + gun_dy;
-always @(posedge CLK_SYS) begin
-	gmouse_tog <= ps2_mouse[24];
-	gun_vbl    <= vblank;
-	if (gmouse_tog != ps2_mouse[24] || (vblank && !gun_vbl)) begin
-		gun_x <= gun_nx < 0 ? 8'd0 : gun_nx > 255 ? 8'd255 : gun_nx[7:0];
-		gun_y <= gun_ny < 0 ? 8'd0 : gun_ny > 223 ? 8'd223 : gun_ny[7:0];
-	end
-end
-wire gun_trig = joystick_0[4] | kb_b1 | ps2_mouse[0];
+// CTL-2026-10-24: original crosshair block commented out below (now controllers.sv ctl_gun_cursor, same logic)
+// reg  [7:0] gun_x = 8'd128, gun_y = 8'd112;
+// reg        gmouse_tog = 1'b0, gun_vbl = 1'b0;
+// wire signed [9:0] gmouse_dx = {ps2_mouse[4], ps2_mouse[4], ps2_mouse[15:8]};
+// wire signed [9:0] gmouse_dy = -{ps2_mouse[5], ps2_mouse[5], ps2_mouse[23:16]};       // PS/2 Y is positive upward
+// wire signed [7:0] gana_x = joy_a0[7:0], gana_y = joy_a0[15:8];
+// wire signed [9:0] gstick_dx = (gana_x > 8'sd12 || gana_x < -8'sd12) ? (10'(gana_x) >>> 4) :
+//                               dir1[0] ? 10'sd3 : dir1[1] ? -10'sd3 : 10'sd0;
+// wire signed [9:0] gstick_dy = (gana_y > 8'sd12 || gana_y < -8'sd12) ? (10'(gana_y) >>> 4) :
+//                               dir1[2] ? 10'sd3 : dir1[3] ? -10'sd3 : 10'sd0;
+// wire signed [9:0] gun_dx = status[22] ? -(gmouse_tog != ps2_mouse[24] ? gmouse_dx : gstick_dx) :
+//                                          (gmouse_tog != ps2_mouse[24] ? gmouse_dx : gstick_dx);
+// wire signed [9:0] gun_dy = status[22] ? -(gmouse_tog != ps2_mouse[24] ? gmouse_dy : gstick_dy) :
+//                                          (gmouse_tog != ps2_mouse[24] ? gmouse_dy : gstick_dy);
+// wire signed [10:0] gun_nx = $signed({3'b000, gun_x}) + gun_dx;
+// wire signed [10:0] gun_ny = $signed({3'b000, gun_y}) + gun_dy;
+// always @(posedge CLK_SYS) begin
+// 	gmouse_tog <= ps2_mouse[24];
+// 	gun_vbl    <= vblank;
+// 	if (gmouse_tog != ps2_mouse[24] || (vblank && !gun_vbl)) begin
+// 		gun_x <= gun_nx < 0 ? 8'd0 : gun_nx > 255 ? 8'd255 : gun_nx[7:0];
+// 		gun_y <= gun_ny < 0 ? 8'd0 : gun_ny > 223 ? 8'd223 : gun_ny[7:0];
+// 	end
+// end
+// wire gun_trig = joystick_0[4] | kb_b1 | ps2_mouse[0];
 
-reg [7:0] in_port[8];
-always @(posedge CLK_SYS) begin
-	for (int p = 0; p < 8; p++)
-		for (int b = 0; b < 8; b++)
-			in_port[p][b] <= (port_dip[p][7] ? port_idle[p][b] : dip_sw[port_dip[p][2:0]][dip_bit[p*8 + b]]) ^ ctl[in_map[p*8 + b]];
-end
+// controllers.sv ctl_gun_cursor: mouse packet, else once per frame the left stick (>>> 4 past +-12) or the D-pad (3)
+wire [7:0] gun_x, gun_y;
+wire       gun_tick;
+// CTL2-2026-10-25: original below (gun tick and cursor now stop while paused)
+// ctl_tick #(.MODE(0)) u_gnt(.clk(CLK_SYS), .pause(1'b0), .vblank(vblank), .period(18'd0), .tick(gun_tick));
+// ctl_gun_cursor #(.XMAX(8'd255), .YMAX(8'd223), .X0(8'd128), .Y0(8'd112)) u_gun
+// (
+// 	.clk(CLK_SYS), .pause(1'b0), .tick(gun_tick), .flip(status[22]),
+ctl_tick #(.MODE(0)) u_gnt(.clk(CLK_SYS), .pause(pause_cpu), .vblank(vblank), .period(18'd0), .tick(gun_tick));
+ctl_gun_cursor #(.XMAX(8'd255), .YMAX(8'd223), .X0(8'd128), .Y0(8'd112)) u_gun
+(
+	.clk(CLK_SYS), .pause(pause_cpu), .tick(gun_tick), .flip(status[22]),
+	.mouse_ev(ms_ev), .mouse_dx(ms_dx), .mouse_dy(ms_dy), .stick(joy_a0), .dpad(dir1), .x(gun_x), .y(gun_y)
+);
+wire gun_trig = joystick_0[4] | kb[4] | ms_btn[0];
+
+// CTL2-2026-10-25: original port loop commented out below (now controllers.sv ctl_port_map BASE_MODE 2)
+// reg [7:0] in_port[8];
+// always @(posedge CLK_SYS) begin
+// 	for (int p = 0; p < 8; p++)
+// 		for (int b = 0; b < 8; b++)
+// 			in_port[p][b] <= (port_dip[p][7] ? port_idle[p][b] : dip_sw[port_dip[p][2:0]][dip_bit[p*8 + b]]) ^ ctl[in_map[p*8 + b]];
+// end
+// MRA input map -> board input ports (controllers.sv ctl_port_map, registered): port_dip[p][7] = 1 takes the idle byte,
+// else DIP byte port_dip[p][2:0] bit dip_bit[]; a pressed control (id in_map[]) inverts the bit
+wire  [7:0] in_port[8];
+wire [63:0] pm_idle, pm_sel, pm_dips, pm_ports;
+wire [511:0] pm_map;
+wire [191:0] pm_dbit;
+// CTL2-2026-10-25: Quartus 17.0 rejects `for (genvar ...)` in the loop header (error 10170) and genvar b clashed
+// with wire b; genvars now declared at module scope inside generate. Original block:
+// for (genvar p = 0; p < 8; p++) begin : g_pm
+// 	assign pm_idle[p*8 +: 8] = port_idle[p];
+// 	assign pm_sel[p*8 +: 8]  = port_dip[p];
+// 	assign pm_dips[p*8 +: 8] = dip_sw[p];
+// 	assign in_port[p]        = pm_ports[p*8 +: 8];
+// 	for (genvar b = 0; b < 8; b++) begin : g_b
+// 		assign pm_map[(p*8 + b)*8 +: 8]  = {2'b00, in_map[p*8 + b]};
+// 		assign pm_dbit[(p*8 + b)*3 +: 3] = dip_bit[p*8 + b];
+// 	end
+// end
+genvar pm_p, pm_b;
+generate
+	for (pm_p = 0; pm_p < 8; pm_p = pm_p + 1) begin : g_pm
+		assign pm_idle[pm_p*8 +: 8] = port_idle[pm_p];
+		assign pm_sel[pm_p*8 +: 8]  = port_dip[pm_p];
+		assign pm_dips[pm_p*8 +: 8] = dip_sw[pm_p];
+		assign in_port[pm_p]        = pm_ports[pm_p*8 +: 8];
+		for (pm_b = 0; pm_b < 8; pm_b = pm_b + 1) begin : g_b
+			assign pm_map[(pm_p*8 + pm_b)*8 +: 8]  = {2'b00, in_map[pm_p*8 + pm_b]};
+			assign pm_dbit[(pm_p*8 + pm_b)*3 +: 3] = dip_bit[pm_p*8 + pm_b];
+		end
+	end
+endgenerate
+ctl_port_map #(.NP(8), .IDW(6), .BASE_MODE(2)) u_pm
+(
+	.clk(CLK_SYS), .idle(pm_idle), .in_map(pm_map), .dips(32'd0), .port_sel(pm_sel), .dip_bytes(pm_dips),
+	.dip_bit(pm_dbit), .ctl(ctl), .ovr_mask(64'd0), .ovr_val(64'd0), .ports(pm_ports)
+);
 
 // PAUSE SYSTEM
 wire [23:0] rgb_out;
@@ -630,31 +806,32 @@ hiscore #(
 
 endmodule
 
-// 4-way joystick: the most recently pressed direction wins (from the MiSTer Pac-Man port)
-module joy4way
-(
-	input        clk,
-	input        en,
-	input  [3:0] in,
-	output [3:0] out
-);
-
-reg  [3:0] mask = 4'hF;
-reg  [3:0] in1 = 0, in2 = 0;
-wire [3:0] innew = in1 & ~in2;
-
-assign out = in1 & mask;
-
-always @(posedge clk) begin
-	in1 <= in;
-	in2 <= in1;
-
-	if (innew[0]) mask <= 4'b0001;
-	if (innew[1]) mask <= 4'b0010;
-	if (innew[2]) mask <= 4'b0100;
-	if (innew[3]) mask <= 4'b1000;
-
-	if (!(in & mask) || !en) mask <= 4'hF;
-end
-
-endmodule
+// CTL-2026-10-24: original 4-way module commented out below (now controllers.sv ctl_joy4way, same logic)
+// // 4-way joystick: the most recently pressed direction wins (from the MiSTer Pac-Man port)
+// module joy4way
+// (
+// 	input        clk,
+// 	input        en,
+// 	input  [3:0] in,
+// 	output [3:0] out
+// );
+//
+// reg  [3:0] mask = 4'hF;
+// reg  [3:0] in1 = 0, in2 = 0;
+// wire [3:0] innew = in1 & ~in2;
+//
+// assign out = in1 & mask;
+//
+// always @(posedge clk) begin
+// 	in1 <= in;
+// 	in2 <= in1;
+//
+// 	if (innew[0]) mask <= 4'b0001;
+// 	if (innew[1]) mask <= 4'b0010;
+// 	if (innew[2]) mask <= 4'b0100;
+// 	if (innew[3]) mask <= 4'b1000;
+//
+// 	if (!(in & mask) || !en) mask <= 4'hF;
+// end
+//
+// endmodule
